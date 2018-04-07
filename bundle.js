@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "5474f459b89f2fde2228"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "ff7094a7f6c65bf69188"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -727,7 +727,7 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./node_modules/css-loader/index.js!./node_modules/elm-css-webpack-loader/index.js!./src/elm/Stylesheets.elm":
+/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/elm-css-webpack-loader/index.js!./src/elm/Stylesheets.elm":
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/css-base.js")(false);
@@ -735,7 +735,7 @@ exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/cs
 
 
 // module
-exports.push([module.i, ".MyCssMaxSize {\n    height: 100%;\n    width: 100%;\n}\n\n.MyCssHeadingText {\n    text-align: center;\n    width: 80%;\n}\n\n.MyCssHeadingText:focus {\n    outline: none;\n}\n\n.MyCssDescription {\n    min-height: 100px;\n    padding: 10px;\n    background-color: rgba(140, 168, 218, 0.8);\n    position: absolute;\n    top: 50%;\n    left: 100%;\n    margin-left: 20px;\n    transform: translateY(-50%);\n    z-index: 100;\n    display: flex;\n    flex-direction: row;\n}\n\n.MyCssDescriptionToolbar {\n    padding-left: 20px;\n    float: right;\n}\n\n.MyCssDescriptionText {\n    width: 200px;\n}\n\n.MyCssDescriptionEmpty {\n    width: 200px;\n    height: 100%;\n    vertical-align: middle;\n    text-align: center;\n}\n\n::selection {\n    background: #ee7883 !important;\n}\n\n::-moz-selection {\n    background: #ee7883 !important;\n}\n\n.MyCssGraphMap {\n    position: absolute;\n}\n\n.MyCssNodeCont {\n    position: absolute;\n    pointer-events: none;\n}\n\n.MyCssNode {\n    width: 100%;\n    height: 100%;\n    left: -50%;\n    top: -50%;\n    position: absolute;\n    pointer-events: auto;\n}\n\n.MyCssNode > div {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n}\n\n.MyCssContextMenu {\n    display: flex;\n    flex-direction: column;\n    transform: translate(-80%, -50%);\n    position: absolute;\n    top: 50%;\n    padding: 20px;\n}\n\n.MyCssEdgeCont {\n    position: absolute;\n    pointer-events: none;\n}\n\n.MyCssEdge {\n    transform: translate(-50%, -50%);\n    pointer-events: auto;\n}\n\nhtml {\n    overflow: hidden;\n    position: absolute;\n}", ""]);
+exports.push([module.i, ".MyCssMaxSize {\n    height: 100%;\n    width: 100%;\n}\n\n.MyCssHeadingText {\n    text-align: center;\n    width: 80%;\n}\n\n.MyCssHeadingText:focus {\n    outline: none;\n}\n\n.MyCssDescription {\n    min-height: 100px;\n    padding: 10px;\n    background-color: rgba(140, 168, 218, .8);\n    position: absolute;\n    top: 50%;\n    left: 100%;\n    margin-left: 20px;\n    -webkit-transform: translateY(-50%);\n            transform: translateY(-50%);\n    z-index: 100;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: row;\n            flex-direction: row;\n}\n\n.MyCssDescriptionToolbar {\n    padding-left: 20px;\n    float: right;\n}\n\n.MyCssDescriptionText {\n    width: 200px;\n}\n\n.MyCssDescriptionEmpty {\n    width: 200px;\n    height: 100%;\n    vertical-align: middle;\n    text-align: center;\n}\n\n::-moz-selection {\n    background: #ee7883 !important;\n}\n\n::selection {\n    background: #ee7883 !important;\n}\n\n.MyCssAbsolutePos {\n    position: absolute;\n}\n\n.MyCssNodeCont {\n    position: absolute;\n    pointer-events: none;\n}\n\n.MyCssNode {\n    width: 100%;\n    height: 100%;\n    left: -50%;\n    top: -50%;\n    position: absolute;\n    pointer-events: auto;\n}\n\n.MyCssNode > div {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n}\n\n.MyCssContextMenu {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    -webkit-transform: translate(-80%, -50%);\n            transform: translate(-80%, -50%);\n    position: absolute;\n    top: 50%;\n    padding: 20px;\n}\n\n.MyCssEdgeCont {\n    position: absolute;\n    pointer-events: none;\n}\n\n.MyCssEdge {\n    -webkit-transform: translate(-50%, -50%);\n            transform: translate(-50%, -50%);\n    pointer-events: auto;\n}\n\n.MyCssMenu {\n    height: 100%;\n}\n\n.MyCssMenuButtons {\n    position: absolute;\n    bottom: 20px;\n    right: 20px;\n}\n\n.MyCssFile {\n    height: 50px;\n}\n\nhtml {\n    overflow: hidden;\n    position: absolute;\n}\n\n.mdl-layout__drawer-button {\n    color: rgba(140, 168, 218, .8);\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}", ""]);
 
 // exports
 
@@ -16364,6 +16364,386 @@ var _debois$elm_mdl$Material$Model = F8(
 		return {button: a, textfield: b, menu: c, snackbar: d, layout: e, toggles: f, tooltip: g, tabs: h};
 	});
 
+var _debois$elm_mdl$Material_Color$text = function (_p0) {
+	var _p1 = _p0;
+	return _debois$elm_mdl$Material_Options$cs(
+		A2(_elm_lang$core$Basics_ops['++'], 'mdl-color-text--', _p1._0));
+};
+var _debois$elm_mdl$Material_Color$background = function (_p2) {
+	var _p3 = _p2;
+	return _debois$elm_mdl$Material_Options$cs(
+		A2(_elm_lang$core$Basics_ops['++'], 'mdl-color--', _p3._0));
+};
+var _debois$elm_mdl$Material_Color$shadeName = function (shade) {
+	var _p4 = shade;
+	switch (_p4.ctor) {
+		case 'S50':
+			return '50';
+		case 'S100':
+			return '100';
+		case 'S200':
+			return '200';
+		case 'S300':
+			return '300';
+		case 'S400':
+			return '400';
+		case 'S500':
+			return '500';
+		case 'S600':
+			return '600';
+		case 'S700':
+			return '700';
+		case 'S800':
+			return '800';
+		case 'S900':
+			return '900';
+		case 'A100':
+			return 'A100';
+		case 'A200':
+			return 'A200';
+		case 'A400':
+			return 'A400';
+		default:
+			return 'A700';
+	}
+};
+var _debois$elm_mdl$Material_Color$hueName = function (color) {
+	var _p5 = color;
+	switch (_p5.ctor) {
+		case 'Indigo':
+			return 'indigo';
+		case 'Blue':
+			return 'blue';
+		case 'LightBlue':
+			return 'light-blue';
+		case 'Cyan':
+			return 'cyan';
+		case 'Teal':
+			return 'teal';
+		case 'Green':
+			return 'green';
+		case 'LightGreen':
+			return 'light-green';
+		case 'Lime':
+			return 'lime';
+		case 'Yellow':
+			return 'yellow';
+		case 'Amber':
+			return 'amber';
+		case 'Orange':
+			return 'orange';
+		case 'Brown':
+			return 'brown';
+		case 'BlueGrey':
+			return 'blue-grey';
+		case 'Grey':
+			return 'grey';
+		case 'DeepOrange':
+			return 'deep-orange';
+		case 'Red':
+			return 'red';
+		case 'Pink':
+			return 'pink';
+		case 'Purple':
+			return 'purple';
+		default:
+			return 'deep-purple';
+	}
+};
+var _debois$elm_mdl$Material_Color$scheme = F2(
+	function (primary, accent) {
+		var q = _elm_lang$core$String$map(
+			function (x) {
+				return _elm_lang$core$Native_Utils.eq(
+					x,
+					_elm_lang$core$Native_Utils.chr('-')) ? _elm_lang$core$Native_Utils.chr('_') : x;
+			});
+		var cssFile = function () {
+			var _p6 = accent;
+			switch (_p6.ctor) {
+				case 'Grey':
+					return '';
+				case 'Brown':
+					return '';
+				case 'BlueGrey':
+					return '';
+				default:
+					return A2(
+						_elm_lang$core$Basics_ops['++'],
+						'.',
+						A2(
+							_elm_lang$core$Basics_ops['++'],
+							q(
+								_debois$elm_mdl$Material_Color$hueName(primary)),
+							A2(
+								_elm_lang$core$Basics_ops['++'],
+								'-',
+								q(
+									_debois$elm_mdl$Material_Color$hueName(accent)))));
+			}
+		}();
+		return A2(
+			_elm_lang$core$Basics_ops['++'],
+			'material',
+			A2(_elm_lang$core$Basics_ops['++'], cssFile, '.min.css'));
+	});
+var _debois$elm_mdl$Material_Color$DeepPurple = {ctor: 'DeepPurple'};
+var _debois$elm_mdl$Material_Color$Purple = {ctor: 'Purple'};
+var _debois$elm_mdl$Material_Color$Pink = {ctor: 'Pink'};
+var _debois$elm_mdl$Material_Color$Red = {ctor: 'Red'};
+var _debois$elm_mdl$Material_Color$DeepOrange = {ctor: 'DeepOrange'};
+var _debois$elm_mdl$Material_Color$Grey = {ctor: 'Grey'};
+var _debois$elm_mdl$Material_Color$BlueGrey = {ctor: 'BlueGrey'};
+var _debois$elm_mdl$Material_Color$Brown = {ctor: 'Brown'};
+var _debois$elm_mdl$Material_Color$Orange = {ctor: 'Orange'};
+var _debois$elm_mdl$Material_Color$Amber = {ctor: 'Amber'};
+var _debois$elm_mdl$Material_Color$Yellow = {ctor: 'Yellow'};
+var _debois$elm_mdl$Material_Color$Lime = {ctor: 'Lime'};
+var _debois$elm_mdl$Material_Color$LightGreen = {ctor: 'LightGreen'};
+var _debois$elm_mdl$Material_Color$Green = {ctor: 'Green'};
+var _debois$elm_mdl$Material_Color$Teal = {ctor: 'Teal'};
+var _debois$elm_mdl$Material_Color$Cyan = {ctor: 'Cyan'};
+var _debois$elm_mdl$Material_Color$LightBlue = {ctor: 'LightBlue'};
+var _debois$elm_mdl$Material_Color$Blue = {ctor: 'Blue'};
+var _debois$elm_mdl$Material_Color$Indigo = {ctor: 'Indigo'};
+var _debois$elm_mdl$Material_Color$hues = _elm_lang$core$Array$fromList(
+	{
+		ctor: '::',
+		_0: _debois$elm_mdl$Material_Color$Indigo,
+		_1: {
+			ctor: '::',
+			_0: _debois$elm_mdl$Material_Color$Blue,
+			_1: {
+				ctor: '::',
+				_0: _debois$elm_mdl$Material_Color$LightBlue,
+				_1: {
+					ctor: '::',
+					_0: _debois$elm_mdl$Material_Color$Cyan,
+					_1: {
+						ctor: '::',
+						_0: _debois$elm_mdl$Material_Color$Teal,
+						_1: {
+							ctor: '::',
+							_0: _debois$elm_mdl$Material_Color$Green,
+							_1: {
+								ctor: '::',
+								_0: _debois$elm_mdl$Material_Color$LightGreen,
+								_1: {
+									ctor: '::',
+									_0: _debois$elm_mdl$Material_Color$Lime,
+									_1: {
+										ctor: '::',
+										_0: _debois$elm_mdl$Material_Color$Yellow,
+										_1: {
+											ctor: '::',
+											_0: _debois$elm_mdl$Material_Color$Amber,
+											_1: {
+												ctor: '::',
+												_0: _debois$elm_mdl$Material_Color$Orange,
+												_1: {
+													ctor: '::',
+													_0: _debois$elm_mdl$Material_Color$Brown,
+													_1: {
+														ctor: '::',
+														_0: _debois$elm_mdl$Material_Color$BlueGrey,
+														_1: {
+															ctor: '::',
+															_0: _debois$elm_mdl$Material_Color$Grey,
+															_1: {
+																ctor: '::',
+																_0: _debois$elm_mdl$Material_Color$DeepOrange,
+																_1: {
+																	ctor: '::',
+																	_0: _debois$elm_mdl$Material_Color$Red,
+																	_1: {
+																		ctor: '::',
+																		_0: _debois$elm_mdl$Material_Color$Pink,
+																		_1: {
+																			ctor: '::',
+																			_0: _debois$elm_mdl$Material_Color$Purple,
+																			_1: {
+																				ctor: '::',
+																				_0: _debois$elm_mdl$Material_Color$DeepPurple,
+																				_1: {ctor: '[]'}
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	});
+var _debois$elm_mdl$Material_Color$accentHues = _elm_lang$core$Array$fromList(
+	{
+		ctor: '::',
+		_0: _debois$elm_mdl$Material_Color$Indigo,
+		_1: {
+			ctor: '::',
+			_0: _debois$elm_mdl$Material_Color$Blue,
+			_1: {
+				ctor: '::',
+				_0: _debois$elm_mdl$Material_Color$LightBlue,
+				_1: {
+					ctor: '::',
+					_0: _debois$elm_mdl$Material_Color$Cyan,
+					_1: {
+						ctor: '::',
+						_0: _debois$elm_mdl$Material_Color$Teal,
+						_1: {
+							ctor: '::',
+							_0: _debois$elm_mdl$Material_Color$Green,
+							_1: {
+								ctor: '::',
+								_0: _debois$elm_mdl$Material_Color$LightGreen,
+								_1: {
+									ctor: '::',
+									_0: _debois$elm_mdl$Material_Color$Lime,
+									_1: {
+										ctor: '::',
+										_0: _debois$elm_mdl$Material_Color$Yellow,
+										_1: {
+											ctor: '::',
+											_0: _debois$elm_mdl$Material_Color$Amber,
+											_1: {
+												ctor: '::',
+												_0: _debois$elm_mdl$Material_Color$Orange,
+												_1: {
+													ctor: '::',
+													_0: _debois$elm_mdl$Material_Color$DeepOrange,
+													_1: {
+														ctor: '::',
+														_0: _debois$elm_mdl$Material_Color$Red,
+														_1: {
+															ctor: '::',
+															_0: _debois$elm_mdl$Material_Color$Pink,
+															_1: {
+																ctor: '::',
+																_0: _debois$elm_mdl$Material_Color$Purple,
+																_1: {
+																	ctor: '::',
+																	_0: _debois$elm_mdl$Material_Color$DeepPurple,
+																	_1: {ctor: '[]'}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	});
+var _debois$elm_mdl$Material_Color$A700 = {ctor: 'A700'};
+var _debois$elm_mdl$Material_Color$A400 = {ctor: 'A400'};
+var _debois$elm_mdl$Material_Color$A200 = {ctor: 'A200'};
+var _debois$elm_mdl$Material_Color$A100 = {ctor: 'A100'};
+var _debois$elm_mdl$Material_Color$S900 = {ctor: 'S900'};
+var _debois$elm_mdl$Material_Color$S800 = {ctor: 'S800'};
+var _debois$elm_mdl$Material_Color$S700 = {ctor: 'S700'};
+var _debois$elm_mdl$Material_Color$S600 = {ctor: 'S600'};
+var _debois$elm_mdl$Material_Color$S500 = {ctor: 'S500'};
+var _debois$elm_mdl$Material_Color$S400 = {ctor: 'S400'};
+var _debois$elm_mdl$Material_Color$S300 = {ctor: 'S300'};
+var _debois$elm_mdl$Material_Color$S200 = {ctor: 'S200'};
+var _debois$elm_mdl$Material_Color$S100 = {ctor: 'S100'};
+var _debois$elm_mdl$Material_Color$S50 = {ctor: 'S50'};
+var _debois$elm_mdl$Material_Color$shades = _elm_lang$core$Array$fromList(
+	{
+		ctor: '::',
+		_0: _debois$elm_mdl$Material_Color$S50,
+		_1: {
+			ctor: '::',
+			_0: _debois$elm_mdl$Material_Color$S100,
+			_1: {
+				ctor: '::',
+				_0: _debois$elm_mdl$Material_Color$S200,
+				_1: {
+					ctor: '::',
+					_0: _debois$elm_mdl$Material_Color$S300,
+					_1: {
+						ctor: '::',
+						_0: _debois$elm_mdl$Material_Color$S400,
+						_1: {
+							ctor: '::',
+							_0: _debois$elm_mdl$Material_Color$S500,
+							_1: {
+								ctor: '::',
+								_0: _debois$elm_mdl$Material_Color$S600,
+								_1: {
+									ctor: '::',
+									_0: _debois$elm_mdl$Material_Color$S700,
+									_1: {
+										ctor: '::',
+										_0: _debois$elm_mdl$Material_Color$S800,
+										_1: {
+											ctor: '::',
+											_0: _debois$elm_mdl$Material_Color$S900,
+											_1: {
+												ctor: '::',
+												_0: _debois$elm_mdl$Material_Color$A100,
+												_1: {
+													ctor: '::',
+													_0: _debois$elm_mdl$Material_Color$A200,
+													_1: {
+														ctor: '::',
+														_0: _debois$elm_mdl$Material_Color$A400,
+														_1: {
+															ctor: '::',
+															_0: _debois$elm_mdl$Material_Color$A700,
+															_1: {ctor: '[]'}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	});
+var _debois$elm_mdl$Material_Color$C = function (a) {
+	return {ctor: 'C', _0: a};
+};
+var _debois$elm_mdl$Material_Color$color = F2(
+	function (hue, shade) {
+		return _debois$elm_mdl$Material_Color$C(
+			A2(
+				_elm_lang$core$Basics_ops['++'],
+				_debois$elm_mdl$Material_Color$hueName(hue),
+				A2(
+					_elm_lang$core$Basics_ops['++'],
+					'-',
+					_debois$elm_mdl$Material_Color$shadeName(shade))));
+	});
+var _debois$elm_mdl$Material_Color$white = _debois$elm_mdl$Material_Color$C('white');
+var _debois$elm_mdl$Material_Color$black = _debois$elm_mdl$Material_Color$C('black');
+var _debois$elm_mdl$Material_Color$primary = _debois$elm_mdl$Material_Color$C('primary');
+var _debois$elm_mdl$Material_Color$primaryDark = _debois$elm_mdl$Material_Color$C('primary-dark');
+var _debois$elm_mdl$Material_Color$primaryContrast = _debois$elm_mdl$Material_Color$C('primary-contrast');
+var _debois$elm_mdl$Material_Color$accent = _debois$elm_mdl$Material_Color$C('accent');
+var _debois$elm_mdl$Material_Color$accentContrast = _debois$elm_mdl$Material_Color$C('accent-contrast');
+
 var _debois$elm_mdl$Material_Elevation$transition = function (duration) {
 	return A2(
 		_debois$elm_mdl$Material_Options$css,
@@ -16566,6 +16946,320 @@ var _elm_lang$core$Regex$AtMost = function (a) {
 };
 var _elm_lang$core$Regex$All = {ctor: 'All'};
 
+var _debois$elm_mdl$Material_List$action2 = _debois$elm_mdl$Material_Options$cs('mdl-list__item-secondary-action');
+var _debois$elm_mdl$Material_List$info2 = function (options) {
+	return _debois$elm_mdl$Material_Options$span(
+		{
+			ctor: '::',
+			_0: _debois$elm_mdl$Material_Options$cs('mdl-list__item-secondary-info'),
+			_1: options
+		});
+};
+var _debois$elm_mdl$Material_List$content2 = function (options) {
+	return _debois$elm_mdl$Material_Options$span(
+		{
+			ctor: '::',
+			_0: _debois$elm_mdl$Material_Options$cs('mdl-list__item-secondary-content'),
+			_1: options
+		});
+};
+var _debois$elm_mdl$Material_List$subtitle = function (options) {
+	return _debois$elm_mdl$Material_Options$span(
+		{
+			ctor: '::',
+			_0: _debois$elm_mdl$Material_Options$cs('mdl-list__item-sub-title'),
+			_1: options
+		});
+};
+var _debois$elm_mdl$Material_List$body = function (options) {
+	return _debois$elm_mdl$Material_Options$span(
+		{
+			ctor: '::',
+			_0: _debois$elm_mdl$Material_Options$cs('mdl-list__item-text-body'),
+			_1: options
+		});
+};
+var _debois$elm_mdl$Material_List$icon = F2(
+	function (i, options) {
+		return A2(
+			_debois$elm_mdl$Material_Icon$view,
+			i,
+			{
+				ctor: '::',
+				_0: _debois$elm_mdl$Material_Options$cs('mdl-list__item-icon'),
+				_1: options
+			});
+	});
+var _debois$elm_mdl$Material_List$avatar = _debois$elm_mdl$Material_Options$cs('mdl-list__item-avatar');
+var _debois$elm_mdl$Material_List$avatarImage = F2(
+	function (src, options) {
+		return A4(
+			_debois$elm_mdl$Material_Options$styled_,
+			_elm_lang$html$Html$img,
+			{ctor: '::', _0: _debois$elm_mdl$Material_List$avatar, _1: options},
+			{
+				ctor: '::',
+				_0: _elm_lang$html$Html_Attributes$src(src),
+				_1: {ctor: '[]'}
+			},
+			{ctor: '[]'});
+	});
+var _debois$elm_mdl$Material_List$avatarIcon = F2(
+	function (i, options) {
+		return A2(
+			_debois$elm_mdl$Material_Options$div,
+			{
+				ctor: '::',
+				_0: _debois$elm_mdl$Material_Options$center,
+				_1: {
+					ctor: '::',
+					_0: _debois$elm_mdl$Material_Options$many(options),
+					_1: {
+						ctor: '::',
+						_0: _debois$elm_mdl$Material_List$avatar,
+						_1: {ctor: '[]'}
+					}
+				}
+			},
+			{
+				ctor: '::',
+				_0: _debois$elm_mdl$Material_Icon$i(i),
+				_1: {ctor: '[]'}
+			});
+	});
+var _debois$elm_mdl$Material_List$content = function (options) {
+	return _debois$elm_mdl$Material_Options$span(
+		{
+			ctor: '::',
+			_0: _debois$elm_mdl$Material_Options$cs('mdl-list__item-primary-content'),
+			_1: options
+		});
+};
+var _debois$elm_mdl$Material_List$withSubtitle = _debois$elm_mdl$Material_Options$cs('mdl-list__item--two-line');
+var _debois$elm_mdl$Material_List$withBody = _debois$elm_mdl$Material_Options$cs('mdl-list__item--three-line');
+var _debois$elm_mdl$Material_List$li = function (options) {
+	return A2(
+		_debois$elm_mdl$Material_Options$styled,
+		_elm_lang$html$Html$li,
+		{
+			ctor: '::',
+			_0: _debois$elm_mdl$Material_Options$cs('mdl-list__item'),
+			_1: options
+		});
+};
+var _debois$elm_mdl$Material_List$ul = function (options) {
+	return A2(
+		_debois$elm_mdl$Material_Options$styled,
+		_elm_lang$html$Html$ul,
+		{
+			ctor: '::',
+			_0: _debois$elm_mdl$Material_Options$cs('mdl-list'),
+			_1: options
+		});
+};
+
+var _debois$elm_mdl$Material_Progress$percentage = function (p) {
+	return A2(
+		_elm_lang$core$Basics_ops['++'],
+		_elm_lang$core$Basics$toString(p),
+		'%');
+};
+var _debois$elm_mdl$Material_Progress$bar = F4(
+	function (indeterminate, buffered, p, b) {
+		return A2(
+			_debois$elm_mdl$Material_Options$div,
+			{
+				ctor: '::',
+				_0: _debois$elm_mdl$Material_Options$cs('mdl-progress mdl-js-progress is-upgraded'),
+				_1: {
+					ctor: '::',
+					_0: indeterminate ? _debois$elm_mdl$Material_Options$cs('mdl-progress__indeterminate') : _debois$elm_mdl$Material_Options$nop,
+					_1: {ctor: '[]'}
+				}
+			},
+			{
+				ctor: '::',
+				_0: A2(
+					_debois$elm_mdl$Material_Options$div,
+					{
+						ctor: '::',
+						_0: _debois$elm_mdl$Material_Options$cs('progressbar bar bar1'),
+						_1: {
+							ctor: '::',
+							_0: A2(
+								_debois$elm_mdl$Material_Options$css,
+								'width',
+								_debois$elm_mdl$Material_Progress$percentage(p)),
+							_1: {ctor: '[]'}
+						}
+					},
+					{ctor: '[]'}),
+				_1: {
+					ctor: '::',
+					_0: A2(
+						_debois$elm_mdl$Material_Options$div,
+						{
+							ctor: '::',
+							_0: _debois$elm_mdl$Material_Options$cs('bufferbar bar bar2'),
+							_1: {
+								ctor: '::',
+								_0: A2(
+									_debois$elm_mdl$Material_Options$css,
+									'width',
+									_debois$elm_mdl$Material_Progress$percentage(b)),
+								_1: {ctor: '[]'}
+							}
+						},
+						{ctor: '[]'}),
+					_1: {
+						ctor: '::',
+						_0: A2(
+							_debois$elm_mdl$Material_Options$div,
+							{
+								ctor: '::',
+								_0: _debois$elm_mdl$Material_Options$cs('auxbar bar bar3'),
+								_1: {
+									ctor: '::',
+									_0: A2(
+										_debois$elm_mdl$Material_Options$css,
+										'width',
+										_debois$elm_mdl$Material_Progress$percentage(
+											buffered ? (100 - b) : 0)),
+									_1: {ctor: '[]'}
+								}
+							},
+							{ctor: '[]'}),
+						_1: {ctor: '[]'}
+					}
+				}
+			});
+	});
+var _debois$elm_mdl$Material_Progress$buffered = F2(
+	function (p, b) {
+		return A4(_debois$elm_mdl$Material_Progress$bar, false, true, p, b);
+	});
+var _debois$elm_mdl$Material_Progress$progress = function (p) {
+	return A4(_debois$elm_mdl$Material_Progress$bar, false, false, p, 100);
+};
+var _debois$elm_mdl$Material_Progress$indeterminate = A4(_debois$elm_mdl$Material_Progress$bar, true, false, 0, 100);
+
+var _debois$elm_mdl$Material_Spinner$layer = function (n) {
+	return A2(
+		_debois$elm_mdl$Material_Options$div,
+		{
+			ctor: '::',
+			_0: _debois$elm_mdl$Material_Options$cs(
+				A2(
+					_elm_lang$core$Basics_ops['++'],
+					'mdl-spinner__layer mdl-spinner__layer-',
+					_elm_lang$core$Basics$toString(n))),
+			_1: {ctor: '[]'}
+		},
+		A2(
+			_elm_lang$core$List$map,
+			F2(
+				function (x, y) {
+					return y(x);
+				})(
+				{
+					ctor: '::',
+					_0: A2(
+						_debois$elm_mdl$Material_Options$div,
+						{
+							ctor: '::',
+							_0: _debois$elm_mdl$Material_Options$cs('mdl-spinner__circle'),
+							_1: {ctor: '[]'}
+						},
+						{ctor: '[]'}),
+					_1: {ctor: '[]'}
+				}),
+			{
+				ctor: '::',
+				_0: _debois$elm_mdl$Material_Options$div(
+					{
+						ctor: '::',
+						_0: _debois$elm_mdl$Material_Options$cs('mdl-spinner__circle-clipper mdl-spinner__left'),
+						_1: {ctor: '[]'}
+					}),
+				_1: {
+					ctor: '::',
+					_0: _debois$elm_mdl$Material_Options$div(
+						{
+							ctor: '::',
+							_0: _debois$elm_mdl$Material_Options$cs('mdl-spinner__gap-patch'),
+							_1: {ctor: '[]'}
+						}),
+					_1: {
+						ctor: '::',
+						_0: _debois$elm_mdl$Material_Options$div(
+							{
+								ctor: '::',
+								_0: _debois$elm_mdl$Material_Options$cs('mdl-spinner__circle-clipper mdl-spinner__right'),
+								_1: {ctor: '[]'}
+							}),
+						_1: {ctor: '[]'}
+					}
+				}
+			}));
+};
+var _debois$elm_mdl$Material_Spinner$layers = A2(
+	_elm_lang$core$List$map,
+	_debois$elm_mdl$Material_Spinner$layer,
+	A2(_elm_lang$core$List$range, 1, 4));
+var _debois$elm_mdl$Material_Spinner$defaultConfig = {active: false, singleColor: false};
+var _debois$elm_mdl$Material_Spinner$singleColor = function (_p0) {
+	return _debois$elm_mdl$Material_Options_Internal$option(
+		F2(
+			function (value, config) {
+				return _elm_lang$core$Native_Utils.update(
+					config,
+					{singleColor: value});
+			})(_p0));
+};
+var _debois$elm_mdl$Material_Spinner$active = function (_p1) {
+	return _debois$elm_mdl$Material_Options_Internal$option(
+		F2(
+			function (value, config) {
+				return _elm_lang$core$Native_Utils.update(
+					config,
+					{active: value});
+			})(_p1));
+};
+var _debois$elm_mdl$Material_Spinner$spinner = function (options) {
+	var _p2 = A2(_debois$elm_mdl$Material_Options_Internal$collect, _debois$elm_mdl$Material_Spinner$defaultConfig, options);
+	var summary = _p2;
+	var config = _p2.config;
+	return A5(
+		_debois$elm_mdl$Material_Options_Internal$apply,
+		summary,
+		_elm_lang$html$Html$div,
+		{
+			ctor: '::',
+			_0: _debois$elm_mdl$Material_Options$cs('mdl-spinner mdl-js-spinner is-upgraded'),
+			_1: {
+				ctor: '::',
+				_0: A2(
+					_debois$elm_mdl$Material_Options$when,
+					config.active,
+					_debois$elm_mdl$Material_Options$cs('is-active')),
+				_1: {
+					ctor: '::',
+					_0: A2(
+						_debois$elm_mdl$Material_Options$when,
+						config.singleColor,
+						_debois$elm_mdl$Material_Options$cs('mdl-spinner--single-color')),
+					_1: {ctor: '[]'}
+				}
+			}
+		},
+		{ctor: '[]'},
+		_debois$elm_mdl$Material_Spinner$layers);
+};
+var _debois$elm_mdl$Material_Spinner$Config = F2(
+	function (a, b) {
+		return {active: a, singleColor: b};
+	});
+
 var _debois$elm_mdl$Material_Typography$uppercase = _debois$elm_mdl$Material_Options$cs('mdl-typography--text-uppercase');
 var _debois$elm_mdl$Material_Typography$lowercase = _debois$elm_mdl$Material_Options$cs('mdl-typography--text-lowercase');
 var _debois$elm_mdl$Material_Typography$capitalize = _debois$elm_mdl$Material_Options$cs('mdl-typography--text-capitalize');
@@ -16593,6 +17287,251 @@ var _debois$elm_mdl$Material_Typography$display4 = _debois$elm_mdl$Material_Opti
 var _debois$elm_mdl$Material_Typography$display3 = _debois$elm_mdl$Material_Options$cs('mdl-typography--display-3-color-contrast');
 var _debois$elm_mdl$Material_Typography$display2 = _debois$elm_mdl$Material_Options$cs('mdl-typography--display-2-color-contrast');
 var _debois$elm_mdl$Material_Typography$display1 = _debois$elm_mdl$Material_Options$cs('mdl-typography--display-1-color-contrast');
+
+var _elm_community$array_extra$Array_Extra$splitAt = F2(
+	function (index, xs) {
+		var len = _elm_lang$core$Array$length(xs);
+		var _p0 = {
+			ctor: '_Tuple2',
+			_0: _elm_lang$core$Native_Utils.cmp(index, 0) > 0,
+			_1: _elm_lang$core$Native_Utils.cmp(index, len) < 0
+		};
+		if (_p0._0 === true) {
+			if (_p0._1 === true) {
+				return {
+					ctor: '_Tuple2',
+					_0: A3(_elm_lang$core$Array$slice, 0, index, xs),
+					_1: A3(_elm_lang$core$Array$slice, index, len, xs)
+				};
+			} else {
+				return {ctor: '_Tuple2', _0: xs, _1: _elm_lang$core$Array$empty};
+			}
+		} else {
+			if (_p0._1 === true) {
+				return {ctor: '_Tuple2', _0: _elm_lang$core$Array$empty, _1: xs};
+			} else {
+				return {ctor: '_Tuple2', _0: _elm_lang$core$Array$empty, _1: _elm_lang$core$Array$empty};
+			}
+		}
+	});
+var _elm_community$array_extra$Array_Extra$removeAt = F2(
+	function (index, xs) {
+		var _p1 = A2(_elm_community$array_extra$Array_Extra$splitAt, index, xs);
+		var xs0 = _p1._0;
+		var xs1 = _p1._1;
+		var len1 = _elm_lang$core$Array$length(xs1);
+		return _elm_lang$core$Native_Utils.eq(len1, 0) ? xs0 : A2(
+			_elm_lang$core$Array$append,
+			xs0,
+			A3(_elm_lang$core$Array$slice, 1, len1, xs1));
+	});
+var _elm_community$array_extra$Array_Extra$resizerIndexed = F3(
+	function (n, f, xs) {
+		var gen = F2(
+			function (m, g) {
+				return A2(
+					_elm_lang$core$Array$indexedMap,
+					F2(
+						function (i, _p2) {
+							return g(i);
+						}),
+					A2(
+						_elm_lang$core$Array$repeat,
+						m,
+						{ctor: '_Tuple0'}));
+			});
+		var l = _elm_lang$core$Array$length(xs);
+		return (_elm_lang$core$Native_Utils.cmp(l, n) > 0) ? A3(_elm_lang$core$Array$slice, l - n, l, xs) : ((_elm_lang$core$Native_Utils.cmp(l, n) < 0) ? A2(
+			_elm_lang$core$Array$append,
+			A2(gen, n - l, f),
+			xs) : xs);
+	});
+var _elm_community$array_extra$Array_Extra$resizelIndexed = F3(
+	function (n, f, xs) {
+		var gen = F2(
+			function (m, g) {
+				return A2(
+					_elm_lang$core$Array$indexedMap,
+					F2(
+						function (i, _p3) {
+							return g(i);
+						}),
+					A2(
+						_elm_lang$core$Array$repeat,
+						m,
+						{ctor: '_Tuple0'}));
+			});
+		var l = _elm_lang$core$Array$length(xs);
+		return (_elm_lang$core$Native_Utils.cmp(l, n) > 0) ? A3(_elm_lang$core$Array$slice, 0, n, xs) : ((_elm_lang$core$Native_Utils.cmp(l, n) < 0) ? A2(
+			_elm_lang$core$Array$append,
+			xs,
+			A2(
+				gen,
+				n - l,
+				function (_p4) {
+					return f(
+						function (i) {
+							return i + l;
+						}(_p4));
+				})) : xs);
+	});
+var _elm_community$array_extra$Array_Extra$resizerRepeat = F3(
+	function (n, val, xs) {
+		var l = _elm_lang$core$Array$length(xs);
+		return (_elm_lang$core$Native_Utils.cmp(l, n) > 0) ? A3(_elm_lang$core$Array$slice, l - n, l, xs) : ((_elm_lang$core$Native_Utils.cmp(l, n) < 0) ? A2(
+			_elm_lang$core$Array$append,
+			A2(_elm_lang$core$Array$repeat, n - l, val),
+			xs) : xs);
+	});
+var _elm_community$array_extra$Array_Extra$resizelRepeat = F3(
+	function (n, val, xs) {
+		var l = _elm_lang$core$Array$length(xs);
+		return (_elm_lang$core$Native_Utils.cmp(l, n) > 0) ? A3(_elm_lang$core$Array$slice, 0, n, xs) : ((_elm_lang$core$Native_Utils.cmp(l, n) < 0) ? A2(
+			_elm_lang$core$Array$append,
+			xs,
+			A2(_elm_lang$core$Array$repeat, n - l, val)) : xs);
+	});
+var _elm_community$array_extra$Array_Extra$removeWhen = F2(
+	function (pred, xs) {
+		return A2(
+			_elm_lang$core$Array$filter,
+			function (_p5) {
+				return !pred(_p5);
+			},
+			xs);
+	});
+var _elm_community$array_extra$Array_Extra$filterMap = F2(
+	function (f, xs) {
+		var maybePush = F3(
+			function (f, mx, xs) {
+				var _p6 = f(mx);
+				if (_p6.ctor === 'Just') {
+					return A2(_elm_lang$core$Array$push, _p6._0, xs);
+				} else {
+					return xs;
+				}
+			});
+		return A3(
+			_elm_lang$core$Array$foldl,
+			maybePush(f),
+			_elm_lang$core$Array$empty,
+			xs);
+	});
+var _elm_community$array_extra$Array_Extra$getUnsafe = F2(
+	function (n, xs) {
+		var _p7 = A2(_elm_lang$core$Array$get, n, xs);
+		if (_p7.ctor === 'Just') {
+			return _p7._0;
+		} else {
+			return _elm_lang$core$Native_Utils.crashCase(
+				'Array.Extra',
+				{
+					start: {line: 73, column: 5},
+					end: {line: 78, column: 125}
+				},
+				_p7)(
+				A2(
+					_elm_lang$core$Basics_ops['++'],
+					'Index ',
+					A2(
+						_elm_lang$core$Basics_ops['++'],
+						_elm_lang$core$Basics$toString(n),
+						A2(
+							_elm_lang$core$Basics_ops['++'],
+							' of Array with length ',
+							A2(
+								_elm_lang$core$Basics_ops['++'],
+								_elm_lang$core$Basics$toString(
+									_elm_lang$core$Array$length(xs)),
+								' is not reachable.')))));
+		}
+	});
+var _elm_community$array_extra$Array_Extra$apply = F2(
+	function (fs, xs) {
+		var l = A2(
+			_elm_lang$core$Basics$min,
+			_elm_lang$core$Array$length(fs),
+			_elm_lang$core$Array$length(xs));
+		var fs_ = A3(_elm_lang$core$Array$slice, 0, l, fs);
+		return A2(
+			_elm_lang$core$Array$indexedMap,
+			F2(
+				function (n, f) {
+					return f(
+						A2(_elm_community$array_extra$Array_Extra$getUnsafe, n, xs));
+				}),
+			fs_);
+	});
+var _elm_community$array_extra$Array_Extra$map2 = F2(
+	function (f, ws) {
+		return _elm_community$array_extra$Array_Extra$apply(
+			A2(_elm_lang$core$Array$map, f, ws));
+	});
+var _elm_community$array_extra$Array_Extra$zip = _elm_community$array_extra$Array_Extra$map2(
+	F2(
+		function (v0, v1) {
+			return {ctor: '_Tuple2', _0: v0, _1: v1};
+		}));
+var _elm_community$array_extra$Array_Extra$map3 = F3(
+	function (f, ws, xs) {
+		return _elm_community$array_extra$Array_Extra$apply(
+			A3(_elm_community$array_extra$Array_Extra$map2, f, ws, xs));
+	});
+var _elm_community$array_extra$Array_Extra$zip3 = _elm_community$array_extra$Array_Extra$map3(
+	F3(
+		function (v0, v1, v2) {
+			return {ctor: '_Tuple3', _0: v0, _1: v1, _2: v2};
+		}));
+var _elm_community$array_extra$Array_Extra$map4 = F4(
+	function (f, ws, xs, ys) {
+		return _elm_community$array_extra$Array_Extra$apply(
+			A4(_elm_community$array_extra$Array_Extra$map3, f, ws, xs, ys));
+	});
+var _elm_community$array_extra$Array_Extra$zip4 = _elm_community$array_extra$Array_Extra$map4(
+	F4(
+		function (v0, v1, v2, v3) {
+			return {ctor: '_Tuple4', _0: v0, _1: v1, _2: v2, _3: v3};
+		}));
+var _elm_community$array_extra$Array_Extra$map5 = F5(
+	function (f, ws, xs, ys, zs) {
+		return _elm_community$array_extra$Array_Extra$apply(
+			A5(_elm_community$array_extra$Array_Extra$map4, f, ws, xs, ys, zs));
+	});
+var _elm_community$array_extra$Array_Extra$zip5 = _elm_community$array_extra$Array_Extra$map5(
+	F5(
+		function (v0, v1, v2, v3, v4) {
+			return {ctor: '_Tuple5', _0: v0, _1: v1, _2: v2, _3: v3, _4: v4};
+		}));
+var _elm_community$array_extra$Array_Extra$sliceUntil = F2(
+	function (n, a) {
+		return (_elm_lang$core$Native_Utils.cmp(n, 0) > -1) ? A3(_elm_lang$core$Array$slice, 0, n, a) : A3(
+			_elm_lang$core$Array$slice,
+			0,
+			_elm_lang$core$Array$length(a) + n,
+			a);
+	});
+var _elm_community$array_extra$Array_Extra$sliceFrom = F2(
+	function (n, a) {
+		return A3(
+			_elm_lang$core$Array$slice,
+			n,
+			_elm_lang$core$Array$length(a),
+			a);
+	});
+var _elm_community$array_extra$Array_Extra$update = F3(
+	function (n, f, a) {
+		var element = A2(_elm_lang$core$Array$get, n, a);
+		var _p9 = element;
+		if (_p9.ctor === 'Nothing') {
+			return a;
+		} else {
+			return A3(
+				_elm_lang$core$Array$set,
+				n,
+				f(_p9._0),
+				a);
+		}
+	});
 
 var _elm_community$graph$Graph_Tree$pushMany = F2(
 	function (vals, queue) {
@@ -18863,6 +19802,22 @@ var _elm_lang$core$Set$partition = F2(
 		};
 	});
 
+var _elm_community$json_extra$Json_Decode_Extra$when = F3(
+	function (checkDecoder, check, passDecoder) {
+		return A2(
+			_elm_lang$core$Json_Decode$andThen,
+			function (checkVal) {
+				return check(checkVal) ? passDecoder : _elm_lang$core$Json_Decode$fail(
+					A2(
+						_elm_lang$core$Basics_ops['++'],
+						'Check failed with input `',
+						A2(
+							_elm_lang$core$Basics_ops['++'],
+							_elm_lang$core$Basics$toString(checkVal),
+							'`')));
+			},
+			checkDecoder);
+	});
 var _elm_community$json_extra$Json_Decode_Extra$combine = A2(
 	_elm_lang$core$List$foldr,
 	_elm_lang$core$Json_Decode$map2(
@@ -19734,6 +20689,49 @@ var _eskimoblood$elm_color_extra$Color_Convert$colorToHex = function (cl) {
 					}
 				})));
 };
+var _eskimoblood$elm_color_extra$Color_Convert$colorToHexWithAlpha = function (color) {
+	var _p11 = _elm_lang$core$Color$toRgb(color);
+	var red = _p11.red;
+	var green = _p11.green;
+	var blue = _p11.blue;
+	var alpha = _p11.alpha;
+	return _elm_lang$core$Native_Utils.eq(alpha, 1) ? _eskimoblood$elm_color_extra$Color_Convert$colorToHex(color) : A2(
+		_elm_lang$core$String$join,
+		'',
+		A2(
+			F2(
+				function (x, y) {
+					return {ctor: '::', _0: x, _1: y};
+				}),
+			'#',
+			A2(
+				_elm_lang$core$List$map,
+				_eskimoblood$elm_color_extra$Color_Convert$toHex,
+				{
+					ctor: '::',
+					_0: red,
+					_1: {
+						ctor: '::',
+						_0: green,
+						_1: {
+							ctor: '::',
+							_0: blue,
+							_1: {
+								ctor: '::',
+								_0: _elm_lang$core$Basics$round(alpha * 255),
+								_1: {ctor: '[]'}
+							}
+						}
+					}
+				})));
+};
+var _eskimoblood$elm_color_extra$Color_Convert$roundToPlaces = F2(
+	function (places, number) {
+		var multiplier = _elm_lang$core$Basics$toFloat(
+			Math.pow(10, places));
+		return _elm_lang$core$Basics$toFloat(
+			_elm_lang$core$Basics$round(number * multiplier)) / multiplier;
+	});
 var _eskimoblood$elm_color_extra$Color_Convert$hexToColor = function () {
 	var pattern = A2(
 		_elm_lang$core$Basics_ops['++'],
@@ -19756,18 +20754,30 @@ var _eskimoblood$elm_color_extra$Color_Convert$hexToColor = function () {
 							A2(
 								_elm_lang$core$Basics_ops['++'],
 								'(?:([a-f\\d])([a-f\\d])([a-f\\d]))',
-								A2(_elm_lang$core$Basics_ops['++'], ')', '$'))))))));
+								A2(
+									_elm_lang$core$Basics_ops['++'],
+									'|',
+									A2(
+										_elm_lang$core$Basics_ops['++'],
+										'(?:([a-f\\d]{2})([a-f\\d]{2})([a-f\\d]{2})([a-f\\d]{2}))',
+										A2(
+											_elm_lang$core$Basics_ops['++'],
+											'|',
+											A2(
+												_elm_lang$core$Basics_ops['++'],
+												'(?:([a-f\\d])([a-f\\d])([a-f\\d])([a-f\\d]))',
+												A2(_elm_lang$core$Basics_ops['++'], ')', '$'))))))))))));
 	var extend = function (token) {
-		var _p11 = _elm_lang$core$String$toList(token);
-		if ((_p11.ctor === '::') && (_p11._1.ctor === '[]')) {
-			var _p12 = _p11._0;
+		var _p12 = _elm_lang$core$String$toList(token);
+		if ((_p12.ctor === '::') && (_p12._1.ctor === '[]')) {
+			var _p13 = _p12._0;
 			return _elm_lang$core$String$fromList(
 				{
 					ctor: '::',
-					_0: _p12,
+					_0: _p13,
 					_1: {
 						ctor: '::',
-						_0: _p12,
+						_0: _p13,
 						_1: {ctor: '[]'}
 					}
 				});
@@ -19775,23 +20785,44 @@ var _eskimoblood$elm_color_extra$Color_Convert$hexToColor = function () {
 			return token;
 		}
 	};
-	return function (_p13) {
+	return function (_p14) {
 		return A2(
 			_elm_lang$core$Result$andThen,
 			function (colors) {
-				var _p15 = A2(
+				var _p16 = A2(
 					_elm_lang$core$List$map,
-					function (_p14) {
+					function (_p15) {
 						return _fredcy$elm_parseint$ParseInt$parseIntHex(
-							extend(_p14));
+							extend(_p15));
 					},
 					colors);
-				if (((((((_p15.ctor === '::') && (_p15._0.ctor === 'Ok')) && (_p15._1.ctor === '::')) && (_p15._1._0.ctor === 'Ok')) && (_p15._1._1.ctor === '::')) && (_p15._1._1._0.ctor === 'Ok')) && (_p15._1._1._1.ctor === '[]')) {
-					return _elm_lang$core$Result$Ok(
-						A3(_elm_lang$core$Color$rgb, _p15._0._0, _p15._1._0._0, _p15._1._1._0._0));
-				} else {
-					return _elm_lang$core$Result$Err('Parsing ints from hex failed');
-				}
+				_v4_2:
+				do {
+					if ((((((_p16.ctor === '::') && (_p16._0.ctor === 'Ok')) && (_p16._1.ctor === '::')) && (_p16._1._0.ctor === 'Ok')) && (_p16._1._1.ctor === '::')) && (_p16._1._1._0.ctor === 'Ok')) {
+						if (_p16._1._1._1.ctor === '::') {
+							if ((_p16._1._1._1._0.ctor === 'Ok') && (_p16._1._1._1._1.ctor === '[]')) {
+								return _elm_lang$core$Result$Ok(
+									A4(
+										_elm_lang$core$Color$rgba,
+										_p16._0._0,
+										_p16._1._0._0,
+										_p16._1._1._0._0,
+										A2(
+											_eskimoblood$elm_color_extra$Color_Convert$roundToPlaces,
+											2,
+											_elm_lang$core$Basics$toFloat(_p16._1._1._1._0._0) / 255)));
+							} else {
+								break _v4_2;
+							}
+						} else {
+							return _elm_lang$core$Result$Ok(
+								A3(_elm_lang$core$Color$rgb, _p16._0._0, _p16._1._0._0, _p16._1._1._0._0));
+						}
+					} else {
+						break _v4_2;
+					}
+				} while(false);
+				return _elm_lang$core$Result$Err('Parsing ints from hex failed');
 			},
 			A2(
 				_elm_lang$core$Result$fromMaybe,
@@ -19809,7 +20840,7 @@ var _eskimoblood$elm_color_extra$Color_Convert$hexToColor = function () {
 								_elm_lang$core$Regex$find,
 								_elm_lang$core$Regex$AtMost(1),
 								_elm_lang$core$Regex$regex(pattern),
-								_elm_lang$core$String$toLower(_p13)))))));
+								_elm_lang$core$String$toLower(_p14)))))));
 	};
 }();
 var _eskimoblood$elm_color_extra$Color_Convert$cssColorString = F2(
@@ -19825,7 +20856,7 @@ var _eskimoblood$elm_color_extra$Color_Convert$cssColorString = F2(
 					A2(_elm_lang$core$String$join, ', ', values),
 					')')));
 	});
-var _eskimoblood$elm_color_extra$Color_Convert$toPercentString = function (_p16) {
+var _eskimoblood$elm_color_extra$Color_Convert$toPercentString = function (_p17) {
 	return A3(
 		_elm_lang$core$Basics$flip,
 		F2(
@@ -19841,9 +20872,9 @@ var _eskimoblood$elm_color_extra$Color_Convert$toPercentString = function (_p16)
 							return x * y;
 						}),
 					100,
-					_p16))));
+					_p17))));
 };
-var _eskimoblood$elm_color_extra$Color_Convert$hueToString = function (_p17) {
+var _eskimoblood$elm_color_extra$Color_Convert$hueToString = function (_p18) {
 	return _elm_lang$core$Basics$toString(
 		_elm_lang$core$Basics$round(
 			A3(
@@ -19859,14 +20890,14 @@ var _eskimoblood$elm_color_extra$Color_Convert$hueToString = function (_p17) {
 							return x * y;
 						}),
 					180,
-					_p17))));
+					_p18))));
 };
 var _eskimoblood$elm_color_extra$Color_Convert$colorToCssHsla = function (cl) {
-	var _p18 = _elm_lang$core$Color$toHsl(cl);
-	var hue = _p18.hue;
-	var saturation = _p18.saturation;
-	var lightness = _p18.lightness;
-	var alpha = _p18.alpha;
+	var _p19 = _elm_lang$core$Color$toHsl(cl);
+	var hue = _p19.hue;
+	var saturation = _p19.saturation;
+	var lightness = _p19.lightness;
+	var alpha = _p19.alpha;
 	return A2(
 		_eskimoblood$elm_color_extra$Color_Convert$cssColorString,
 		'hsla',
@@ -19889,11 +20920,11 @@ var _eskimoblood$elm_color_extra$Color_Convert$colorToCssHsla = function (cl) {
 		});
 };
 var _eskimoblood$elm_color_extra$Color_Convert$colorToCssHsl = function (cl) {
-	var _p19 = _elm_lang$core$Color$toHsl(cl);
-	var hue = _p19.hue;
-	var saturation = _p19.saturation;
-	var lightness = _p19.lightness;
-	var alpha = _p19.alpha;
+	var _p20 = _elm_lang$core$Color$toHsl(cl);
+	var hue = _p20.hue;
+	var saturation = _p20.saturation;
+	var lightness = _p20.lightness;
+	var alpha = _p20.alpha;
 	return A2(
 		_eskimoblood$elm_color_extra$Color_Convert$cssColorString,
 		'hsl',
@@ -19912,11 +20943,11 @@ var _eskimoblood$elm_color_extra$Color_Convert$colorToCssHsl = function (cl) {
 		});
 };
 var _eskimoblood$elm_color_extra$Color_Convert$colorToCssRgba = function (cl) {
-	var _p20 = _elm_lang$core$Color$toRgb(cl);
-	var red = _p20.red;
-	var green = _p20.green;
-	var blue = _p20.blue;
-	var alpha = _p20.alpha;
+	var _p21 = _elm_lang$core$Color$toRgb(cl);
+	var red = _p21.red;
+	var green = _p21.green;
+	var blue = _p21.blue;
+	var alpha = _p21.alpha;
 	return A2(
 		_eskimoblood$elm_color_extra$Color_Convert$cssColorString,
 		'rgba',
@@ -19939,11 +20970,11 @@ var _eskimoblood$elm_color_extra$Color_Convert$colorToCssRgba = function (cl) {
 		});
 };
 var _eskimoblood$elm_color_extra$Color_Convert$colorToCssRgb = function (cl) {
-	var _p21 = _elm_lang$core$Color$toRgb(cl);
-	var red = _p21.red;
-	var green = _p21.green;
-	var blue = _p21.blue;
-	var alpha = _p21.alpha;
+	var _p22 = _elm_lang$core$Color$toRgb(cl);
+	var red = _p22.red;
+	var green = _p22.green;
+	var blue = _p22.blue;
+	var alpha = _p22.alpha;
 	return A2(
 		_eskimoblood$elm_color_extra$Color_Convert$cssColorString,
 		'rgb',
@@ -28458,12 +29489,15 @@ var _user$project$MyCss$mdlClass = function (_p2) {
 			_user$project$MyCss$namespaceName,
 			_elm_lang$core$Basics$toString(_p2)));
 };
+var _user$project$MyCss$File = {ctor: 'File'};
+var _user$project$MyCss$MenuButtons = {ctor: 'MenuButtons'};
+var _user$project$MyCss$Menu = {ctor: 'Menu'};
 var _user$project$MyCss$EdgeCont = {ctor: 'EdgeCont'};
 var _user$project$MyCss$Edge = {ctor: 'Edge'};
 var _user$project$MyCss$DescriptionEmpty = {ctor: 'DescriptionEmpty'};
 var _user$project$MyCss$DescriptionText = {ctor: 'DescriptionText'};
 var _user$project$MyCss$DescriptionToolbar = {ctor: 'DescriptionToolbar'};
-var _user$project$MyCss$GraphMap = {ctor: 'GraphMap'};
+var _user$project$MyCss$AbsolutePos = {ctor: 'AbsolutePos'};
 var _user$project$MyCss$MenuIcon = {ctor: 'MenuIcon'};
 var _user$project$MyCss$ContextMenu = {ctor: 'ContextMenu'};
 var _user$project$MyCss$Description = {ctor: 'Description'};
@@ -28659,12 +29693,14 @@ var _user$project$MyCss$css = function (_p3) {
 								_1: {
 									ctor: '::',
 									_0: A2(
-										_rtfeldman$elm_css$Css$selector,
-										'::-moz-selection',
+										F2(
+											function (x, y) {
+												return A2(_user$project$MyCss_ops['.'], x, y);
+											}),
+										_user$project$MyCss$AbsolutePos,
 										{
 											ctor: '::',
-											_0: _rtfeldman$elm_css$Css$important(
-												A2(_rtfeldman$elm_css$Css$property, 'background', '#ee7883')),
+											_0: _rtfeldman$elm_css$Css$position(_rtfeldman$elm_css$Css$absolute),
 											_1: {ctor: '[]'}
 										}),
 									_1: {
@@ -28674,11 +29710,15 @@ var _user$project$MyCss$css = function (_p3) {
 												function (x, y) {
 													return A2(_user$project$MyCss_ops['.'], x, y);
 												}),
-											_user$project$MyCss$GraphMap,
+											_user$project$MyCss$NodeCont,
 											{
 												ctor: '::',
 												_0: _rtfeldman$elm_css$Css$position(_rtfeldman$elm_css$Css$absolute),
-												_1: {ctor: '[]'}
+												_1: {
+													ctor: '::',
+													_0: _user$project$MyCss$pointerEvents(_user$project$MyCss$None),
+													_1: {ctor: '[]'}
+												}
 											}),
 										_1: {
 											ctor: '::',
@@ -28687,14 +29727,58 @@ var _user$project$MyCss$css = function (_p3) {
 													function (x, y) {
 														return A2(_user$project$MyCss_ops['.'], x, y);
 													}),
-												_user$project$MyCss$NodeCont,
+												_user$project$MyCss$Node,
 												{
 													ctor: '::',
-													_0: _rtfeldman$elm_css$Css$position(_rtfeldman$elm_css$Css$absolute),
+													_0: _rtfeldman$elm_css$Css$width(
+														_rtfeldman$elm_css$Css$pct(100)),
 													_1: {
 														ctor: '::',
-														_0: _user$project$MyCss$pointerEvents(_user$project$MyCss$None),
-														_1: {ctor: '[]'}
+														_0: _rtfeldman$elm_css$Css$height(
+															_rtfeldman$elm_css$Css$pct(100)),
+														_1: {
+															ctor: '::',
+															_0: _rtfeldman$elm_css$Css$left(
+																_rtfeldman$elm_css$Css$pct(-50)),
+															_1: {
+																ctor: '::',
+																_0: _rtfeldman$elm_css$Css$top(
+																	_rtfeldman$elm_css$Css$pct(-50)),
+																_1: {
+																	ctor: '::',
+																	_0: _rtfeldman$elm_css$Css$position(_rtfeldman$elm_css$Css$absolute),
+																	_1: {
+																		ctor: '::',
+																		_0: _user$project$MyCss$pointerEvents(_user$project$MyCss$Auto),
+																		_1: {
+																			ctor: '::',
+																			_0: _rtfeldman$elm_css$Css$children(
+																				{
+																					ctor: '::',
+																					_0: _rtfeldman$elm_css$Css_Elements$div(
+																						{
+																							ctor: '::',
+																							_0: _rtfeldman$elm_css$Css$width(
+																								_rtfeldman$elm_css$Css$pct(100)),
+																							_1: {
+																								ctor: '::',
+																								_0: _rtfeldman$elm_css$Css$height(
+																									_rtfeldman$elm_css$Css$pct(100)),
+																								_1: {
+																									ctor: '::',
+																									_0: _rtfeldman$elm_css$Css$position(_rtfeldman$elm_css$Css$absolute),
+																									_1: {ctor: '[]'}
+																								}
+																							}
+																						}),
+																					_1: {ctor: '[]'}
+																				}),
+																			_1: {ctor: '[]'}
+																		}
+																	}
+																}
+															}
+														}
 													}
 												}),
 											_1: {
@@ -28704,54 +29788,32 @@ var _user$project$MyCss$css = function (_p3) {
 														function (x, y) {
 															return A2(_user$project$MyCss_ops['.'], x, y);
 														}),
-													_user$project$MyCss$Node,
+													_user$project$MyCss$ContextMenu,
 													{
 														ctor: '::',
-														_0: _rtfeldman$elm_css$Css$width(
-															_rtfeldman$elm_css$Css$pct(100)),
+														_0: _rtfeldman$elm_css$Css$displayFlex,
 														_1: {
 															ctor: '::',
-															_0: _rtfeldman$elm_css$Css$height(
-																_rtfeldman$elm_css$Css$pct(100)),
+															_0: _rtfeldman$elm_css$Css$flexDirection(_rtfeldman$elm_css$Css$column),
 															_1: {
 																ctor: '::',
-																_0: _rtfeldman$elm_css$Css$left(
-																	_rtfeldman$elm_css$Css$pct(-50)),
+																_0: _rtfeldman$elm_css$Css$transform(
+																	A2(
+																		_rtfeldman$elm_css$Css$translate2,
+																		_rtfeldman$elm_css$Css$pct(-80),
+																		_rtfeldman$elm_css$Css$pct(-50))),
 																_1: {
 																	ctor: '::',
-																	_0: _rtfeldman$elm_css$Css$top(
-																		_rtfeldman$elm_css$Css$pct(-50)),
+																	_0: _rtfeldman$elm_css$Css$position(_rtfeldman$elm_css$Css$absolute),
 																	_1: {
 																		ctor: '::',
-																		_0: _rtfeldman$elm_css$Css$position(_rtfeldman$elm_css$Css$absolute),
+																		_0: _rtfeldman$elm_css$Css$top(
+																			_rtfeldman$elm_css$Css$pct(50)),
 																		_1: {
 																			ctor: '::',
-																			_0: _user$project$MyCss$pointerEvents(_user$project$MyCss$Auto),
-																			_1: {
-																				ctor: '::',
-																				_0: _rtfeldman$elm_css$Css$children(
-																					{
-																						ctor: '::',
-																						_0: _rtfeldman$elm_css$Css_Elements$div(
-																							{
-																								ctor: '::',
-																								_0: _rtfeldman$elm_css$Css$width(
-																									_rtfeldman$elm_css$Css$pct(100)),
-																								_1: {
-																									ctor: '::',
-																									_0: _rtfeldman$elm_css$Css$height(
-																										_rtfeldman$elm_css$Css$pct(100)),
-																									_1: {
-																										ctor: '::',
-																										_0: _rtfeldman$elm_css$Css$position(_rtfeldman$elm_css$Css$absolute),
-																										_1: {ctor: '[]'}
-																									}
-																								}
-																							}),
-																						_1: {ctor: '[]'}
-																					}),
-																				_1: {ctor: '[]'}
-																			}
+																			_0: _rtfeldman$elm_css$Css$padding(
+																				_rtfeldman$elm_css$Css$px(20)),
+																			_1: {ctor: '[]'}
 																		}
 																	}
 																}
@@ -28765,36 +29827,14 @@ var _user$project$MyCss$css = function (_p3) {
 															function (x, y) {
 																return A2(_user$project$MyCss_ops['.'], x, y);
 															}),
-														_user$project$MyCss$ContextMenu,
+														_user$project$MyCss$EdgeCont,
 														{
 															ctor: '::',
-															_0: _rtfeldman$elm_css$Css$displayFlex,
+															_0: _rtfeldman$elm_css$Css$position(_rtfeldman$elm_css$Css$absolute),
 															_1: {
 																ctor: '::',
-																_0: _rtfeldman$elm_css$Css$flexDirection(_rtfeldman$elm_css$Css$column),
-																_1: {
-																	ctor: '::',
-																	_0: _rtfeldman$elm_css$Css$transform(
-																		A2(
-																			_rtfeldman$elm_css$Css$translate2,
-																			_rtfeldman$elm_css$Css$pct(-80),
-																			_rtfeldman$elm_css$Css$pct(-50))),
-																	_1: {
-																		ctor: '::',
-																		_0: _rtfeldman$elm_css$Css$position(_rtfeldman$elm_css$Css$absolute),
-																		_1: {
-																			ctor: '::',
-																			_0: _rtfeldman$elm_css$Css$top(
-																				_rtfeldman$elm_css$Css$pct(50)),
-																			_1: {
-																				ctor: '::',
-																				_0: _rtfeldman$elm_css$Css$padding(
-																					_rtfeldman$elm_css$Css$px(20)),
-																				_1: {ctor: '[]'}
-																			}
-																		}
-																	}
-																}
+																_0: _user$project$MyCss$pointerEvents(_user$project$MyCss$None),
+																_1: {ctor: '[]'}
 															}
 														}),
 													_1: {
@@ -28804,13 +29844,17 @@ var _user$project$MyCss$css = function (_p3) {
 																function (x, y) {
 																	return A2(_user$project$MyCss_ops['.'], x, y);
 																}),
-															_user$project$MyCss$EdgeCont,
+															_user$project$MyCss$Edge,
 															{
 																ctor: '::',
-																_0: _rtfeldman$elm_css$Css$position(_rtfeldman$elm_css$Css$absolute),
+																_0: _rtfeldman$elm_css$Css$transform(
+																	A2(
+																		_rtfeldman$elm_css$Css$translate2,
+																		_rtfeldman$elm_css$Css$pct(-50),
+																		_rtfeldman$elm_css$Css$pct(-50))),
 																_1: {
 																	ctor: '::',
-																	_0: _user$project$MyCss$pointerEvents(_user$project$MyCss$None),
+																	_0: _user$project$MyCss$pointerEvents(_user$project$MyCss$Auto),
 																	_1: {ctor: '[]'}
 																}
 															}),
@@ -28821,33 +29865,81 @@ var _user$project$MyCss$css = function (_p3) {
 																	function (x, y) {
 																		return A2(_user$project$MyCss_ops['.'], x, y);
 																	}),
-																_user$project$MyCss$Edge,
+																_user$project$MyCss$Menu,
 																{
 																	ctor: '::',
-																	_0: _rtfeldman$elm_css$Css$transform(
-																		A2(
-																			_rtfeldman$elm_css$Css$translate2,
-																			_rtfeldman$elm_css$Css$pct(-50),
-																			_rtfeldman$elm_css$Css$pct(-50))),
-																	_1: {
-																		ctor: '::',
-																		_0: _user$project$MyCss$pointerEvents(_user$project$MyCss$Auto),
-																		_1: {ctor: '[]'}
-																	}
+																	_0: _rtfeldman$elm_css$Css$height(
+																		_rtfeldman$elm_css$Css$pct(100)),
+																	_1: {ctor: '[]'}
 																}),
 															_1: {
 																ctor: '::',
-																_0: _rtfeldman$elm_css$Css_Elements$html(
+																_0: A2(
+																	F2(
+																		function (x, y) {
+																			return A2(_user$project$MyCss_ops['.'], x, y);
+																		}),
+																	_user$project$MyCss$MenuButtons,
 																	{
 																		ctor: '::',
-																		_0: _rtfeldman$elm_css$Css$overflow(_rtfeldman$elm_css$Css$hidden),
+																		_0: _rtfeldman$elm_css$Css$position(_rtfeldman$elm_css$Css$absolute),
 																		_1: {
 																			ctor: '::',
-																			_0: _rtfeldman$elm_css$Css$position(_rtfeldman$elm_css$Css$absolute),
-																			_1: {ctor: '[]'}
+																			_0: _rtfeldman$elm_css$Css$bottom(
+																				_rtfeldman$elm_css$Css$px(20)),
+																			_1: {
+																				ctor: '::',
+																				_0: _rtfeldman$elm_css$Css$right(
+																					_rtfeldman$elm_css$Css$px(20)),
+																				_1: {ctor: '[]'}
+																			}
 																		}
 																	}),
-																_1: {ctor: '[]'}
+																_1: {
+																	ctor: '::',
+																	_0: A2(
+																		F2(
+																			function (x, y) {
+																				return A2(_user$project$MyCss_ops['.'], x, y);
+																			}),
+																		_user$project$MyCss$File,
+																		{
+																			ctor: '::',
+																			_0: _rtfeldman$elm_css$Css$height(
+																				_rtfeldman$elm_css$Css$px(50)),
+																			_1: {ctor: '[]'}
+																		}),
+																	_1: {
+																		ctor: '::',
+																		_0: _rtfeldman$elm_css$Css_Elements$html(
+																			{
+																				ctor: '::',
+																				_0: _rtfeldman$elm_css$Css$overflow(_rtfeldman$elm_css$Css$hidden),
+																				_1: {
+																					ctor: '::',
+																					_0: _rtfeldman$elm_css$Css$position(_rtfeldman$elm_css$Css$absolute),
+																					_1: {ctor: '[]'}
+																				}
+																			}),
+																		_1: {
+																			ctor: '::',
+																			_0: A2(
+																				_rtfeldman$elm_css$Css$selector,
+																				'.mdl-layout__drawer-button',
+																				{
+																					ctor: '::',
+																					_0: _rtfeldman$elm_css$Css$color(
+																						A4(_rtfeldman$elm_css$Css$rgba, 140, 168, 218, 0.8)),
+																					_1: {
+																						ctor: '::',
+																						_0: A2(_rtfeldman$elm_css$Css$property, 'user-select', 'none'),
+																						_1: {ctor: '[]'}
+																					}
+																				}),
+																			_1: {ctor: '[]'}
+																		}
+																	}
+																}
 															}
 														}
 													}
@@ -28864,6 +29956,16 @@ var _user$project$MyCss$css = function (_p3) {
 		}
 	});
 
+var _user$project$Util$onEnter = function (msg) {
+	var isEnter = function (code) {
+		return _elm_lang$core$Native_Utils.eq(code, 13) ? _elm_lang$core$Json_Decode$succeed(msg) : _elm_lang$core$Json_Decode$fail('not ENTER');
+	};
+	return A3(
+		_elm_lang$html$Html_Events$onWithOptions,
+		'keydown',
+		{stopPropagation: false, preventDefault: true},
+		A2(_elm_lang$core$Json_Decode$andThen, isEnter, _elm_lang$html$Html_Events$keyCode));
+};
 var _user$project$Util$encodeVec2 = function (v) {
 	return _elm_lang$core$Json_Encode$object(
 		{
@@ -28927,6 +30029,15 @@ var _user$project$Util$nodeFocus = A2(
 					node: update(record.node)
 				});
 		}));
+var _user$project$Util$crashLog = F2(
+	function (message, value) {
+		return _elm_lang$core$Native_Utils.crash(
+			'Util',
+			{
+				start: {line: 18, column: 5},
+				end: {line: 18, column: 16}
+			})(message);
+	});
 var _user$project$Util$Size = F2(
 	function (a, b) {
 		return {width: a, height: b};
@@ -29096,43 +30207,6 @@ var _user$project$Util_Css$zIndex = function (z) {
 		'z-index',
 		_elm_lang$core$Basics$toString(z));
 };
-var _user$project$Util_Css$layers = F3(
-	function (startIndex, attrs, list) {
-		return A2(
-			_elm_lang$html$Html$div,
-			attrs,
-			A3(
-				_elm_lang$core$List$map2,
-				F2(
-					function (i, elem) {
-						return A2(
-							_elm_lang$html$Html$div,
-							{
-								ctor: '::',
-								_0: _user$project$Util_Css$style(
-									{
-										ctor: '::',
-										_0: _user$project$Util_Css$zIndex(startIndex + i),
-										_1: {
-											ctor: '::',
-											_0: _rtfeldman$elm_css$Css$position(_rtfeldman$elm_css$Css$absolute),
-											_1: {ctor: '[]'}
-										}
-									}),
-								_1: {ctor: '[]'}
-							},
-							{
-								ctor: '::',
-								_0: elem,
-								_1: {ctor: '[]'}
-							});
-					}),
-				A2(
-					_elm_lang$core$List$range,
-					0,
-					_elm_lang$core$List$length(list)),
-				list));
-	});
 
 var _user$project$Description$subscriptions = function (model) {
 	return _elm_lang$core$Platform_Sub$none;
@@ -29155,10 +30229,7 @@ var _user$project$Description$Model = F4(
 		return {mdl: a, text: b, mouseIn: c, editing: d};
 	});
 var _user$project$Description$init = function (text) {
-	return A2(
-		_elm_lang$core$Platform_Cmd_ops['!'],
-		A4(_user$project$Description$Model, _debois$elm_mdl$Material$model, text, false, false),
-		{ctor: '[]'});
+	return A4(_user$project$Description$Model, _debois$elm_mdl$Material$model, text, false, false);
 };
 var _user$project$Description$decode = A2(
 	_elm_community$json_extra$Json_Decode_Extra_ops['|:'],
@@ -29375,12 +30446,9 @@ var _user$project$Edge$Model = F2(
 		return {mdl: a, mouseOver: b};
 	});
 var _user$project$Edge$init = A2(
-	_elm_lang$core$Platform_Cmd_ops['!'],
-	A2(
-		_user$project$Edge$Model,
-		_debois$elm_mdl$Material$model,
-		A2(_elm_lang$core$Array$repeat, 2, false)),
-	{ctor: '[]'});
+	_user$project$Edge$Model,
+	_debois$elm_mdl$Material$model,
+	A2(_elm_lang$core$Array$repeat, 2, false));
 var _user$project$Edge$decode = _elm_lang$core$Json_Decode$succeed(_user$project$Edge$init);
 var _user$project$Edge$ToParent = function (a) {
 	return {ctor: 'ToParent', _0: a};
@@ -29624,16 +30692,6 @@ var _user$project$Edge$view = F3(
 var _user$project$Heading$subscriptions = function (model) {
 	return _elm_lang$core$Platform_Sub$none;
 };
-var _user$project$Heading$onEnter = function (msg) {
-	var isEnter = function (code) {
-		return _elm_lang$core$Native_Utils.eq(code, 13) ? _elm_lang$core$Json_Decode$succeed(msg) : _elm_lang$core$Json_Decode$fail('not ENTER');
-	};
-	return A3(
-		_elm_lang$html$Html_Events$onWithOptions,
-		'keydown',
-		{stopPropagation: false, preventDefault: true},
-		A2(_elm_lang$core$Json_Decode$andThen, isEnter, _elm_lang$html$Html_Events$keyCode));
-};
 var _user$project$Heading$onDivBlur = function (msg) {
 	return A2(
 		_elm_lang$html$Html_Events$on,
@@ -29670,116 +30728,121 @@ var _user$project$Heading$encode = function (model) {
 var _user$project$Heading$convertText = function (text) {
 	return _elm_lang$core$Native_Utils.eq(text, '') ? _elm_lang$core$Maybe$Nothing : _elm_lang$core$Maybe$Just(text);
 };
-var _user$project$Heading$Model = F3(
-	function (a, b, c) {
-		return {inputId: a, text: b, mdl: c};
+var _user$project$Heading$Model = F2(
+	function (a, b) {
+		return {text: a, mdl: b};
 	});
-var _user$project$Heading$init = F2(
-	function (id, text) {
-		return A2(
-			_elm_lang$core$Platform_Cmd_ops['!'],
-			A3(
-				_user$project$Heading$Model,
-				A2(
-					_elm_lang$core$Basics_ops['++'],
-					'heading-input-',
-					_elm_lang$core$Basics$toString(id)),
-				_user$project$Heading$convertText(text),
-				_debois$elm_mdl$Material$model),
-			{ctor: '[]'});
-	});
-var _user$project$Heading$decode = function (id) {
+var _user$project$Heading$init = function (text) {
 	return A2(
-		_elm_community$json_extra$Json_Decode_Extra_ops['|:'],
-		_elm_lang$core$Json_Decode$succeed(
-			_user$project$Heading$init(id)),
-		A2(_elm_lang$core$Json_Decode$field, 'text', _elm_lang$core$Json_Decode$string));
+		_user$project$Heading$Model,
+		_user$project$Heading$convertText(text),
+		_debois$elm_mdl$Material$model);
+};
+var _user$project$Heading$decode = A2(
+	_elm_community$json_extra$Json_Decode_Extra_ops['|:'],
+	_elm_lang$core$Json_Decode$succeed(_user$project$Heading$init),
+	A2(_elm_lang$core$Json_Decode$field, 'text', _elm_lang$core$Json_Decode$string));
+var _user$project$Heading$Id = function (a) {
+	return {ctor: 'Id', _0: a};
 };
 var _user$project$Heading$NoOp = {ctor: 'NoOp'};
-var _user$project$Heading$BeginEditing = {ctor: 'BeginEditing'};
-var _user$project$Heading$OnEnter = {ctor: 'OnEnter'};
+var _user$project$Heading$BeginEditing = function (a) {
+	return {ctor: 'BeginEditing', _0: a};
+};
+var _user$project$Heading$OnEnter = function (a) {
+	return {ctor: 'OnEnter', _0: a};
+};
 var _user$project$Heading$InputChange = function (a) {
 	return {ctor: 'InputChange', _0: a};
 };
-var _user$project$Heading$view = function (model) {
-	return A2(
-		_debois$elm_mdl$Material_Options$div,
-		{
-			ctor: '::',
-			_0: function () {
-				var _p0 = model.text;
-				if (_p0.ctor === 'Nothing') {
-					return _debois$elm_mdl$Material_Typography$caption;
-				} else {
-					return _debois$elm_mdl$Material_Typography$title;
-				}
-			}(),
-			_1: {
+var _user$project$Heading$view = F2(
+	function (id, model) {
+		var stringId = A2(
+			_elm_lang$core$Basics_ops['++'],
+			'heading-',
+			_elm_lang$core$Basics$toString(id));
+		return A2(
+			_debois$elm_mdl$Material_Options$div,
+			{
 				ctor: '::',
-				_0: _debois$elm_mdl$Material_Options$center,
+				_0: function () {
+					var _p0 = model.text;
+					if (_p0.ctor === 'Nothing') {
+						return _debois$elm_mdl$Material_Typography$caption;
+					} else {
+						return _debois$elm_mdl$Material_Typography$title;
+					}
+				}(),
 				_1: {
 					ctor: '::',
-					_0: _user$project$MyCss$mdlClass(_user$project$MyCss$MaxSize),
-					_1: {ctor: '[]'}
+					_0: _debois$elm_mdl$Material_Options$center,
+					_1: {
+						ctor: '::',
+						_0: _user$project$MyCss$mdlClass(_user$project$MyCss$MaxSize),
+						_1: {
+							ctor: '::',
+							_0: _elm_lang$core$Native_Utils.eq(model.text, _elm_lang$core$Maybe$Nothing) ? _debois$elm_mdl$Material_Options$onClick(
+								_user$project$Heading$BeginEditing(
+									_user$project$Heading$Id(stringId))) : _debois$elm_mdl$Material_Options$nop,
+							_1: {ctor: '[]'}
+						}
+					}
 				}
-			}
-		},
-		{
-			ctor: '::',
-			_0: function () {
-				var _p1 = model.text;
-				if (_p1.ctor === 'Nothing') {
-					return A2(
-						_elm_lang$html$Html$i,
-						{
-							ctor: '::',
-							_0: _elm_lang$html$Html_Events$onClick(_user$project$Heading$BeginEditing),
-							_1: {ctor: '[]'}
-						},
-						{
-							ctor: '::',
-							_0: _elm_lang$html$Html$text('empty'),
-							_1: {ctor: '[]'}
-						});
-				} else {
-					return A2(
-						_elm_lang$html$Html$div,
-						{
-							ctor: '::',
-							_0: _elm_lang$html$Html_Attributes$contenteditable(true),
-							_1: {
+			},
+			{
+				ctor: '::',
+				_0: function () {
+					var _p1 = model.text;
+					if (_p1.ctor === 'Nothing') {
+						return A2(
+							_elm_lang$html$Html$i,
+							{ctor: '[]'},
+							{
 								ctor: '::',
-								_0: _user$project$MyCss$class(
-									{
-										ctor: '::',
-										_0: _user$project$MyCss$HeadingText,
-										_1: {ctor: '[]'}
-									}),
+								_0: _elm_lang$html$Html$text('empty'),
+								_1: {ctor: '[]'}
+							});
+					} else {
+						return A2(
+							_elm_lang$html$Html$div,
+							{
+								ctor: '::',
+								_0: _elm_lang$html$Html_Attributes$contenteditable(true),
 								_1: {
 									ctor: '::',
-									_0: _user$project$Heading$onDivBlur(_user$project$Heading$InputChange),
+									_0: _user$project$MyCss$class(
+										{
+											ctor: '::',
+											_0: _user$project$MyCss$HeadingText,
+											_1: {ctor: '[]'}
+										}),
 									_1: {
 										ctor: '::',
-										_0: _user$project$Heading$onEnter(_user$project$Heading$OnEnter),
+										_0: _user$project$Heading$onDivBlur(_user$project$Heading$InputChange),
 										_1: {
 											ctor: '::',
-											_0: _elm_lang$html$Html_Attributes$id(model.inputId),
-											_1: {ctor: '[]'}
+											_0: _user$project$Util$onEnter(
+												_user$project$Heading$OnEnter(
+													_user$project$Heading$Id(stringId))),
+											_1: {
+												ctor: '::',
+												_0: _elm_lang$html$Html_Attributes$id(stringId),
+												_1: {ctor: '[]'}
+											}
 										}
 									}
 								}
-							}
-						},
-						{
-							ctor: '::',
-							_0: _elm_lang$html$Html$text(_p1._0),
-							_1: {ctor: '[]'}
-						});
-				}
-			}(),
-			_1: {ctor: '[]'}
-		});
-};
+							},
+							{
+								ctor: '::',
+								_0: _elm_lang$html$Html$text(_p1._0),
+								_1: {ctor: '[]'}
+							});
+					}
+				}(),
+				_1: {ctor: '[]'}
+			});
+	});
 var _user$project$Heading$MdlMsg = function (a) {
 	return {ctor: 'MdlMsg', _0: a};
 };
@@ -29809,7 +30872,7 @@ var _user$project$Heading$update = F2(
 							function (_p3) {
 								return _user$project$Heading$NoOp;
 							},
-							_elm_lang$dom$Dom$blur(model.inputId)),
+							_elm_lang$dom$Dom$blur(_p2._0._0)),
 						_1: {ctor: '[]'}
 					});
 			case 'BeginEditing':
@@ -29827,7 +30890,7 @@ var _user$project$Heading$update = F2(
 							function (_p4) {
 								return _user$project$Heading$NoOp;
 							},
-							_elm_lang$dom$Dom$focus(model.inputId)),
+							_elm_lang$dom$Dom$focus(_p2._0._0)),
 						_1: {ctor: '[]'}
 					});
 			default:
@@ -29907,6 +30970,31 @@ var _user$project$Node$Model = F7(
 	function (a, b, c, d, e, f, g) {
 		return {pos: a, radius: b, heading: c, mouseOver: d, contextMenu: e, showDescription: f, description: g};
 	});
+var _user$project$Node$fullInit = F4(
+	function (pos, radius, heading, desc) {
+		return A7(_user$project$Node$Model, pos, radius, heading, false, _user$project$ContextMenu$init, false, desc);
+	});
+var _user$project$Node$init = F2(
+	function (text, pos) {
+		return A4(
+			_user$project$Node$fullInit,
+			pos,
+			60,
+			_user$project$Heading$init(text),
+			_user$project$Description$init(''));
+	});
+var _user$project$Node$decode = A2(
+	_elm_community$json_extra$Json_Decode_Extra_ops['|:'],
+	A2(
+		_elm_community$json_extra$Json_Decode_Extra_ops['|:'],
+		A2(
+			_elm_community$json_extra$Json_Decode_Extra_ops['|:'],
+			_elm_lang$core$Json_Decode$succeed(
+				_user$project$Node$fullInit(
+					A2(_elm_community$linear_algebra$Math_Vector2$vec2, 0, 0))),
+			A2(_elm_lang$core$Json_Decode$field, 'radius', _elm_lang$core$Json_Decode$float)),
+		A2(_elm_lang$core$Json_Decode$field, 'heading', _user$project$Heading$decode)),
+	A2(_elm_lang$core$Json_Decode$field, 'description', _user$project$Description$decode));
 var _user$project$Node$MouseOut = {ctor: 'MouseOut'};
 var _user$project$Node$MouseOver = {ctor: 'MouseOver'};
 var _user$project$Node$DescriptionMsg = function (a) {
@@ -29921,61 +31009,19 @@ var _user$project$Node$ToParent = function (a) {
 var _user$project$Node$HeadingMsg = function (a) {
 	return {ctor: 'HeadingMsg', _0: a};
 };
-var _user$project$Node$fullInit = F4(
-	function (pos, radius, _p1, _p0) {
-		var _p2 = _p1;
-		var _p3 = _p0;
-		return A2(
-			_elm_lang$core$Platform_Cmd_ops['!'],
-			A7(_user$project$Node$Model, pos, radius, _p2._0, false, _user$project$ContextMenu$init, false, _p3._0),
-			{
-				ctor: '::',
-				_0: A2(_elm_lang$core$Platform_Cmd$map, _user$project$Node$HeadingMsg, _p2._1),
-				_1: {
-					ctor: '::',
-					_0: A2(_elm_lang$core$Platform_Cmd$map, _user$project$Node$DescriptionMsg, _p3._1),
-					_1: {ctor: '[]'}
-				}
-			});
-	});
-var _user$project$Node$init = F3(
-	function (id, text, pos) {
-		return A4(
-			_user$project$Node$fullInit,
-			pos,
-			60,
-			A2(_user$project$Heading$init, id, text),
-			_user$project$Description$init(''));
-	});
-var _user$project$Node$decode = function (id) {
-	return A2(
-		_elm_community$json_extra$Json_Decode_Extra_ops['|:'],
-		A2(
-			_elm_community$json_extra$Json_Decode_Extra_ops['|:'],
-			A2(
-				_elm_community$json_extra$Json_Decode_Extra_ops['|:'],
-				_elm_lang$core$Json_Decode$succeed(
-					_user$project$Node$fullInit(
-						A2(_elm_community$linear_algebra$Math_Vector2$vec2, 0, 0))),
-				A2(_elm_lang$core$Json_Decode$field, 'radius', _elm_lang$core$Json_Decode$float)),
-			A2(
-				_elm_lang$core$Json_Decode$field,
-				'heading',
-				_user$project$Heading$decode(id))),
-		A2(_elm_lang$core$Json_Decode$field, 'description', _user$project$Description$decode));
-};
 var _user$project$Node$subscriptions = function (model) {
 	return A2(
 		_elm_lang$core$Platform_Sub$map,
 		_user$project$Node$HeadingMsg,
 		_user$project$Heading$subscriptions(model.heading));
 };
+var _user$project$Node$Dirty = {ctor: 'Dirty'};
 var _user$project$Node$Remove = {ctor: 'Remove'};
 var _user$project$Node$updateContextMenu = F2(
 	function (msg, model) {
-		var _p4 = msg;
-		if (_p4.ctor === 'Just') {
-			if (_p4._0.ctor === 'Remove') {
+		var _p0 = msg;
+		if (_p0.ctor === 'Just') {
+			if (_p0._0.ctor === 'Remove') {
 				return {
 					ctor: '_Tuple3',
 					_0: model,
@@ -29998,36 +31044,40 @@ var _user$project$Node$updateContextMenu = F2(
 	});
 var _user$project$Node$update = F2(
 	function (msg, model) {
-		var _p5 = msg;
-		switch (_p5.ctor) {
+		var _p1 = msg;
+		switch (_p1.ctor) {
 			case 'HeadingMsg':
-				var _p6 = A2(_user$project$Heading$update, _p5._0, model.heading);
-				var heading = _p6._0;
-				var cmd = _p6._1;
+				var _p2 = A2(_user$project$Heading$update, _p1._0, model.heading);
+				var heading = _p2._0;
+				var cmd = _p2._1;
 				return {
 					ctor: '_Tuple3',
 					_0: _elm_lang$core$Native_Utils.update(
 						model,
 						{heading: heading}),
 					_1: A2(_elm_lang$core$Platform_Cmd$map, _user$project$Node$HeadingMsg, cmd),
-					_2: _elm_lang$core$Maybe$Nothing
+					_2: {ctor: '[]'}
 				};
 			case 'ToParent':
 				return {
 					ctor: '_Tuple3',
 					_0: model,
 					_1: _elm_lang$core$Platform_Cmd$none,
-					_2: _elm_lang$core$Maybe$Just(_p5._0)
+					_2: {
+						ctor: '::',
+						_0: _p1._0,
+						_1: {ctor: '[]'}
+					}
 				};
 			case 'ContextMenuMsg':
-				var _p7 = A2(_user$project$ContextMenu$update, _p5._0, model.contextMenu);
-				var ctxmenu = _p7._0;
-				var ctxCmd = _p7._1;
-				var ctxOutMsg = _p7._2;
-				var _p8 = A2(_user$project$Node$updateContextMenu, ctxOutMsg, model);
-				var model_ = _p8._0;
-				var cmd = _p8._1;
-				var outMsg = _p8._2;
+				var _p3 = A2(_user$project$ContextMenu$update, _p1._0, model.contextMenu);
+				var ctxmenu = _p3._0;
+				var ctxCmd = _p3._1;
+				var ctxOutMsg = _p3._2;
+				var _p4 = A2(_user$project$Node$updateContextMenu, ctxOutMsg, model);
+				var model_ = _p4._0;
+				var cmd = _p4._1;
+				var outMsg = _p4._2;
 				return {
 					ctor: '_Tuple3',
 					_0: _elm_lang$core$Native_Utils.update(
@@ -30043,19 +31093,22 @@ var _user$project$Node$update = F2(
 								_1: {ctor: '[]'}
 							}
 						}),
-					_2: outMsg
+					_2: A2(
+						_elm_lang$core$Maybe$withDefault,
+						{ctor: '[]'},
+						A2(_elm_lang$core$Maybe$map, _elm_lang$core$List$singleton, outMsg))
 				};
 			case 'DescriptionMsg':
-				var _p9 = A2(_user$project$Description$update, _p5._0, model.description);
-				var desc = _p9._0;
-				var descCmd = _p9._1;
+				var _p5 = A2(_user$project$Description$update, _p1._0, model.description);
+				var desc = _p5._0;
+				var descCmd = _p5._1;
 				return {
 					ctor: '_Tuple3',
 					_0: _elm_lang$core$Native_Utils.update(
 						model,
 						{description: desc}),
 					_1: A2(_elm_lang$core$Platform_Cmd$map, _user$project$Node$DescriptionMsg, descCmd),
-					_2: _elm_lang$core$Maybe$Nothing
+					_2: {ctor: '[]'}
 				};
 			case 'MouseOver':
 				return {
@@ -30064,7 +31117,7 @@ var _user$project$Node$update = F2(
 						model,
 						{mouseOver: true}),
 					_1: _elm_lang$core$Platform_Cmd$none,
-					_2: _elm_lang$core$Maybe$Nothing
+					_2: {ctor: '[]'}
 				};
 			default:
 				return {
@@ -30073,128 +31126,129 @@ var _user$project$Node$update = F2(
 						model,
 						{mouseOver: false}),
 					_1: _elm_lang$core$Platform_Cmd$none,
-					_2: _elm_lang$core$Maybe$Nothing
+					_2: {ctor: '[]'}
 				};
 		}
 	});
 var _user$project$Node$MouseDown = {ctor: 'MouseDown'};
 var _user$project$Node$MouseUp = {ctor: 'MouseUp'};
-var _user$project$Node$view = function (model) {
-	return A2(
-		_elm_lang$html$Html$div,
-		{
-			ctor: '::',
-			_0: _user$project$Util_Css$style(
-				{
-					ctor: '::',
-					_0: _rtfeldman$elm_css$Css$left(
-						_rtfeldman$elm_css$Css$px(
-							_elm_community$linear_algebra$Math_Vector2$getX(model.pos))),
-					_1: {
-						ctor: '::',
-						_0: _rtfeldman$elm_css$Css$top(
-							_rtfeldman$elm_css$Css$px(
-								_elm_community$linear_algebra$Math_Vector2$getY(model.pos))),
-						_1: {
-							ctor: '::',
-							_0: _rtfeldman$elm_css$Css$width(
-								_rtfeldman$elm_css$Css$px(
-									_user$project$Node$width(model))),
-							_1: {
-								ctor: '::',
-								_0: _rtfeldman$elm_css$Css$height(
-									_rtfeldman$elm_css$Css$px(
-										_user$project$Node$width(model))),
-								_1: {ctor: '[]'}
-							}
-						}
-					}
-				}),
-			_1: {
+var _user$project$Node$view = F2(
+	function (id, model) {
+		return A2(
+			_elm_lang$html$Html$div,
+			{
 				ctor: '::',
-				_0: _user$project$MyCss$class(
+				_0: _user$project$Util_Css$style(
 					{
 						ctor: '::',
-						_0: _user$project$MyCss$NodeCont,
-						_1: {ctor: '[]'}
+						_0: _rtfeldman$elm_css$Css$left(
+							_rtfeldman$elm_css$Css$px(
+								_elm_community$linear_algebra$Math_Vector2$getX(model.pos))),
+						_1: {
+							ctor: '::',
+							_0: _rtfeldman$elm_css$Css$top(
+								_rtfeldman$elm_css$Css$px(
+									_elm_community$linear_algebra$Math_Vector2$getY(model.pos))),
+							_1: {
+								ctor: '::',
+								_0: _rtfeldman$elm_css$Css$width(
+									_rtfeldman$elm_css$Css$px(
+										_user$project$Node$width(model))),
+								_1: {
+									ctor: '::',
+									_0: _rtfeldman$elm_css$Css$height(
+										_rtfeldman$elm_css$Css$px(
+											_user$project$Node$width(model))),
+									_1: {ctor: '[]'}
+								}
+							}
+						}
 					}),
-				_1: {ctor: '[]'}
-			}
-		},
-		_elm_lang$core$List$singleton(
-			A2(
-				_elm_lang$html$Html$div,
-				{
+				_1: {
 					ctor: '::',
 					_0: _user$project$MyCss$class(
 						{
 							ctor: '::',
-							_0: _user$project$MyCss$Node,
+							_0: _user$project$MyCss$NodeCont,
 							_1: {ctor: '[]'}
 						}),
 					_1: {ctor: '[]'}
-				},
-				{
-					ctor: '::',
-					_0: A2(
-						_elm_lang$html$Html$div,
-						{ctor: '[]'},
-						{
-							ctor: '::',
-							_0: (model.mouseOver || model.contextMenu.mouseOver) ? A2(
-								_elm_lang$html$Html$map,
-								_user$project$Node$ContextMenuMsg,
-								_user$project$ContextMenu$view(model.contextMenu)) : A2(
-								_elm_lang$html$Html$div,
-								{ctor: '[]'},
-								{ctor: '[]'}),
-							_1: {
-								ctor: '::',
-								_0: model.showDescription ? A2(
-									_elm_lang$html$Html$map,
-									_user$project$Node$DescriptionMsg,
-									_user$project$Description$view(model.description)) : A2(
-									_elm_lang$html$Html$div,
-									{ctor: '[]'},
-									{ctor: '[]'}),
-								_1: {ctor: '[]'}
-							}
-						}),
-					_1: {
+				}
+			},
+			_elm_lang$core$List$singleton(
+				A2(
+					_elm_lang$html$Html$div,
+					{
 						ctor: '::',
-						_0: A2(
-							_elm_lang$html$Html$div,
+						_0: _user$project$MyCss$class(
 							{
 								ctor: '::',
-								_0: _elm_lang$html$Html_Events$onMouseEnter(_user$project$Node$MouseOver),
-								_1: {
-									ctor: '::',
-									_0: _elm_lang$html$Html_Events$onMouseLeave(_user$project$Node$MouseOut),
-									_1: {
-										ctor: '::',
-										_0: _elm_lang$html$Html_Events$onMouseDown(
-											_user$project$Node$ToParent(_user$project$Node$MouseDown)),
-										_1: {
-											ctor: '::',
-											_0: _elm_lang$html$Html_Events$onMouseUp(
-												_user$project$Node$ToParent(_user$project$Node$MouseUp)),
-											_1: {ctor: '[]'}
-										}
-									}
-								}
-							},
-							{
-								ctor: '::',
-								_0: A2(
-									_elm_lang$html$Html$map,
-									_user$project$Node$HeadingMsg,
-									_user$project$Heading$view(model.heading)),
+								_0: _user$project$MyCss$Node,
 								_1: {ctor: '[]'}
 							}),
 						_1: {ctor: '[]'}
-					}
-				})));
-};
+					},
+					{
+						ctor: '::',
+						_0: A2(
+							_elm_lang$html$Html$div,
+							{ctor: '[]'},
+							{
+								ctor: '::',
+								_0: (model.mouseOver || model.contextMenu.mouseOver) ? A2(
+									_elm_lang$html$Html$map,
+									_user$project$Node$ContextMenuMsg,
+									_user$project$ContextMenu$view(model.contextMenu)) : A2(
+									_elm_lang$html$Html$div,
+									{ctor: '[]'},
+									{ctor: '[]'}),
+								_1: {
+									ctor: '::',
+									_0: model.showDescription ? A2(
+										_elm_lang$html$Html$map,
+										_user$project$Node$DescriptionMsg,
+										_user$project$Description$view(model.description)) : A2(
+										_elm_lang$html$Html$div,
+										{ctor: '[]'},
+										{ctor: '[]'}),
+									_1: {ctor: '[]'}
+								}
+							}),
+						_1: {
+							ctor: '::',
+							_0: A2(
+								_elm_lang$html$Html$div,
+								{
+									ctor: '::',
+									_0: _elm_lang$html$Html_Events$onMouseEnter(_user$project$Node$MouseOver),
+									_1: {
+										ctor: '::',
+										_0: _elm_lang$html$Html_Events$onMouseLeave(_user$project$Node$MouseOut),
+										_1: {
+											ctor: '::',
+											_0: _elm_lang$html$Html_Events$onMouseDown(
+												_user$project$Node$ToParent(_user$project$Node$MouseDown)),
+											_1: {
+												ctor: '::',
+												_0: _elm_lang$html$Html_Events$onMouseUp(
+													_user$project$Node$ToParent(_user$project$Node$MouseUp)),
+												_1: {ctor: '[]'}
+											}
+										}
+									}
+								},
+								{
+									ctor: '::',
+									_0: A2(
+										_elm_lang$html$Html$map,
+										_user$project$Node$HeadingMsg,
+										A2(_user$project$Heading$view, id, model.heading)),
+									_1: {ctor: '[]'}
+								}),
+							_1: {ctor: '[]'}
+						}
+					})));
+	});
 
 var _user$project$Util_Graph$connectedNodesRec = F3(
 	function (graph, visited, queue) {
@@ -30682,13 +31736,13 @@ var _user$project$Layout$stepLayout = function (graph) {
 	return A2(_elm_community$graph$Graph$mapContexts, update, graph);
 };
 
-var _user$project$GraphMap$onDoubleClick = function (msg) {
+var _user$project$MentalMap$onDoubleClick = function (msg) {
 	return A2(
 		_elm_community$typed_svg$TypedSvg_Events$on,
 		'dblclick',
 		_elm_lang$core$Json_Decode$succeed(msg));
 };
-var _user$project$GraphMap$updateEdgeOutMsg = F3(
+var _user$project$MentalMap$updateEdgeOutMsg = F3(
 	function (id, outMsg, model) {
 		var _p0 = outMsg;
 		return A2(
@@ -30700,7 +31754,7 @@ var _user$project$GraphMap$updateEdgeOutMsg = F3(
 				}),
 			{ctor: '[]'});
 	});
-var _user$project$GraphMap$encode = function (model) {
+var _user$project$MentalMap$encode = function (model) {
 	return _elm_lang$core$Json_Encode$object(
 		{
 			ctor: '::',
@@ -30736,180 +31790,56 @@ var _user$project$GraphMap$encode = function (model) {
 			}
 		});
 };
-var _user$project$GraphMap$extractCmd = function (record) {
-	return {
-		ctor: '_Tuple2',
-		_0: _elm_lang$core$Native_Utils.update(
-			record,
-			{
-				label: _elm_lang$core$Tuple$first(record.label)
-			}),
-		_1: _elm_lang$core$Tuple$second(record.label)
-	};
-};
-var _user$project$GraphMap$offsetMouse = function (model) {
+var _user$project$MentalMap$offsetMouse = function (model) {
 	return A2(_elm_community$linear_algebra$Math_Vector2$sub, model.mousePos, model.cameraPos);
 };
-var _user$project$GraphMap$getNodePos = F2(
+var _user$project$MentalMap$getNodePos = F2(
 	function (id, graph) {
 		var _p1 = A2(_elm_community$graph$Graph$get, id, graph);
 		if (_p1.ctor === 'Just') {
 			return _p1._0.node.label.pos;
 		} else {
 			return A2(
-				_elm_lang$core$Native_Utils.crash(
-					'GraphMap',
-					{
-						start: {line: 109, column: 20},
-						end: {line: 109, column: 31}
-					}),
+				_user$project$Util$crashLog,
 				'getNodePos got nonexisting id!',
 				A2(_elm_community$linear_algebra$Math_Vector2$vec2, 0, 0));
 		}
 	});
-var _user$project$GraphMap$Model = F4(
-	function (a, b, c, d) {
-		return {graph: a, state: b, mousePos: c, cameraPos: d};
+var _user$project$MentalMap$Model = F5(
+	function (a, b, c, d, e) {
+		return {graph: a, state: b, mousePos: c, cameraPos: d, dirty: e};
 	});
-var _user$project$GraphMap$MovingCamera = F2(
+var _user$project$MentalMap$MovingCamera = F2(
 	function (a, b) {
 		return {ctor: 'MovingCamera', _0: a, _1: b};
 	});
-var _user$project$GraphMap$Connecting = function (a) {
+var _user$project$MentalMap$Connecting = function (a) {
 	return {ctor: 'Connecting', _0: a};
 };
-var _user$project$GraphMap$None = {ctor: 'None'};
-var _user$project$GraphMap$LeaveWindow = {ctor: 'LeaveWindow'};
-var _user$project$GraphMap$Move = function (a) {
-	return {ctor: 'Move', _0: a};
-};
-var _user$project$GraphMap$Release = {ctor: 'Release'};
-var _user$project$GraphMap$Hold = {ctor: 'Hold'};
-var _user$project$GraphMap$Doubleclick = {ctor: 'Doubleclick'};
-var _user$project$GraphMap$EdgeMsg = F2(
-	function (a, b) {
-		return {ctor: 'EdgeMsg', _0: a, _1: b};
+var _user$project$MentalMap$None = {ctor: 'None'};
+var _user$project$MentalMap$fullInit = F4(
+	function (dirty, camera, nodes, edges) {
+		return {
+			graph: _user$project$Layout$randomlyArrange(
+				A2(_elm_community$graph$Graph$fromNodesAndEdges, nodes, edges)),
+			state: _user$project$MentalMap$None,
+			mousePos: A2(_elm_community$linear_algebra$Math_Vector2$vec2, 0, 0),
+			cameraPos: camera,
+			dirty: dirty
+		};
 	});
-var _user$project$GraphMap$updateNodeOutMsg = F3(
-	function (id, msg, model) {
-		var _p2 = msg;
-		switch (_p2.ctor) {
-			case 'MouseDown':
-				return A2(
-					_elm_lang$core$Platform_Cmd_ops['!'],
-					_elm_lang$core$Native_Utils.update(
-						model,
-						{
-							state: _user$project$GraphMap$Connecting(id)
-						}),
-					{ctor: '[]'});
-			case 'MouseUp':
-				var _p3 = model.state;
-				if (_p3.ctor === 'Connecting') {
-					var edgeId = A2(_user$project$Util_Graph$EdgeId, id, _p3._0);
-					var _p4 = _user$project$Edge$init;
-					var edge = _p4._0;
-					var edgeCmd = _p4._1;
-					return A2(
-						_elm_lang$core$Platform_Cmd_ops['!'],
-						_elm_lang$core$Native_Utils.update(
-							model,
-							{
-								graph: A3(_user$project$Util_Graph$addEdge, edgeId, edge, model.graph),
-								state: _user$project$GraphMap$None
-							}),
-						{
-							ctor: '::',
-							_0: A2(
-								_elm_lang$core$Platform_Cmd$map,
-								_user$project$GraphMap$EdgeMsg(edgeId),
-								edgeCmd),
-							_1: {ctor: '[]'}
-						});
-				} else {
-					return A2(
-						_elm_lang$core$Platform_Cmd_ops['!'],
-						model,
-						{ctor: '[]'});
-				}
-			default:
-				return A2(
-					_elm_lang$core$Platform_Cmd_ops['!'],
-					_elm_lang$core$Native_Utils.update(
-						model,
-						{
-							graph: A2(_elm_community$graph$Graph$remove, id, model.graph)
-						}),
-					{ctor: '[]'});
-		}
-	});
-var _user$project$GraphMap$NodeMsg = F2(
-	function (a, b) {
-		return {ctor: 'NodeMsg', _0: a, _1: b};
-	});
-var _user$project$GraphMap$fullInit = F3(
-	function (camera, nodeStates, edgeStates) {
-		var _p5 = _elm_lang$core$List$unzip(
-			A2(
-				_elm_lang$core$List$map,
-				function (_p6) {
-					var _p7 = _p6;
-					var _p8 = _p7._0;
-					return {
-						ctor: '_Tuple2',
-						_0: _p8,
-						_1: A3(
-							_elm_lang$core$Basics$flip,
-							_elm_lang$core$Platform_Cmd$map,
-							_p7._1,
-							_user$project$GraphMap$EdgeMsg(
-								A2(_user$project$Util_Graph$EdgeId, _p8.from, _p8.to)))
-					};
-				},
-				edgeStates));
-		var edges = _p5._0;
-		var edgeCmds = _p5._1;
-		var _p9 = _elm_lang$core$List$unzip(
-			A2(
-				_elm_lang$core$List$map,
-				function (_p10) {
-					var _p11 = _p10;
-					var _p12 = _p11._0;
-					return {
-						ctor: '_Tuple2',
-						_0: _p12,
-						_1: A2(
-							_elm_lang$core$Platform_Cmd$map,
-							_user$project$GraphMap$NodeMsg(_p12.id),
-							_p11._1)
-					};
-				},
-				nodeStates));
-		var nodes = _p9._0;
-		var nodeCmds = _p9._1;
-		return A2(
-			_elm_lang$core$Platform_Cmd_ops['!'],
-			{
-				graph: _user$project$Layout$randomlyArrange(
-					A2(_elm_community$graph$Graph$fromNodesAndEdges, nodes, edges)),
-				state: _user$project$GraphMap$None,
-				mousePos: A2(_elm_community$linear_algebra$Math_Vector2$vec2, 0, 0),
-				cameraPos: camera
-			},
-			A2(_elm_lang$core$Basics_ops['++'], edgeCmds, nodeCmds));
-	});
-var _user$project$GraphMap$init = A3(
-	_user$project$GraphMap$fullInit,
+var _user$project$MentalMap$exampleInit = A4(
+	_user$project$MentalMap$fullInit,
+	true,
 	A2(_elm_community$linear_algebra$Math_Vector2$vec2, 0, 0),
 	A2(
 		_elm_lang$core$List$map,
 		function (i) {
 			return A2(
-				_elm_lang$core$Tuple$mapFirst,
-				_elm_community$graph$Graph$Node(i),
-				A3(
+				_elm_community$graph$Graph$Node,
+				i,
+				A2(
 					_user$project$Node$init,
-					i,
 					A2(
 						_elm_lang$core$Basics_ops['++'],
 						'Test node ',
@@ -30919,12 +31849,9 @@ var _user$project$GraphMap$init = A3(
 		A2(_elm_lang$core$List$range, 0, 5)),
 	A2(
 		_elm_lang$core$List$map,
-		function (_p13) {
-			var _p14 = _p13;
-			return A2(
-				_elm_lang$core$Tuple$mapFirst,
-				A2(_elm_community$graph$Graph$Edge, _p14._0, _p14._1),
-				_user$project$Edge$init);
+		function (_p2) {
+			var _p3 = _p2;
+			return A3(_elm_community$graph$Graph$Edge, _p3._0, _p3._1, _user$project$Edge$init);
 		},
 		{
 			ctor: '::',
@@ -30951,37 +31878,103 @@ var _user$project$GraphMap$init = A3(
 				}
 			}
 		}));
-var _user$project$GraphMap$decode = A2(
+var _user$project$MentalMap$emptyInit = A4(
+	_user$project$MentalMap$fullInit,
+	false,
+	A2(_elm_community$linear_algebra$Math_Vector2$vec2, 0, 0),
+	{ctor: '[]'},
+	{ctor: '[]'});
+var _user$project$MentalMap$decode = A2(
 	_elm_community$json_extra$Json_Decode_Extra_ops['|:'],
 	A2(
 		_elm_community$json_extra$Json_Decode_Extra_ops['|:'],
 		A2(
 			_elm_community$json_extra$Json_Decode_Extra_ops['|:'],
-			_elm_lang$core$Json_Decode$succeed(_user$project$GraphMap$fullInit),
+			_elm_lang$core$Json_Decode$succeed(
+				_user$project$MentalMap$fullInit(false)),
 			A2(_elm_lang$core$Json_Decode$field, 'camera', _user$project$Util$decodeVec2)),
 		A2(
 			_elm_lang$core$Json_Decode$field,
 			'nodes',
-			_elm_community$json_extra$Json_Decode_Extra$indexedList(
-				function (i) {
-					return A2(
-						_elm_lang$core$Json_Decode$map,
-						_user$project$GraphMap$extractCmd,
-						_user$project$Util_Graph$decodeNode(
-							_user$project$Node$decode(i)));
-				}))),
+			_elm_lang$core$Json_Decode$list(
+				_user$project$Util_Graph$decodeNode(_user$project$Node$decode)))),
 	A2(
 		_elm_lang$core$Json_Decode$field,
 		'edges',
 		_elm_lang$core$Json_Decode$list(
-			A2(
-				_elm_lang$core$Json_Decode$map,
-				_user$project$GraphMap$extractCmd,
-				_user$project$Util_Graph$decodeEdge(_user$project$Edge$decode)))));
-var _user$project$GraphMap$update = F2(
+			_user$project$Util_Graph$decodeEdge(_user$project$Edge$decode))));
+var _user$project$MentalMap$updateNodeOutMsg = F3(
+	function (id, msg, model) {
+		var _p4 = msg;
+		switch (_p4.ctor) {
+			case 'MouseDown':
+				return A2(
+					_elm_lang$core$Platform_Cmd_ops['!'],
+					_elm_lang$core$Native_Utils.update(
+						model,
+						{
+							state: _user$project$MentalMap$Connecting(id)
+						}),
+					{ctor: '[]'});
+			case 'MouseUp':
+				var _p5 = model.state;
+				if (_p5.ctor === 'Connecting') {
+					return A2(
+						_elm_lang$core$Platform_Cmd_ops['!'],
+						_elm_lang$core$Native_Utils.update(
+							model,
+							{
+								graph: A3(
+									_user$project$Util_Graph$addEdge,
+									A2(_user$project$Util_Graph$EdgeId, id, _p5._0),
+									_user$project$Edge$init,
+									model.graph),
+								state: _user$project$MentalMap$None
+							}),
+						{ctor: '[]'});
+				} else {
+					return A2(
+						_elm_lang$core$Platform_Cmd_ops['!'],
+						model,
+						{ctor: '[]'});
+				}
+			case 'Remove':
+				return A2(
+					_elm_lang$core$Platform_Cmd_ops['!'],
+					_elm_lang$core$Native_Utils.update(
+						model,
+						{
+							graph: A2(_elm_community$graph$Graph$remove, id, model.graph)
+						}),
+					{ctor: '[]'});
+			default:
+				return A2(
+					_elm_lang$core$Platform_Cmd_ops['!'],
+					_elm_lang$core$Native_Utils.update(
+						model,
+						{dirty: true}),
+					{ctor: '[]'});
+		}
+	});
+var _user$project$MentalMap$LeaveWindow = {ctor: 'LeaveWindow'};
+var _user$project$MentalMap$Move = function (a) {
+	return {ctor: 'Move', _0: a};
+};
+var _user$project$MentalMap$Release = {ctor: 'Release'};
+var _user$project$MentalMap$Hold = {ctor: 'Hold'};
+var _user$project$MentalMap$Doubleclick = {ctor: 'Doubleclick'};
+var _user$project$MentalMap$EdgeMsg = F2(
+	function (a, b) {
+		return {ctor: 'EdgeMsg', _0: a, _1: b};
+	});
+var _user$project$MentalMap$NodeMsg = F2(
+	function (a, b) {
+		return {ctor: 'NodeMsg', _0: a, _1: b};
+	});
+var _user$project$MentalMap$update = F2(
 	function (msg, model) {
-		var _p15 = msg;
-		switch (_p15.ctor) {
+		var _p6 = msg;
+		switch (_p6.ctor) {
 			case 'NoOp':
 				return A2(
 					_elm_lang$core$Platform_Cmd_ops['!'],
@@ -30997,7 +31990,7 @@ var _user$project$GraphMap$update = F2(
 						}),
 					{ctor: '[]'});
 			case 'NodeMsg':
-				var _p16 = _p15._0;
+				var _p7 = _p6._0;
 				var focusUpdate = F2(
 					function (node, ctx) {
 						return A3(
@@ -31012,24 +32005,23 @@ var _user$project$GraphMap$update = F2(
 						{
 							graph: A3(
 								_elm_community$graph$Graph$update,
-								_p16,
+								_p7,
 								_elm_lang$core$Maybe$map(
 									focusUpdate(newNode)),
 								model.graph)
 						});
 				};
 				var update_ = function (ctx) {
-					return A3(
-						_folkertdev$outmessage$OutMessage$evaluateMaybe,
-						_user$project$GraphMap$updateNodeOutMsg(_p16),
-						_elm_lang$core$Platform_Cmd$none,
+					return A2(
+						_folkertdev$outmessage$OutMessage$evaluateList,
+						_user$project$MentalMap$updateNodeOutMsg(_p7),
 						A2(
 							_folkertdev$outmessage$OutMessage$mapCmd,
-							_user$project$GraphMap$NodeMsg(_p16),
+							_user$project$MentalMap$NodeMsg(_p7),
 							A2(
 								_folkertdev$outmessage$OutMessage$mapComponent,
 								setNode,
-								A2(_user$project$Node$update, _p15._1, ctx.node.label))));
+								A2(_user$project$Node$update, _p6._1, ctx.node.label))));
 				};
 				return A2(
 					_elm_lang$core$Maybe$withDefault,
@@ -31040,16 +32032,16 @@ var _user$project$GraphMap$update = F2(
 					A2(
 						_elm_lang$core$Maybe$map,
 						update_,
-						A2(_elm_community$graph$Graph$get, _p16, model.graph)));
+						A2(_elm_community$graph$Graph$get, _p7, model.graph)));
 			case 'EdgeMsg':
-				var _p17 = _p15._0;
+				var _p8 = _p6._0;
 				var setEdge = function (newEdge) {
 					return _elm_lang$core$Native_Utils.update(
 						model,
 						{
 							graph: A3(
 								_user$project$Util_Graph$updateEdge,
-								_p17,
+								_p8,
 								_elm_lang$core$Basics$always(newEdge),
 								model.graph)
 						});
@@ -31057,15 +32049,15 @@ var _user$project$GraphMap$update = F2(
 				var update_ = function (edge) {
 					return A3(
 						_folkertdev$outmessage$OutMessage$evaluateMaybe,
-						_user$project$GraphMap$updateEdgeOutMsg(_p17),
+						_user$project$MentalMap$updateEdgeOutMsg(_p8),
 						_elm_lang$core$Platform_Cmd$none,
 						A2(
 							_folkertdev$outmessage$OutMessage$mapCmd,
-							_user$project$GraphMap$EdgeMsg(_p17),
+							_user$project$MentalMap$EdgeMsg(_p8),
 							A2(
 								_folkertdev$outmessage$OutMessage$mapComponent,
 								setEdge,
-								A2(_user$project$Edge$update, _p15._1, edge))));
+								A2(_user$project$Edge$update, _p6._1, edge))));
 				};
 				return A2(
 					_elm_lang$core$Maybe$withDefault,
@@ -31076,40 +32068,32 @@ var _user$project$GraphMap$update = F2(
 					A2(
 						_elm_lang$core$Maybe$map,
 						update_,
-						A2(_user$project$Util_Graph$getEdge, _p17, model.graph)));
+						A2(_user$project$Util_Graph$getEdge, _p8, model.graph)));
 			case 'Doubleclick':
-				var id = _user$project$Util_Graph$newNodeId(model.graph);
-				var _p18 = A3(
-					_user$project$Node$init,
-					id,
-					'',
-					_user$project$GraphMap$offsetMouse(model));
-				var node = _p18._0;
-				var nodeCmd = _p18._1;
 				return A2(
 					_elm_lang$core$Platform_Cmd_ops['!'],
 					_elm_lang$core$Native_Utils.update(
 						model,
 						{
-							graph: A3(_user$project$Util_Graph$addUnconnectedNode, id, node, model.graph)
+							graph: A3(
+								_user$project$Util_Graph$addUnconnectedNode,
+								_user$project$Util_Graph$newNodeId(model.graph),
+								A2(
+									_user$project$Node$init,
+									'',
+									_user$project$MentalMap$offsetMouse(model)),
+								model.graph)
 						}),
-					{
-						ctor: '::',
-						_0: A2(
-							_elm_lang$core$Platform_Cmd$map,
-							_user$project$GraphMap$NodeMsg(id),
-							nodeCmd),
-						_1: {ctor: '[]'}
-					});
+					{ctor: '[]'});
 			case 'Hold':
-				var _p19 = model.state;
-				if (_p19.ctor === 'None') {
+				var _p9 = model.state;
+				if (_p9.ctor === 'None') {
 					return A2(
 						_elm_lang$core$Platform_Cmd_ops['!'],
 						_elm_lang$core$Native_Utils.update(
 							model,
 							{
-								state: A2(_user$project$GraphMap$MovingCamera, model.mousePos, model.cameraPos)
+								state: A2(_user$project$MentalMap$MovingCamera, model.mousePos, model.cameraPos)
 							}),
 						{ctor: '[]'});
 				} else {
@@ -31123,12 +32107,12 @@ var _user$project$GraphMap$update = F2(
 					_elm_lang$core$Platform_Cmd_ops['!'],
 					_elm_lang$core$Native_Utils.update(
 						model,
-						{state: _user$project$GraphMap$None}),
+						{state: _user$project$MentalMap$None}),
 					{ctor: '[]'});
 			case 'Move':
-				var _p21 = _p15._0;
-				var _p20 = model.state;
-				if (_p20.ctor === 'MovingCamera') {
+				var _p11 = _p6._0;
+				var _p10 = model.state;
+				if (_p10.ctor === 'MovingCamera') {
 					return A2(
 						_elm_lang$core$Platform_Cmd_ops['!'],
 						_elm_lang$core$Native_Utils.update(
@@ -31136,8 +32120,8 @@ var _user$project$GraphMap$update = F2(
 							{
 								cameraPos: A2(
 									_elm_community$linear_algebra$Math_Vector2$add,
-									_p20._1,
-									A2(_elm_community$linear_algebra$Math_Vector2$sub, _p21, _p20._0))
+									_p10._1,
+									A2(_elm_community$linear_algebra$Math_Vector2$sub, _p11, _p10._0))
 							}),
 						{ctor: '[]'});
 				} else {
@@ -31145,7 +32129,7 @@ var _user$project$GraphMap$update = F2(
 						_elm_lang$core$Platform_Cmd_ops['!'],
 						_elm_lang$core$Native_Utils.update(
 							model,
-							{mousePos: _p21}),
+							{mousePos: _p11}),
 						{ctor: '[]'});
 				}
 			default:
@@ -31153,75 +32137,75 @@ var _user$project$GraphMap$update = F2(
 					_elm_lang$core$Platform_Cmd_ops['!'],
 					_elm_lang$core$Native_Utils.update(
 						model,
-						{state: _user$project$GraphMap$None}),
+						{state: _user$project$MentalMap$None}),
 					{ctor: '[]'});
 		}
 	});
-var _user$project$GraphMap$StepLayout = function (a) {
+var _user$project$MentalMap$StepLayout = function (a) {
 	return {ctor: 'StepLayout', _0: a};
 };
-var _user$project$GraphMap$subscriptions = function (model) {
+var _user$project$MentalMap$subscriptions = function (model) {
 	return _elm_lang$core$Platform_Sub$batch(
 		{
 			ctor: '::',
 			_0: _elm_lang$mouse$Mouse$moves(
-				function (_p22) {
-					var _p23 = _p22;
-					return _user$project$GraphMap$Move(
+				function (_p12) {
+					var _p13 = _p12;
+					return _user$project$MentalMap$Move(
 						A2(
 							_elm_community$linear_algebra$Math_Vector2$vec2,
-							_elm_lang$core$Basics$toFloat(_p23.x),
-							_elm_lang$core$Basics$toFloat(_p23.y)));
+							_elm_lang$core$Basics$toFloat(_p13.x),
+							_elm_lang$core$Basics$toFloat(_p13.y)));
 				}),
 			_1: {
 				ctor: '::',
 				_0: _elm_lang$mouse$Mouse$ups(
-					_elm_lang$core$Basics$always(_user$project$GraphMap$Release)),
+					_elm_lang$core$Basics$always(_user$project$MentalMap$Release)),
 				_1: {
 					ctor: '::',
-					_0: _elm_lang$animation_frame$AnimationFrame$diffs(_user$project$GraphMap$StepLayout),
+					_0: _elm_lang$animation_frame$AnimationFrame$diffs(_user$project$MentalMap$StepLayout),
 					_1: A2(
 						_elm_lang$core$List$map,
-						function (_p24) {
-							var _p25 = _p24;
+						function (_p14) {
+							var _p15 = _p14;
 							return A2(
 								_elm_lang$core$Platform_Sub$map,
-								_user$project$GraphMap$NodeMsg(_p25.id),
-								_user$project$Node$subscriptions(_p25.label));
+								_user$project$MentalMap$NodeMsg(_p15.id),
+								_user$project$Node$subscriptions(_p15.label));
 						},
 						_elm_community$graph$Graph$nodes(model.graph))
 				}
 			}
 		});
 };
-var _user$project$GraphMap$NoOp = {ctor: 'NoOp'};
-var _user$project$GraphMap$view = F2(
+var _user$project$MentalMap$NoOp = {ctor: 'NoOp'};
+var _user$project$MentalMap$view = F2(
 	function (size, model) {
 		var nodes = function (view) {
 			return A2(
 				_elm_lang$core$List$map,
-				function (_p26) {
-					var _p27 = _p26;
+				function (_p16) {
+					var _p17 = _p16;
 					return A2(
 						_elm_lang$html$Html$map,
-						_user$project$GraphMap$NodeMsg(_p27.id),
-						view(_p27.label));
+						_user$project$MentalMap$NodeMsg(_p17.id),
+						view(_p17.label));
 				},
 				_elm_community$graph$Graph$nodes(model.graph));
 		};
 		var connectEdge = function () {
-			var _p28 = model.state;
-			if (_p28.ctor === 'Connecting') {
+			var _p18 = model.state;
+			if (_p18.ctor === 'Connecting') {
 				return {
 					ctor: '::',
 					_0: A2(
 						_elm_lang$html$Html$map,
-						_elm_lang$core$Basics$always(_user$project$GraphMap$NoOp),
+						_elm_lang$core$Basics$always(_user$project$MentalMap$NoOp),
 						A3(
 							_user$project$Edge$svgView,
-							_user$project$GraphMap$offsetMouse(model),
-							A2(_user$project$GraphMap$getNodePos, _p28._0, model.graph),
-							_elm_lang$core$Tuple$first(_user$project$Edge$init))),
+							_user$project$MentalMap$offsetMouse(model),
+							A2(_user$project$MentalMap$getNodePos, _p18._0, model.graph),
+							_user$project$Edge$init)),
 					_1: {ctor: '[]'}
 				};
 			} else {
@@ -31229,19 +32213,19 @@ var _user$project$GraphMap$view = F2(
 			}
 		}();
 		var singleEdge = F2(
-			function (view, _p29) {
-				var _p30 = _p29;
-				var _p32 = _p30.to;
-				var _p31 = _p30.from;
+			function (view, _p19) {
+				var _p20 = _p19;
+				var _p22 = _p20.to;
+				var _p21 = _p20.from;
 				return A2(
 					_elm_lang$html$Html$map,
-					_user$project$GraphMap$EdgeMsg(
-						A2(_user$project$Util_Graph$EdgeId, _p31, _p32)),
+					_user$project$MentalMap$EdgeMsg(
+						A2(_user$project$Util_Graph$EdgeId, _p21, _p22)),
 					A3(
 						view,
-						A2(_user$project$GraphMap$getNodePos, _p31, model.graph),
-						A2(_user$project$GraphMap$getNodePos, _p32, model.graph),
-						_p30.label));
+						A2(_user$project$MentalMap$getNodePos, _p21, model.graph),
+						A2(_user$project$MentalMap$getNodePos, _p22, model.graph),
+						_p20.label));
 			});
 		var edges = function (view) {
 			return A2(
@@ -31249,85 +32233,137 @@ var _user$project$GraphMap$view = F2(
 				singleEdge(view),
 				_elm_community$graph$Graph$edges(model.graph));
 		};
-		return A3(
-			_user$project$Util_Css$layers,
-			0,
+		return A2(
+			_elm_lang$html$Html$div,
 			{
 				ctor: '::',
 				_0: _user$project$Util_Css$userSelect(false),
 				_1: {
 					ctor: '::',
-					_0: _elm_lang$html$Html_Events$onMouseLeave(_user$project$GraphMap$LeaveWindow),
-					_1: {ctor: '[]'}
+					_0: _elm_lang$html$Html_Events$onMouseLeave(_user$project$MentalMap$LeaveWindow),
+					_1: {
+						ctor: '::',
+						_0: _user$project$MyCss$class(
+							{
+								ctor: '::',
+								_0: _user$project$MyCss$AbsolutePos,
+								_1: {
+									ctor: '::',
+									_0: _user$project$MyCss$MaxSize,
+									_1: {ctor: '[]'}
+								}
+							}),
+						_1: {ctor: '[]'}
+					}
 				}
 			},
 			{
 				ctor: '::',
 				_0: A2(
-					_elm_community$typed_svg$TypedSvg$svg,
+					_elm_lang$html$Html$div,
 					{
 						ctor: '::',
-						_0: _user$project$GraphMap$onDoubleClick(_user$project$GraphMap$Doubleclick),
-						_1: {
-							ctor: '::',
-							_0: _user$project$Util_Css$userSelect(true),
-							_1: {
+						_0: _user$project$MyCss$class(
+							{
 								ctor: '::',
-								_0: _elm_community$typed_svg$TypedSvg_Attributes_InPx$width(
-									_elm_lang$core$Basics$toFloat(size.width)),
+								_0: _user$project$MyCss$AbsolutePos,
+								_1: {ctor: '[]'}
+							}),
+						_1: {ctor: '[]'}
+					},
+					_elm_lang$core$List$singleton(
+						A2(
+							_elm_community$typed_svg$TypedSvg$svg,
+							{
+								ctor: '::',
+								_0: _user$project$MentalMap$onDoubleClick(_user$project$MentalMap$Doubleclick),
 								_1: {
 									ctor: '::',
-									_0: _elm_community$typed_svg$TypedSvg_Attributes_InPx$height(
-										_elm_lang$core$Basics$toFloat(size.height)),
+									_0: _user$project$Util_Css$userSelect(true),
 									_1: {
 										ctor: '::',
-										_0: _elm_community$typed_svg$TypedSvg_Events$onMouseUp(_user$project$GraphMap$Release),
+										_0: _elm_community$typed_svg$TypedSvg_Attributes_InPx$width(
+											_elm_lang$core$Basics$toFloat(size.width)),
 										_1: {
 											ctor: '::',
-											_0: _elm_community$typed_svg$TypedSvg_Events$onMouseDown(_user$project$GraphMap$Hold),
-											_1: {ctor: '[]'}
+											_0: _elm_community$typed_svg$TypedSvg_Attributes_InPx$height(
+												_elm_lang$core$Basics$toFloat(size.height)),
+											_1: {
+												ctor: '::',
+												_0: _elm_community$typed_svg$TypedSvg_Events$onMouseUp(_user$project$MentalMap$Release),
+												_1: {
+													ctor: '::',
+													_0: _elm_community$typed_svg$TypedSvg_Events$onMouseDown(_user$project$MentalMap$Hold),
+													_1: {ctor: '[]'}
+												}
+											}
 										}
 									}
 								}
-							}
-						}
-					},
-					{
-						ctor: '::',
-						_0: A2(
-							_elm_community$typed_svg$TypedSvg$g,
+							},
 							{
 								ctor: '::',
-								_0: _elm_community$typed_svg$TypedSvg_Attributes$transform(
+								_0: A2(
+									_elm_community$typed_svg$TypedSvg$g,
 									{
 										ctor: '::',
-										_0: A2(
-											_elm_community$typed_svg$TypedSvg_Types$Translate,
-											_elm_community$linear_algebra$Math_Vector2$getX(model.cameraPos),
-											_elm_community$linear_algebra$Math_Vector2$getY(model.cameraPos)),
+										_0: _elm_community$typed_svg$TypedSvg_Attributes$transform(
+											{
+												ctor: '::',
+												_0: A2(
+													_elm_community$typed_svg$TypedSvg_Types$Translate,
+													_elm_community$linear_algebra$Math_Vector2$getX(model.cameraPos),
+													_elm_community$linear_algebra$Math_Vector2$getY(model.cameraPos)),
+												_1: {ctor: '[]'}
+											}),
 										_1: {ctor: '[]'}
-									}),
+									},
+									A2(
+										_elm_lang$core$Basics_ops['++'],
+										edges(_user$project$Edge$svgView),
+										A2(
+											_elm_lang$core$Basics_ops['++'],
+											connectEdge,
+											nodes(_user$project$Node$svgView)))),
 								_1: {ctor: '[]'}
-							},
-							A2(
-								_elm_lang$core$Basics_ops['++'],
-								edges(_user$project$Edge$svgView),
-								A2(
-									_elm_lang$core$Basics_ops['++'],
-									connectEdge,
-									nodes(_user$project$Node$svgView)))),
-						_1: {ctor: '[]'}
-					}),
+							}))),
 				_1: {
 					ctor: '::',
-					_0: A2(
+					_0: _elm_community$graph$Graph$isEmpty(model.graph) ? A2(
+						_debois$elm_mdl$Material_Options$div,
+						{
+							ctor: '::',
+							_0: _debois$elm_mdl$Material_Options$center,
+							_1: {
+								ctor: '::',
+								_0: _user$project$MyCss$mdlClass(_user$project$MyCss$MaxSize),
+								_1: {ctor: '[]'}
+							}
+						},
+						{
+							ctor: '::',
+							_0: A3(
+								_debois$elm_mdl$Material_Options$styled,
+								_elm_lang$html$Html$p,
+								{
+									ctor: '::',
+									_0: _debois$elm_mdl$Material_Typography$display1,
+									_1: {ctor: '[]'}
+								},
+								{
+									ctor: '::',
+									_0: _elm_lang$html$Html$text('Double click to make a node'),
+									_1: {ctor: '[]'}
+								}),
+							_1: {ctor: '[]'}
+						}) : A2(
 						_elm_lang$html$Html$div,
 						{
 							ctor: '::',
 							_0: _user$project$MyCss$class(
 								{
 									ctor: '::',
-									_0: _user$project$MyCss$GraphMap,
+									_0: _user$project$MyCss$AbsolutePos,
 									_1: {ctor: '[]'}
 								}),
 							_1: {
@@ -31350,72 +32386,632 @@ var _user$project$GraphMap$view = F2(
 							}
 						},
 						A2(
-							_elm_lang$core$Basics_ops['++'],
+							F2(
+								function (x, y) {
+									return A2(_elm_lang$core$Basics_ops['++'], x, y);
+								}),
 							edges(_user$project$Edge$view),
-							nodes(_user$project$Node$view))),
+							A2(
+								_elm_lang$core$List$map,
+								function (_p23) {
+									var _p24 = _p23;
+									var _p25 = _p24.id;
+									return A2(
+										_elm_lang$html$Html$map,
+										_user$project$MentalMap$NodeMsg(_p25),
+										A2(_user$project$Node$view, _p25, _p24.label));
+								},
+								_elm_community$graph$Graph$nodes(model.graph)))),
 					_1: {ctor: '[]'}
 				}
 			});
 	});
 
-var _user$project$Main$Model = F2(
-	function (a, b) {
-		return {size: a, graphMap: b};
-	});
-var _user$project$Main$GraphMapMsg = function (a) {
-	return {ctor: 'GraphMapMsg', _0: a};
-};
-var _user$project$Main$update = F2(
-	function (msg, model) {
-		var _p0 = msg;
-		if (_p0.ctor === 'Resize') {
+var _user$project$Ports_LocalStorage$storageGetItemResponse = _elm_lang$core$Native_Platform.incomingPort(
+	'storageGetItemResponse',
+	A2(
+		_elm_lang$core$Json_Decode$andThen,
+		function (x0) {
 			return A2(
-				_elm_lang$core$Platform_Cmd_ops['!'],
-				_elm_lang$core$Native_Utils.update(
-					model,
-					{size: _p0._0}),
-				{ctor: '[]'});
-		} else {
-			return A3(
-				_user$project$Util_Cmd$update,
-				function (x) {
-					return _elm_lang$core$Native_Utils.update(
-						model,
-						{graphMap: x});
+				_elm_lang$core$Json_Decode$andThen,
+				function (x1) {
+					return _elm_lang$core$Json_Decode$succeed(
+						{ctor: '_Tuple2', _0: x0, _1: x1});
 				},
-				_user$project$Main$GraphMapMsg,
-				A2(_user$project$GraphMap$update, _p0._0, model.graphMap));
+				A2(_elm_lang$core$Json_Decode$index, 1, _elm_lang$core$Json_Decode$value));
+		},
+		A2(_elm_lang$core$Json_Decode$index, 0, _elm_lang$core$Json_Decode$string)));
+var _user$project$Ports_LocalStorage$storageGetItem = _elm_lang$core$Native_Platform.outgoingPort(
+	'storageGetItem',
+	function (v) {
+		return v;
+	});
+var _user$project$Ports_LocalStorage$storageSetItem = _elm_lang$core$Native_Platform.outgoingPort(
+	'storageSetItem',
+	function (v) {
+		return [v._0, v._1];
+	});
+var _user$project$Ports_LocalStorage$storageRemoveItem = _elm_lang$core$Native_Platform.outgoingPort(
+	'storageRemoveItem',
+	function (v) {
+		return v;
+	});
+var _user$project$Ports_LocalStorage$storageClear = _elm_lang$core$Native_Platform.outgoingPort(
+	'storageClear',
+	function (v) {
+		return null;
+	});
+var _user$project$Ports_LocalStorage$storagePushToSet = _elm_lang$core$Native_Platform.outgoingPort(
+	'storagePushToSet',
+	function (v) {
+		return [v._0, v._1];
+	});
+var _user$project$Ports_LocalStorage$storageRemoveFromSet = _elm_lang$core$Native_Platform.outgoingPort(
+	'storageRemoveFromSet',
+	function (v) {
+		return [v._0, v._1];
+	});
+
+var _user$project$Main$localStorageKey = 'data';
+var _user$project$Main$loadCmd = _user$project$Ports_LocalStorage$storageGetItem(_user$project$Main$localStorageKey);
+var _user$project$Main$changeSelection = F2(
+	function (newId, menu) {
+		return ((_elm_lang$core$Native_Utils.cmp(newId, 0) > -1) && (_elm_lang$core$Native_Utils.cmp(
+			newId,
+			_elm_lang$core$Array$length(menu.files)) < 0)) ? _elm_lang$core$Native_Utils.update(
+			menu,
+			{selection: newId}) : A2(_user$project$Util$crashLog, 'Invalid ID!', menu);
+	});
+var _user$project$Main$getSelected = function (menu) {
+	return A2(
+		_elm_lang$core$Maybe$map,
+		function (_) {
+			return _.data;
+		},
+		A2(_elm_lang$core$Array$get, menu.selection, menu.files));
+};
+var _user$project$Main$mapFile = F3(
+	function (id, transform, menu) {
+		var _p0 = A2(_elm_lang$core$Array$get, id, menu.files);
+		if (_p0.ctor === 'Just') {
+			return _elm_lang$core$Native_Utils.update(
+				menu,
+				{
+					files: A3(
+						_elm_lang$core$Array$set,
+						id,
+						transform(_p0._0),
+						menu.files)
+				});
+		} else {
+			return A2(_user$project$Util$crashLog, 'Trying to map nonexistent file!', menu);
 		}
 	});
-var _user$project$Main$view = function (model) {
+var _user$project$Main$setSelected = F2(
+	function (mentalMap, menu) {
+		return A3(
+			_user$project$Main$mapFile,
+			menu.selection,
+			function (old) {
+				return _elm_lang$core$Native_Utils.update(
+					old,
+					{data: mentalMap});
+			},
+			menu);
+	});
+var _user$project$Main$isMenuEmpty = function (_p1) {
 	return A2(
-		_elm_lang$html$Html$map,
-		_user$project$Main$GraphMapMsg,
-		A2(_user$project$GraphMap$view, model.size, model.graphMap));
+		F2(
+			function (x, y) {
+				return _elm_lang$core$Native_Utils.eq(x, y);
+			}),
+		0,
+		_elm_lang$core$Array$length(
+			function (_) {
+				return _.files;
+			}(_p1)));
+};
+var _user$project$Main$encodeFile = function (file) {
+	return _elm_lang$core$Json_Encode$object(
+		{
+			ctor: '::',
+			_0: {
+				ctor: '_Tuple2',
+				_0: 'filename',
+				_1: _elm_lang$core$Json_Encode$string(file.filename)
+			},
+			_1: {
+				ctor: '::',
+				_0: {
+					ctor: '_Tuple2',
+					_0: 'data',
+					_1: _user$project$MentalMap$encode(file.data)
+				},
+				_1: {ctor: '[]'}
+			}
+		});
+};
+var _user$project$Main$save = function (menu) {
+	return _user$project$Ports_LocalStorage$storageSetItem(
+		A2(
+			F2(
+				function (v0, v1) {
+					return {ctor: '_Tuple2', _0: v0, _1: v1};
+				}),
+			_user$project$Main$localStorageKey,
+			_elm_lang$core$Json_Encode$object(
+				{
+					ctor: '::',
+					_0: {
+						ctor: '_Tuple2',
+						_0: 'files',
+						_1: _elm_lang$core$Json_Encode$array(
+							A2(_elm_lang$core$Array$map, _user$project$Main$encodeFile, menu.files))
+					},
+					_1: {
+						ctor: '::',
+						_0: {
+							ctor: '_Tuple2',
+							_0: 'selection',
+							_1: _elm_lang$core$Json_Encode$int(menu.selection)
+						},
+						_1: {ctor: '[]'}
+					}
+				})));
+};
+var _user$project$Main$Model = F5(
+	function (a, b, c, d, e) {
+		return {mdl: a, size: b, loading: c, files: d, selection: e};
+	});
+var _user$project$Main$File = F4(
+	function (a, b, c, d) {
+		return {filename: a, renaming: b, mouseOver: c, data: d};
+	});
+var _user$project$Main$initFile = F2(
+	function (filename, data) {
+		return A4(_user$project$Main$File, filename, false, false, data);
+	});
+var _user$project$Main$decodeFile = A2(
+	_elm_community$json_extra$Json_Decode_Extra_ops['|:'],
+	A2(
+		_elm_community$json_extra$Json_Decode_Extra_ops['|:'],
+		_elm_lang$core$Json_Decode$succeed(_user$project$Main$initFile),
+		A2(_elm_lang$core$Json_Decode$field, 'filename', _elm_lang$core$Json_Decode$string)),
+	A2(_elm_lang$core$Json_Decode$field, 'data', _user$project$MentalMap$decode));
+var _user$project$Main$emptyFile = A2(_user$project$Main$initFile, 'New File', _user$project$MentalMap$emptyInit);
+var _user$project$Main$toStartingMenu = function (menu) {
+	return _elm_lang$core$Native_Utils.update(
+		menu,
+		{
+			files: A2(_elm_lang$core$Array$repeat, 1, _user$project$Main$emptyFile),
+			selection: 0,
+			loading: false
+		});
+};
+var _user$project$Main$deleteFile = F2(
+	function (id, menu) {
+		return _user$project$Main$isMenuEmpty(menu) ? _user$project$Main$toStartingMenu(menu) : _elm_lang$core$Native_Utils.update(
+			menu,
+			{
+				selection: _elm_lang$core$Native_Utils.eq(menu.selection, id) ? 0 : menu.selection,
+				files: A2(_elm_community$array_extra$Array_Extra$removeAt, id, menu.files)
+			});
+	});
+var _user$project$Main$load = F2(
+	function (value, menu) {
+		var _p2 = A2(
+			_elm_lang$core$Json_Decode$decodeValue,
+			A2(
+				_elm_community$json_extra$Json_Decode_Extra_ops['|:'],
+				A2(
+					_elm_community$json_extra$Json_Decode_Extra_ops['|:'],
+					_elm_lang$core$Json_Decode$succeed(
+						F2(
+							function (files, selection) {
+								return _elm_lang$core$Native_Utils.update(
+									menu,
+									{files: files, selection: selection, loading: false});
+							})),
+					A2(
+						_elm_lang$core$Json_Decode$field,
+						'files',
+						_elm_lang$core$Json_Decode$array(_user$project$Main$decodeFile))),
+				A2(_elm_lang$core$Json_Decode$field, 'selection', _elm_lang$core$Json_Decode$int)),
+			value);
+		if (_p2.ctor === 'Ok') {
+			var _p3 = _p2._0;
+			return _user$project$Main$isMenuEmpty(_p3) ? _user$project$Main$toStartingMenu(menu) : _p3;
+		} else {
+			return A2(
+				_elm_lang$core$Debug$log,
+				_p2._0,
+				_user$project$Main$toStartingMenu(menu));
+		}
+	});
+var _user$project$Main$addFile = F3(
+	function (filename, data, menu) {
+		return _elm_lang$core$Native_Utils.update(
+			menu,
+			{
+				files: A2(
+					_elm_lang$core$Array$push,
+					A2(_user$project$Main$initFile, filename, data),
+					menu.files)
+			});
+	});
+var _user$project$Main$Loaded = function (a) {
+	return {ctor: 'Loaded', _0: a};
+};
+var _user$project$Main$Save = {ctor: 'Save'};
+var _user$project$Main$MouseOutFile = function (a) {
+	return {ctor: 'MouseOutFile', _0: a};
+};
+var _user$project$Main$MouseOverFile = function (a) {
+	return {ctor: 'MouseOverFile', _0: a};
+};
+var _user$project$Main$DeleteFile = function (a) {
+	return {ctor: 'DeleteFile', _0: a};
+};
+var _user$project$Main$NewFile = {ctor: 'NewFile'};
+var _user$project$Main$ChangeFilename = F2(
+	function (a, b) {
+		return {ctor: 'ChangeFilename', _0: a, _1: b};
+	});
+var _user$project$Main$ExitRenaming = function (a) {
+	return {ctor: 'ExitRenaming', _0: a};
+};
+var _user$project$Main$EnterRenaming = F2(
+	function (a, b) {
+		return {ctor: 'EnterRenaming', _0: a, _1: b};
+	});
+var _user$project$Main$ChangeSelection = function (a) {
+	return {ctor: 'ChangeSelection', _0: a};
+};
+var _user$project$Main$MdlMsg = function (a) {
+	return {ctor: 'MdlMsg', _0: a};
+};
+var _user$project$Main$viewFile = F3(
+	function (menu, id, file) {
+		var cssId = A2(
+			_elm_lang$core$Basics_ops['++'],
+			'file-',
+			_elm_lang$core$Basics$toString(id));
+		return A2(
+			_debois$elm_mdl$Material_List$li,
+			{
+				ctor: '::',
+				_0: A2(
+					_debois$elm_mdl$Material_Options$when,
+					_elm_lang$core$Native_Utils.eq(menu.selection, id),
+					_debois$elm_mdl$Material_Color$background(
+						A2(_debois$elm_mdl$Material_Color$color, _debois$elm_mdl$Material_Color$Red, _debois$elm_mdl$Material_Color$S200))),
+				_1: {
+					ctor: '::',
+					_0: _user$project$MyCss$mdlClass(_user$project$MyCss$File),
+					_1: {
+						ctor: '::',
+						_0: _debois$elm_mdl$Material_Options$onMouseOver(
+							_user$project$Main$MouseOverFile(id)),
+						_1: {
+							ctor: '::',
+							_0: _debois$elm_mdl$Material_Options$onMouseOut(
+								_user$project$Main$MouseOutFile(id)),
+							_1: {ctor: '[]'}
+						}
+					}
+				}
+			},
+			{
+				ctor: '::',
+				_0: file.renaming ? A5(
+					_debois$elm_mdl$Material_Textfield$render,
+					_user$project$Main$MdlMsg,
+					{
+						ctor: '::',
+						_0: 0,
+						_1: {
+							ctor: '::',
+							_0: 0,
+							_1: {
+								ctor: '::',
+								_0: id,
+								_1: {ctor: '[]'}
+							}
+						}
+					},
+					menu.mdl,
+					{
+						ctor: '::',
+						_0: _debois$elm_mdl$Material_Options$onInput(
+							_user$project$Main$ChangeFilename(id)),
+						_1: {
+							ctor: '::',
+							_0: _debois$elm_mdl$Material_Options$onBlur(
+								_user$project$Main$ExitRenaming(id)),
+							_1: {
+								ctor: '::',
+								_0: _debois$elm_mdl$Material_Options$attribute(
+									_user$project$Util$onEnter(
+										_user$project$Main$ExitRenaming(id))),
+								_1: {
+									ctor: '::',
+									_0: _debois$elm_mdl$Material_Options$id(cssId),
+									_1: {
+										ctor: '::',
+										_0: _debois$elm_mdl$Material_Textfield$value(file.filename),
+										_1: {ctor: '[]'}
+									}
+								}
+							}
+						}
+					},
+					{ctor: '[]'}) : A2(
+					_debois$elm_mdl$Material_List$content,
+					{
+						ctor: '::',
+						_0: _debois$elm_mdl$Material_Options$onDoubleClick(
+							A2(_user$project$Main$EnterRenaming, id, cssId)),
+						_1: {
+							ctor: '::',
+							_0: _debois$elm_mdl$Material_Options$onClick(
+								_user$project$Main$ChangeSelection(id)),
+							_1: {ctor: '[]'}
+						}
+					},
+					{
+						ctor: '::',
+						_0: _elm_lang$html$Html$text(file.filename),
+						_1: {ctor: '[]'}
+					}),
+				_1: {
+					ctor: '::',
+					_0: file.mouseOver ? A2(
+						_debois$elm_mdl$Material_Options$div,
+						{ctor: '[]'},
+						A2(
+							_elm_lang$core$List$indexedMap,
+							F2(
+								function (i, _p4) {
+									var _p5 = _p4;
+									return A5(
+										_debois$elm_mdl$Material_Button$render,
+										_user$project$Main$MdlMsg,
+										{
+											ctor: '::',
+											_0: 0,
+											_1: {
+												ctor: '::',
+												_0: 1,
+												_1: {
+													ctor: '::',
+													_0: i,
+													_1: {ctor: '[]'}
+												}
+											}
+										},
+										menu.mdl,
+										{
+											ctor: '::',
+											_0: _debois$elm_mdl$Material_Button$icon,
+											_1: {
+												ctor: '::',
+												_0: _debois$elm_mdl$Material_Options$onClick(_p5._0),
+												_1: {
+													ctor: '::',
+													_0: _debois$elm_mdl$Material_Options$attribute(
+														_elm_lang$html$Html_Attributes$title(_p5._2)),
+													_1: {ctor: '[]'}
+												}
+											}
+										},
+										{
+											ctor: '::',
+											_0: _debois$elm_mdl$Material_Icon$i(_p5._1),
+											_1: {ctor: '[]'}
+										});
+								}),
+							{
+								ctor: '::',
+								_0: {
+									ctor: '_Tuple3',
+									_0: A2(_user$project$Main$EnterRenaming, id, cssId),
+									_1: 'border_color',
+									_2: 'Rename'
+								},
+								_1: {
+									ctor: '::',
+									_0: {
+										ctor: '_Tuple3',
+										_0: _user$project$Main$DeleteFile(id),
+										_1: 'delete',
+										_2: 'Delete'
+									},
+									_1: {ctor: '[]'}
+								}
+							})) : A2(
+						_debois$elm_mdl$Material_Options$div,
+						{ctor: '[]'},
+						{ctor: '[]'}),
+					_1: {ctor: '[]'}
+				}
+			});
+	});
+var _user$project$Main$viewMenu = function (menu) {
+	return A2(
+		_debois$elm_mdl$Material_Options$div,
+		{
+			ctor: '::',
+			_0: _user$project$MyCss$mdlClass(_user$project$MyCss$Menu),
+			_1: {ctor: '[]'}
+		},
+		{
+			ctor: '::',
+			_0: menu.loading ? _debois$elm_mdl$Material_Progress$indeterminate : A2(
+				_debois$elm_mdl$Material_Options$div,
+				{ctor: '[]'},
+				{ctor: '[]'}),
+			_1: {
+				ctor: '::',
+				_0: A2(
+					_debois$elm_mdl$Material_List$ul,
+					{ctor: '[]'},
+					_elm_lang$core$Array$toList(
+						A2(
+							_elm_lang$core$Array$indexedMap,
+							_user$project$Main$viewFile(menu),
+							menu.files))),
+				_1: {
+					ctor: '::',
+					_0: A2(
+						_debois$elm_mdl$Material_Options$div,
+						{
+							ctor: '::',
+							_0: _user$project$MyCss$mdlClass(_user$project$MyCss$MenuButtons),
+							_1: {ctor: '[]'}
+						},
+						A2(
+							_elm_lang$core$List$indexedMap,
+							F2(
+								function (i, _p6) {
+									var _p7 = _p6;
+									return A5(
+										_debois$elm_mdl$Material_Button$render,
+										_user$project$Main$MdlMsg,
+										{
+											ctor: '::',
+											_0: 1,
+											_1: {
+												ctor: '::',
+												_0: 0,
+												_1: {
+													ctor: '::',
+													_0: i,
+													_1: {ctor: '[]'}
+												}
+											}
+										},
+										menu.mdl,
+										{
+											ctor: '::',
+											_0: _debois$elm_mdl$Material_Button$minifab,
+											_1: {
+												ctor: '::',
+												_0: _debois$elm_mdl$Material_Button$ripple,
+												_1: {
+													ctor: '::',
+													_0: A2(_debois$elm_mdl$Material_Options$when, menu.loading, _debois$elm_mdl$Material_Button$disabled),
+													_1: {
+														ctor: '::',
+														_0: _debois$elm_mdl$Material_Options$onClick(_p7._0),
+														_1: {
+															ctor: '::',
+															_0: _debois$elm_mdl$Material_Options$attribute(
+																_elm_lang$html$Html_Attributes$title(_p7._2)),
+															_1: {ctor: '[]'}
+														}
+													}
+												}
+											}
+										},
+										{
+											ctor: '::',
+											_0: _debois$elm_mdl$Material_Icon$i(_p7._1),
+											_1: {ctor: '[]'}
+										});
+								}),
+							{
+								ctor: '::',
+								_0: {ctor: '_Tuple3', _0: _user$project$Main$NewFile, _1: 'add', _2: 'New file'},
+								_1: {
+									ctor: '::',
+									_0: {ctor: '_Tuple3', _0: _user$project$Main$Save, _1: 'sync', _2: 'Save'},
+									_1: {ctor: '[]'}
+								}
+							})),
+					_1: {ctor: '[]'}
+				}
+			}
+		});
+};
+var _user$project$Main$SelectedMapMsg = function (a) {
+	return {ctor: 'SelectedMapMsg', _0: a};
+};
+var _user$project$Main$view = function (model) {
+	return A4(
+		_debois$elm_mdl$Material_Layout$render,
+		_user$project$Main$MdlMsg,
+		model.mdl,
+		{ctor: '[]'},
+		{
+			main: {
+				ctor: '::',
+				_0: function () {
+					var _p8 = _user$project$Main$getSelected(model);
+					if (_p8.ctor === 'Just') {
+						return A2(
+							_elm_lang$html$Html$map,
+							_user$project$Main$SelectedMapMsg,
+							A2(_user$project$MentalMap$view, model.size, _p8._0));
+					} else {
+						return A2(
+							_debois$elm_mdl$Material_Options$div,
+							{
+								ctor: '::',
+								_0: _debois$elm_mdl$Material_Options$center,
+								_1: {
+									ctor: '::',
+									_0: _user$project$MyCss$mdlClass(_user$project$MyCss$MaxSize),
+									_1: {ctor: '[]'}
+								}
+							},
+							{
+								ctor: '::',
+								_0: _debois$elm_mdl$Material_Spinner$spinner(
+									{
+										ctor: '::',
+										_0: _debois$elm_mdl$Material_Spinner$active(true),
+										_1: {ctor: '[]'}
+									}),
+								_1: {ctor: '[]'}
+							});
+					}
+				}(),
+				_1: {ctor: '[]'}
+			},
+			drawer: {
+				ctor: '::',
+				_0: _user$project$Main$viewMenu(model),
+				_1: {ctor: '[]'}
+			},
+			header: {ctor: '[]'},
+			tabs: {
+				ctor: '_Tuple2',
+				_0: {ctor: '[]'},
+				_1: {ctor: '[]'}
+			}
+		});
 };
 var _user$project$Main$Resize = function (a) {
 	return {ctor: 'Resize', _0: a};
 };
-var _user$project$Main$init = function () {
-	var _p1 = _user$project$GraphMap$init;
-	var graphMap = _p1._0;
-	var graphMapCmd = _p1._1;
-	return A2(
-		_elm_lang$core$Platform_Cmd_ops['!'],
-		A2(
-			_user$project$Main$Model,
-			A2(_user$project$Util$Size, 0, 0),
-			graphMap),
-		{
+var _user$project$Main$init = A2(
+	_elm_lang$core$Platform_Cmd_ops['!'],
+	A5(
+		_user$project$Main$Model,
+		_debois$elm_mdl$Material$model,
+		A2(_user$project$Util$Size, 0, 0),
+		true,
+		_elm_lang$core$Array$empty,
+		0),
+	{
+		ctor: '::',
+		_0: A2(_elm_lang$core$Task$perform, _user$project$Main$Resize, _elm_lang$window$Window$size),
+		_1: {
 			ctor: '::',
-			_0: A2(_elm_lang$core$Task$perform, _user$project$Main$Resize, _elm_lang$window$Window$size),
-			_1: {
-				ctor: '::',
-				_0: A2(_elm_lang$core$Platform_Cmd$map, _user$project$Main$GraphMapMsg, graphMapCmd),
-				_1: {ctor: '[]'}
-			}
-		});
-}();
+			_0: _user$project$Main$loadCmd,
+			_1: {ctor: '[]'}
+		}
+	});
 var _user$project$Main$subscriptions = function (model) {
 	return _elm_lang$core$Platform_Sub$batch(
 		{
@@ -31423,14 +33019,169 @@ var _user$project$Main$subscriptions = function (model) {
 			_0: _elm_lang$window$Window$resizes(_user$project$Main$Resize),
 			_1: {
 				ctor: '::',
-				_0: A2(
-					_elm_lang$core$Platform_Sub$map,
-					_user$project$Main$GraphMapMsg,
-					_user$project$GraphMap$subscriptions(model.graphMap)),
-				_1: {ctor: '[]'}
+				_0: _user$project$Ports_LocalStorage$storageGetItemResponse(_user$project$Main$Loaded),
+				_1: {
+					ctor: '::',
+					_0: function () {
+						var _p9 = _user$project$Main$getSelected(model);
+						if (_p9.ctor === 'Just') {
+							return A2(
+								_elm_lang$core$Platform_Sub$map,
+								_user$project$Main$SelectedMapMsg,
+								_user$project$MentalMap$subscriptions(_p9._0));
+						} else {
+							return _elm_lang$core$Platform_Sub$none;
+						}
+					}(),
+					_1: {ctor: '[]'}
+				}
 			}
 		});
 };
+var _user$project$Main$NoOp = {ctor: 'NoOp'};
+var _user$project$Main$update = F2(
+	function (msg, model) {
+		var _p10 = msg;
+		switch (_p10.ctor) {
+			case 'NoOp':
+				return A2(
+					_elm_lang$core$Platform_Cmd_ops['!'],
+					model,
+					{ctor: '[]'});
+			case 'Resize':
+				return A2(
+					_elm_lang$core$Platform_Cmd_ops['!'],
+					_elm_lang$core$Native_Utils.update(
+						model,
+						{size: _p10._0}),
+					{ctor: '[]'});
+			case 'SelectedMapMsg':
+				var _p11 = _user$project$Main$getSelected(model);
+				if (_p11.ctor === 'Just') {
+					return A3(
+						_user$project$Util_Cmd$update,
+						A2(_elm_lang$core$Basics$flip, _user$project$Main$setSelected, model),
+						_user$project$Main$SelectedMapMsg,
+						A2(_user$project$MentalMap$update, _p10._0, _p11._0));
+				} else {
+					return A2(
+						_user$project$Util$crashLog,
+						'Stray MentalMap message!',
+						A2(
+							_elm_lang$core$Platform_Cmd_ops['!'],
+							model,
+							{ctor: '[]'}));
+				}
+			case 'MdlMsg':
+				return A3(_debois$elm_mdl$Material$update, _user$project$Main$MdlMsg, _p10._0, model);
+			case 'ChangeSelection':
+				return A2(
+					_elm_lang$core$Platform_Cmd_ops['!'],
+					A2(_user$project$Main$changeSelection, _p10._0, model),
+					{ctor: '[]'});
+			case 'EnterRenaming':
+				return A2(
+					_elm_lang$core$Platform_Cmd_ops['!'],
+					A3(
+						_user$project$Main$mapFile,
+						_p10._0,
+						function (file) {
+							return _elm_lang$core$Native_Utils.update(
+								file,
+								{renaming: true});
+						},
+						model),
+					{
+						ctor: '::',
+						_0: A2(
+							_elm_lang$core$Task$attempt,
+							function (_p12) {
+								return _user$project$Main$NoOp;
+							},
+							_elm_lang$dom$Dom$focus(_p10._1)),
+						_1: {ctor: '[]'}
+					});
+			case 'ExitRenaming':
+				return A2(
+					_elm_lang$core$Platform_Cmd_ops['!'],
+					A3(
+						_user$project$Main$mapFile,
+						_p10._0,
+						function (file) {
+							return _elm_lang$core$Native_Utils.update(
+								file,
+								{renaming: false});
+						},
+						model),
+					{ctor: '[]'});
+			case 'ChangeFilename':
+				return A2(
+					_elm_lang$core$Platform_Cmd_ops['!'],
+					A3(
+						_user$project$Main$mapFile,
+						_p10._0,
+						function (file) {
+							return _elm_lang$core$Native_Utils.update(
+								file,
+								{filename: _p10._1});
+						},
+						model),
+					{ctor: '[]'});
+			case 'NewFile':
+				return A2(
+					_elm_lang$core$Platform_Cmd_ops['!'],
+					A3(_user$project$Main$addFile, 'New File', _user$project$MentalMap$emptyInit, model),
+					{ctor: '[]'});
+			case 'DeleteFile':
+				return A2(
+					_elm_lang$core$Platform_Cmd_ops['!'],
+					A2(_user$project$Main$deleteFile, _p10._0, model),
+					{ctor: '[]'});
+			case 'MouseOverFile':
+				return A2(
+					_elm_lang$core$Platform_Cmd_ops['!'],
+					A3(
+						_user$project$Main$mapFile,
+						_p10._0,
+						function (file) {
+							return _elm_lang$core$Native_Utils.update(
+								file,
+								{mouseOver: true});
+						},
+						model),
+					{ctor: '[]'});
+			case 'MouseOutFile':
+				return A2(
+					_elm_lang$core$Platform_Cmd_ops['!'],
+					A3(
+						_user$project$Main$mapFile,
+						_p10._0,
+						function (file) {
+							return _elm_lang$core$Native_Utils.update(
+								file,
+								{mouseOver: false});
+						},
+						model),
+					{ctor: '[]'});
+			case 'Save':
+				return A2(
+					_elm_lang$core$Platform_Cmd_ops['!'],
+					model,
+					{
+						ctor: '::',
+						_0: _user$project$Main$save(model),
+						_1: {ctor: '[]'}
+					});
+			default:
+				return _elm_lang$core$Native_Utils.eq(_p10._0._0, _user$project$Main$localStorageKey) ? A2(
+					_elm_lang$core$Platform_Cmd_ops['!'],
+					A2(_user$project$Main$load, _p10._0._1, model),
+					{ctor: '[]'}) : A2(
+					_elm_lang$core$Platform_Cmd_ops['!'],
+					A2(_user$project$Util$crashLog, 'Recieved item from an unknown key', model),
+					{ctor: '[]'});
+		}
+	});
 var _user$project$Main$main = _elm_lang$html$Html$program(
 	{init: _user$project$Main$init, update: _user$project$Main$update, subscriptions: _user$project$Main$subscriptions, view: _user$project$Main$view})();
 
@@ -31860,7 +33611,7 @@ for (var publicModule in Elm)
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__("./node_modules/css-loader/index.js!./node_modules/elm-css-webpack-loader/index.js!./src/elm/Stylesheets.elm");
+var content = __webpack_require__("./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/elm-css-webpack-loader/index.js!./src/elm/Stylesheets.elm");
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -31874,8 +33625,8 @@ if(content.locals) module.exports = content.locals;
 if(true) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("./node_modules/css-loader/index.js!./node_modules/elm-css-webpack-loader/index.js!./src/elm/Stylesheets.elm", function() {
-			var newContent = __webpack_require__("./node_modules/css-loader/index.js!./node_modules/elm-css-webpack-loader/index.js!./src/elm/Stylesheets.elm");
+		module.hot.accept("./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/elm-css-webpack-loader/index.js!./src/elm/Stylesheets.elm", function() {
+			var newContent = __webpack_require__("./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/elm-css-webpack-loader/index.js!./src/elm/Stylesheets.elm");
 			if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
 			update(newContent);
 		});
