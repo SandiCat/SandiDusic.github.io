@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "1b1965d3b078e888f81a"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "a217d1e032662607843b"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -735,7 +735,7 @@ exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/cs
 
 
 // module
-exports.push([module.i, ".MyCssMaxSize {\n    height: 100%;\n    width: 100%;\n}\n\n.MyCssHeadingText {\n    text-align: center;\n    width: 80%;\n}\n\n.MyCssHeadingText:focus {\n    outline: none;\n}\n\n.MyCssDescription {\n    min-height: 100px;\n    padding: 10px;\n    background-color: rgba(140, 168, 218, .8);\n    position: absolute;\n    top: 50%;\n    left: 100%;\n    margin-left: 20px;\n    -webkit-transform: translateY(-50%);\n            transform: translateY(-50%);\n    z-index: 100;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: row;\n            flex-direction: row;\n}\n\n.MyCssDescriptionToolbar {\n    padding-left: 20px;\n    float: right;\n}\n\n.MyCssDescriptionText {\n    width: 200px;\n}\n\n.MyCssDescriptionEmpty {\n    width: 200px;\n    height: 100%;\n    vertical-align: middle;\n    text-align: center;\n}\n\n::-moz-selection {\n    background: #ee7883 !important;\n}\n\n::selection {\n    background: #ee7883 !important;\n}\n\n.MyCssAbsolutePos {\n    position: absolute;\n}\n\n.MyCssNodeCont {\n    position: absolute;\n    pointer-events: none;\n}\n\n.MyCssNode {\n    width: 100%;\n    height: 100%;\n    left: -50%;\n    top: -50%;\n    position: absolute;\n    pointer-events: auto;\n}\n\n.MyCssNode > div {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n}\n\n.MyCssContextMenu {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    -webkit-transform: translate(-80%, -50%);\n            transform: translate(-80%, -50%);\n    position: absolute;\n    top: 50%;\n    padding: 20px;\n}\n\n.MyCssEdge {\n    position: absolute;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    padding-bottom: 20px;\n}\n\n.MyCssMenu {\n    height: 100%;\n}\n\n.MyCssMenuButtons {\n    position: absolute;\n    bottom: 20px;\n    right: 20px;\n}\n\n.MyCssFile {\n    height: 50px;\n}\n\n.MyCssMentalMap {\n    overflow: hidden;\n}\n\nhtml {\n    position: absolute;\n}\n\n.mdl-layout__drawer-button {\n    color: rgba(140, 168, 218, .8);\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}", ""]);
+exports.push([module.i, ".MyCssMaxSize {\n    height: 100%;\n    width: 100%;\n}\n\n.MyCssHeadingText {\n    text-align: center;\n    width: 80%;\n}\n\n.MyCssHeadingText:focus {\n    outline: none;\n}\n\n.MyCssDescription {\n    background-color: rgba(140, 168, 218, .8);\n    padding: 10px;\n    position: absolute;\n    z-index: 100;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-user-select: text;\n       -moz-user-select: text;\n        -ms-user-select: text;\n            user-select: text;\n}\n\n.MyCssDescriptionSmall {\n    height: 200px;\n    top: 50%;\n    left: 100%;\n    margin-left: 20px;\n    -webkit-transform: translateY(-50%);\n            transform: translateY(-50%);\n}\n\n.MyCssDescriptionSmall > .MyCssDescriptionContent {\n    width: 300px;\n}\n\n.MyCssDescriptionMaximized {\n    position: fixed;\n    width: 60vw;\n    height: 80vh;\n    top: 10vh;\n    left: 20vw;\n}\n\n.MyCssDescriptionMaximized > .MyCssDescriptionContent {\n    -webkit-box-flex: 1;\n        -ms-flex-positive: 1;\n            flex-grow: 1;\n    padding-left: 20px;\n}\n\n.MyCssDescriptionEdit {\n    resize: none;\n    background-color: rgba(0, 0, 0, .1);\n    width: 100%;\n    height: 100%;\n}\n\n.MyCssDescriptionToolbar {\n    padding-left: 20px;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column;\n}\n\n.MyCssDescriptionText {\n    overflow-y: auto;\n    overflow-x: hidden;\n    height: 100%;\n}\n\n.MyCssDescriptionEmpty {\n    width: 100%;\n    height: 100%;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n::-moz-selection {\n    background: #ee7883 !important;\n}\n\n::selection {\n    background: #ee7883 !important;\n}\n\n.MyCssAbsolutePos {\n    position: absolute;\n}\n\n.MyCssNodeCont {\n    position: absolute;\n    pointer-events: none;\n}\n\n.MyCssNode {\n    width: 100%;\n    height: 100%;\n    left: -50%;\n    top: -50%;\n    position: absolute;\n    pointer-events: auto;\n}\n\n.MyCssNode > div {\n    width: 100%;\n    height: 100%;\n    position: absolute;\n}\n\n.MyCssContextMenu {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    -webkit-transform: translate(-80%, -50%);\n            transform: translate(-80%, -50%);\n    position: absolute;\n    top: 50%;\n    padding: 20px;\n}\n\n.MyCssEdge {\n    position: absolute;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    padding-bottom: 20px;\n}\n\n.MyCssMenuButtons {\n    position: absolute;\n    bottom: 20px;\n    right: 20px;\n}\n\n.MyCssFile {\n    height: 50px;\n}\n\n.MyCssMentalMap {\n    overflow: hidden;\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n.MyCssMentalMapSvg {\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n.MyCssHelp {\n    padding-left: 8%;\n    padding-right: 8%;\n    margin: auto;\n    overflow: auto;\n    height: 100%;\n}\n\nhtml {\n    position: absolute;\n}\n\n.mdl-layout__drawer-button {\n    color: rgba(140, 168, 218, .8);\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n.mdl-layout__drawer.is-visible {\n    overflow: hidden;\n}", ""]);
 
 // exports
 
@@ -1422,10 +1422,38 @@ module.exports = function (css) {
 
 /***/ }),
 
+/***/ "./node_modules/webpack/buildin/global.js":
+/***/ (function(module, exports) {
+
+var g;
+
+// This works in non-strict mode
+g = (function() {
+	return this;
+})();
+
+try {
+	// This works if eval is allowed (see CSP)
+	g = g || Function("return this")() || (1,eval)("this");
+} catch(e) {
+	// This works if the window reference is available
+	if(typeof window === "object")
+		g = window;
+}
+
+// g can still be undefined, but nothing to do about it...
+// We return undefined, instead of nothing here, so it's
+// easier to handle this case. if(!global) { ...}
+
+module.exports = g;
+
+
+/***/ }),
+
 /***/ "./src/elm/Main.elm":
 /***/ (function(module, exports, __webpack_require__) {
 
-var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;
+/* WEBPACK VAR INJECTION */(function(global) {var __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;
 (function() {
 'use strict';
 
@@ -23957,6 +23985,147 @@ var _elm_lang$keyboard$Keyboard$subMap = F2(
 	});
 _elm_lang$core$Native_Platform.effectManagers['Keyboard'] = {pkg: 'elm-lang/keyboard', init: _elm_lang$keyboard$Keyboard$init, onEffects: _elm_lang$keyboard$Keyboard$onEffects, onSelfMsg: _elm_lang$keyboard$Keyboard$onSelfMsg, tag: 'sub', subMap: _elm_lang$keyboard$Keyboard$subMap};
 
+var _evancz$elm_markdown$Native_Markdown = function() {
+
+
+// VIRTUAL-DOM WIDGETS
+
+function toHtml(options, factList, rawMarkdown)
+{
+	var model = {
+		options: options,
+		markdown: rawMarkdown
+	};
+	return _elm_lang$virtual_dom$Native_VirtualDom.custom(factList, model, implementation);
+}
+
+
+// WIDGET IMPLEMENTATION
+
+var implementation = {
+	render: render,
+	diff: diff
+};
+
+function render(model)
+{
+	var html = marked(model.markdown, formatOptions(model.options));
+	var div = document.createElement('div');
+	div.innerHTML = html;
+	return div;
+}
+
+function diff(a, b)
+{
+	
+	if (a.model.markdown === b.model.markdown && a.model.options === b.model.options)
+	{
+		return null;
+	}
+
+	return {
+		applyPatch: applyPatch,
+		data: marked(b.model.markdown, formatOptions(b.model.options))
+	};
+}
+
+function applyPatch(domNode, data)
+{
+	domNode.innerHTML = data;
+	return domNode;
+}
+
+
+// ACTUAL MARKDOWN PARSER
+
+var marked = function() {
+	// catch the `marked` object regardless of the outer environment.
+	// (ex. a CommonJS module compatible environment.)
+	// note that this depends on marked's implementation of environment detection.
+	var module = {};
+	var exports = module.exports = {};
+
+	/**
+	 * marked - a markdown parser
+	 * Copyright (c) 2011-2014, Christopher Jeffrey. (MIT Licensed)
+	 * https://github.com/chjj/marked
+	 * commit cd2f6f5b7091154c5526e79b5f3bfb4d15995a51
+	 */
+	(function(){var block={newline:/^\n+/,code:/^( {4}[^\n]+\n*)+/,fences:noop,hr:/^( *[-*_]){3,} *(?:\n+|$)/,heading:/^ *(#{1,6}) *([^\n]+?) *#* *(?:\n+|$)/,nptable:noop,lheading:/^([^\n]+)\n *(=|-){2,} *(?:\n+|$)/,blockquote:/^( *>[^\n]+(\n(?!def)[^\n]+)*\n*)+/,list:/^( *)(bull) [\s\S]+?(?:hr|def|\n{2,}(?! )(?!\1bull )\n*|\s*$)/,html:/^ *(?:comment *(?:\n|\s*$)|closed *(?:\n{2,}|\s*$)|closing *(?:\n{2,}|\s*$))/,def:/^ *\[([^\]]+)\]: *<?([^\s>]+)>?(?: +["(]([^\n]+)[")])? *(?:\n+|$)/,table:noop,paragraph:/^((?:[^\n]+\n?(?!hr|heading|lheading|blockquote|tag|def))+)\n*/,text:/^[^\n]+/};block.bullet=/(?:[*+-]|\d+\.)/;block.item=/^( *)(bull) [^\n]*(?:\n(?!\1bull )[^\n]*)*/;block.item=replace(block.item,"gm")(/bull/g,block.bullet)();block.list=replace(block.list)(/bull/g,block.bullet)("hr","\\n+(?=\\1?(?:[-*_] *){3,}(?:\\n+|$))")("def","\\n+(?="+block.def.source+")")();block.blockquote=replace(block.blockquote)("def",block.def)();block._tag="(?!(?:"+"a|em|strong|small|s|cite|q|dfn|abbr|data|time|code"+"|var|samp|kbd|sub|sup|i|b|u|mark|ruby|rt|rp|bdi|bdo"+"|span|br|wbr|ins|del|img)\\b)\\w+(?!:/|[^\\w\\s@]*@)\\b";block.html=replace(block.html)("comment",/<!--[\s\S]*?-->/)("closed",/<(tag)[\s\S]+?<\/\1>/)("closing",/<tag(?:"[^"]*"|'[^']*'|[^'">])*?>/)(/tag/g,block._tag)();block.paragraph=replace(block.paragraph)("hr",block.hr)("heading",block.heading)("lheading",block.lheading)("blockquote",block.blockquote)("tag","<"+block._tag)("def",block.def)();block.normal=merge({},block);block.gfm=merge({},block.normal,{fences:/^ *(`{3,}|~{3,})[ \.]*(\S+)? *\n([\s\S]*?)\s*\1 *(?:\n+|$)/,paragraph:/^/,heading:/^ *(#{1,6}) +([^\n]+?) *#* *(?:\n+|$)/});block.gfm.paragraph=replace(block.paragraph)("(?!","(?!"+block.gfm.fences.source.replace("\\1","\\2")+"|"+block.list.source.replace("\\1","\\3")+"|")();block.tables=merge({},block.gfm,{nptable:/^ *(\S.*\|.*)\n *([-:]+ *\|[-| :]*)\n((?:.*\|.*(?:\n|$))*)\n*/,table:/^ *\|(.+)\n *\|( *[-:]+[-| :]*)\n((?: *\|.*(?:\n|$))*)\n*/});function Lexer(options){this.tokens=[];this.tokens.links={};this.options=options||marked.defaults;this.rules=block.normal;if(this.options.gfm){if(this.options.tables){this.rules=block.tables}else{this.rules=block.gfm}}}Lexer.rules=block;Lexer.lex=function(src,options){var lexer=new Lexer(options);return lexer.lex(src)};Lexer.prototype.lex=function(src){src=src.replace(/\r\n|\r/g,"\n").replace(/\t/g,"    ").replace(/\u00a0/g," ").replace(/\u2424/g,"\n");return this.token(src,true)};Lexer.prototype.token=function(src,top,bq){var src=src.replace(/^ +$/gm,""),next,loose,cap,bull,b,item,space,i,l;while(src){if(cap=this.rules.newline.exec(src)){src=src.substring(cap[0].length);if(cap[0].length>1){this.tokens.push({type:"space"})}}if(cap=this.rules.code.exec(src)){src=src.substring(cap[0].length);cap=cap[0].replace(/^ {4}/gm,"");this.tokens.push({type:"code",text:!this.options.pedantic?cap.replace(/\n+$/,""):cap});continue}if(cap=this.rules.fences.exec(src)){src=src.substring(cap[0].length);this.tokens.push({type:"code",lang:cap[2],text:cap[3]||""});continue}if(cap=this.rules.heading.exec(src)){src=src.substring(cap[0].length);this.tokens.push({type:"heading",depth:cap[1].length,text:cap[2]});continue}if(top&&(cap=this.rules.nptable.exec(src))){src=src.substring(cap[0].length);item={type:"table",header:cap[1].replace(/^ *| *\| *$/g,"").split(/ *\| */),align:cap[2].replace(/^ *|\| *$/g,"").split(/ *\| */),cells:cap[3].replace(/\n$/,"").split("\n")};for(i=0;i<item.align.length;i++){if(/^ *-+: *$/.test(item.align[i])){item.align[i]="right"}else if(/^ *:-+: *$/.test(item.align[i])){item.align[i]="center"}else if(/^ *:-+ *$/.test(item.align[i])){item.align[i]="left"}else{item.align[i]=null}}for(i=0;i<item.cells.length;i++){item.cells[i]=item.cells[i].split(/ *\| */)}this.tokens.push(item);continue}if(cap=this.rules.lheading.exec(src)){src=src.substring(cap[0].length);this.tokens.push({type:"heading",depth:cap[2]==="="?1:2,text:cap[1]});continue}if(cap=this.rules.hr.exec(src)){src=src.substring(cap[0].length);this.tokens.push({type:"hr"});continue}if(cap=this.rules.blockquote.exec(src)){src=src.substring(cap[0].length);this.tokens.push({type:"blockquote_start"});cap=cap[0].replace(/^ *> ?/gm,"");this.token(cap,top,true);this.tokens.push({type:"blockquote_end"});continue}if(cap=this.rules.list.exec(src)){src=src.substring(cap[0].length);bull=cap[2];this.tokens.push({type:"list_start",ordered:bull.length>1});cap=cap[0].match(this.rules.item);next=false;l=cap.length;i=0;for(;i<l;i++){item=cap[i];space=item.length;item=item.replace(/^ *([*+-]|\d+\.) +/,"");if(~item.indexOf("\n ")){space-=item.length;item=!this.options.pedantic?item.replace(new RegExp("^ {1,"+space+"}","gm"),""):item.replace(/^ {1,4}/gm,"")}if(this.options.smartLists&&i!==l-1){b=block.bullet.exec(cap[i+1])[0];if(bull!==b&&!(bull.length>1&&b.length>1)){src=cap.slice(i+1).join("\n")+src;i=l-1}}loose=next||/\n\n(?!\s*$)/.test(item);if(i!==l-1){next=item.charAt(item.length-1)==="\n";if(!loose)loose=next}this.tokens.push({type:loose?"loose_item_start":"list_item_start"});this.token(item,false,bq);this.tokens.push({type:"list_item_end"})}this.tokens.push({type:"list_end"});continue}if(cap=this.rules.html.exec(src)){src=src.substring(cap[0].length);this.tokens.push({type:this.options.sanitize?"paragraph":"html",pre:!this.options.sanitizer&&(cap[1]==="pre"||cap[1]==="script"||cap[1]==="style"),text:cap[0]});continue}if(!bq&&top&&(cap=this.rules.def.exec(src))){src=src.substring(cap[0].length);this.tokens.links[cap[1].toLowerCase()]={href:cap[2],title:cap[3]};continue}if(top&&(cap=this.rules.table.exec(src))){src=src.substring(cap[0].length);item={type:"table",header:cap[1].replace(/^ *| *\| *$/g,"").split(/ *\| */),align:cap[2].replace(/^ *|\| *$/g,"").split(/ *\| */),cells:cap[3].replace(/(?: *\| *)?\n$/,"").split("\n")};for(i=0;i<item.align.length;i++){if(/^ *-+: *$/.test(item.align[i])){item.align[i]="right"}else if(/^ *:-+: *$/.test(item.align[i])){item.align[i]="center"}else if(/^ *:-+ *$/.test(item.align[i])){item.align[i]="left"}else{item.align[i]=null}}for(i=0;i<item.cells.length;i++){item.cells[i]=item.cells[i].replace(/^ *\| *| *\| *$/g,"").split(/ *\| */)}this.tokens.push(item);continue}if(top&&(cap=this.rules.paragraph.exec(src))){src=src.substring(cap[0].length);this.tokens.push({type:"paragraph",text:cap[1].charAt(cap[1].length-1)==="\n"?cap[1].slice(0,-1):cap[1]});continue}if(cap=this.rules.text.exec(src)){src=src.substring(cap[0].length);this.tokens.push({type:"text",text:cap[0]});continue}if(src){throw new Error("Infinite loop on byte: "+src.charCodeAt(0))}}return this.tokens};var inline={escape:/^\\([\\`*{}\[\]()#+\-.!_>])/,autolink:/^<([^ >]+(@|:\/)[^ >]+)>/,url:noop,tag:/^<!--[\s\S]*?-->|^<\/?\w+(?:"[^"]*"|'[^']*'|[^'">])*?>/,link:/^!?\[(inside)\]\(href\)/,reflink:/^!?\[(inside)\]\s*\[([^\]]*)\]/,nolink:/^!?\[((?:\[[^\]]*\]|[^\[\]])*)\]/,strong:/^__([\s\S]+?)__(?!_)|^\*\*([\s\S]+?)\*\*(?!\*)/,em:/^\b_((?:[^_]|__)+?)_\b|^\*((?:\*\*|[\s\S])+?)\*(?!\*)/,code:/^(`+)\s*([\s\S]*?[^`])\s*\1(?!`)/,br:/^ {2,}\n(?!\s*$)/,del:noop,text:/^[\s\S]+?(?=[\\<!\[_*`]| {2,}\n|$)/};inline._inside=/(?:\[[^\]]*\]|[^\[\]]|\](?=[^\[]*\]))*/;inline._href=/\s*<?([\s\S]*?)>?(?:\s+['"]([\s\S]*?)['"])?\s*/;inline.link=replace(inline.link)("inside",inline._inside)("href",inline._href)();inline.reflink=replace(inline.reflink)("inside",inline._inside)();inline.normal=merge({},inline);inline.pedantic=merge({},inline.normal,{strong:/^__(?=\S)([\s\S]*?\S)__(?!_)|^\*\*(?=\S)([\s\S]*?\S)\*\*(?!\*)/,em:/^_(?=\S)([\s\S]*?\S)_(?!_)|^\*(?=\S)([\s\S]*?\S)\*(?!\*)/});inline.gfm=merge({},inline.normal,{escape:replace(inline.escape)("])","~|])")(),url:/^(https?:\/\/[^\s<]+[^<.,:;"')\]\s])/,del:/^~~(?=\S)([\s\S]*?\S)~~/,text:replace(inline.text)("]|","~]|")("|","|https?://|")()});inline.breaks=merge({},inline.gfm,{br:replace(inline.br)("{2,}","*")(),text:replace(inline.gfm.text)("{2,}","*")()});function InlineLexer(links,options){this.options=options||marked.defaults;this.links=links;this.rules=inline.normal;this.renderer=this.options.renderer||new Renderer;this.renderer.options=this.options;if(!this.links){throw new Error("Tokens array requires a `links` property.")}if(this.options.gfm){if(this.options.breaks){this.rules=inline.breaks}else{this.rules=inline.gfm}}else if(this.options.pedantic){this.rules=inline.pedantic}}InlineLexer.rules=inline;InlineLexer.output=function(src,links,options){var inline=new InlineLexer(links,options);return inline.output(src)};InlineLexer.prototype.output=function(src){var out="",link,text,href,cap;while(src){if(cap=this.rules.escape.exec(src)){src=src.substring(cap[0].length);out+=cap[1];continue}if(cap=this.rules.autolink.exec(src)){src=src.substring(cap[0].length);if(cap[2]==="@"){text=cap[1].charAt(6)===":"?this.mangle(cap[1].substring(7)):this.mangle(cap[1]);href=this.mangle("mailto:")+text}else{text=escape(cap[1]);href=text}out+=this.renderer.link(href,null,text);continue}if(!this.inLink&&(cap=this.rules.url.exec(src))){src=src.substring(cap[0].length);text=escape(cap[1]);href=text;out+=this.renderer.link(href,null,text);continue}if(cap=this.rules.tag.exec(src)){if(!this.inLink&&/^<a /i.test(cap[0])){this.inLink=true}else if(this.inLink&&/^<\/a>/i.test(cap[0])){this.inLink=false}src=src.substring(cap[0].length);out+=this.options.sanitize?this.options.sanitizer?this.options.sanitizer(cap[0]):escape(cap[0]):cap[0];continue}if(cap=this.rules.link.exec(src)){src=src.substring(cap[0].length);this.inLink=true;out+=this.outputLink(cap,{href:cap[2],title:cap[3]});this.inLink=false;continue}if((cap=this.rules.reflink.exec(src))||(cap=this.rules.nolink.exec(src))){src=src.substring(cap[0].length);link=(cap[2]||cap[1]).replace(/\s+/g," ");link=this.links[link.toLowerCase()];if(!link||!link.href){out+=cap[0].charAt(0);src=cap[0].substring(1)+src;continue}this.inLink=true;out+=this.outputLink(cap,link);this.inLink=false;continue}if(cap=this.rules.strong.exec(src)){src=src.substring(cap[0].length);out+=this.renderer.strong(this.output(cap[2]||cap[1]));continue}if(cap=this.rules.em.exec(src)){src=src.substring(cap[0].length);out+=this.renderer.em(this.output(cap[2]||cap[1]));continue}if(cap=this.rules.code.exec(src)){src=src.substring(cap[0].length);out+=this.renderer.codespan(escape(cap[2],true));continue}if(cap=this.rules.br.exec(src)){src=src.substring(cap[0].length);out+=this.renderer.br();continue}if(cap=this.rules.del.exec(src)){src=src.substring(cap[0].length);out+=this.renderer.del(this.output(cap[1]));continue}if(cap=this.rules.text.exec(src)){src=src.substring(cap[0].length);out+=this.renderer.text(escape(this.smartypants(cap[0])));continue}if(src){throw new Error("Infinite loop on byte: "+src.charCodeAt(0))}}return out};InlineLexer.prototype.outputLink=function(cap,link){var href=escape(link.href),title=link.title?escape(link.title):null;return cap[0].charAt(0)!=="!"?this.renderer.link(href,title,this.output(cap[1])):this.renderer.image(href,title,escape(cap[1]))};InlineLexer.prototype.smartypants=function(text){if(!this.options.smartypants)return text;return text.replace(/---/g,"—").replace(/--/g,"–").replace(/(^|[-\u2014\/(\[{"\s])'/g,"$1‘").replace(/'/g,"’").replace(/(^|[-\u2014\/(\[{\u2018\s])"/g,"$1“").replace(/"/g,"”").replace(/\.{3}/g,"…")};InlineLexer.prototype.mangle=function(text){if(!this.options.mangle)return text;var out="",l=text.length,i=0,ch;for(;i<l;i++){ch=text.charCodeAt(i);if(Math.random()>.5){ch="x"+ch.toString(16)}out+="&#"+ch+";"}return out};function Renderer(options){this.options=options||{}}Renderer.prototype.code=function(code,lang,escaped){if(this.options.highlight){var out=this.options.highlight(code,lang);if(out!=null&&out!==code){escaped=true;code=out}}if(!lang){return"<pre><code>"+(escaped?code:escape(code,true))+"\n</code></pre>"}return'<pre><code class="'+this.options.langPrefix+escape(lang,true)+'">'+(escaped?code:escape(code,true))+"\n</code></pre>\n"};Renderer.prototype.blockquote=function(quote){return"<blockquote>\n"+quote+"</blockquote>\n"};Renderer.prototype.html=function(html){return html};Renderer.prototype.heading=function(text,level,raw){return"<h"+level+' id="'+this.options.headerPrefix+raw.toLowerCase().replace(/[^\w]+/g,"-")+'">'+text+"</h"+level+">\n"};Renderer.prototype.hr=function(){return this.options.xhtml?"<hr/>\n":"<hr>\n"};Renderer.prototype.list=function(body,ordered){var type=ordered?"ol":"ul";return"<"+type+">\n"+body+"</"+type+">\n"};Renderer.prototype.listitem=function(text){return"<li>"+text+"</li>\n"};Renderer.prototype.paragraph=function(text){return"<p>"+text+"</p>\n"};Renderer.prototype.table=function(header,body){return"<table>\n"+"<thead>\n"+header+"</thead>\n"+"<tbody>\n"+body+"</tbody>\n"+"</table>\n"};Renderer.prototype.tablerow=function(content){return"<tr>\n"+content+"</tr>\n"};Renderer.prototype.tablecell=function(content,flags){var type=flags.header?"th":"td";var tag=flags.align?"<"+type+' style="text-align:'+flags.align+'">':"<"+type+">";return tag+content+"</"+type+">\n"};Renderer.prototype.strong=function(text){return"<strong>"+text+"</strong>"};Renderer.prototype.em=function(text){return"<em>"+text+"</em>"};Renderer.prototype.codespan=function(text){return"<code>"+text+"</code>"};Renderer.prototype.br=function(){return this.options.xhtml?"<br/>":"<br>"};Renderer.prototype.del=function(text){return"<del>"+text+"</del>"};Renderer.prototype.link=function(href,title,text){if(this.options.sanitize){try{var prot=decodeURIComponent(unescape(href)).replace(/[^\w:]/g,"").toLowerCase()}catch(e){return""}if(prot.indexOf("javascript:")===0||prot.indexOf("vbscript:")===0||prot.indexOf("data:")===0){return""}}var out='<a href="'+href+'"';if(title){out+=' title="'+title+'"'}out+=">"+text+"</a>";return out};Renderer.prototype.image=function(href,title,text){var out='<img src="'+href+'" alt="'+text+'"';if(title){out+=' title="'+title+'"'}out+=this.options.xhtml?"/>":">";return out};Renderer.prototype.text=function(text){return text};function Parser(options){this.tokens=[];this.token=null;this.options=options||marked.defaults;this.options.renderer=this.options.renderer||new Renderer;this.renderer=this.options.renderer;this.renderer.options=this.options}Parser.parse=function(src,options,renderer){var parser=new Parser(options,renderer);return parser.parse(src)};Parser.prototype.parse=function(src){this.inline=new InlineLexer(src.links,this.options,this.renderer);this.tokens=src.reverse();var out="";while(this.next()){out+=this.tok()}return out};Parser.prototype.next=function(){return this.token=this.tokens.pop()};Parser.prototype.peek=function(){return this.tokens[this.tokens.length-1]||0};Parser.prototype.parseText=function(){var body=this.token.text;while(this.peek().type==="text"){body+="\n"+this.next().text}return this.inline.output(body)};Parser.prototype.tok=function(){switch(this.token.type){case"space":{return""}case"hr":{return this.renderer.hr()}case"heading":{return this.renderer.heading(this.inline.output(this.token.text),this.token.depth,this.token.text)}case"code":{return this.renderer.code(this.token.text,this.token.lang,this.token.escaped)}case"table":{var header="",body="",i,row,cell,flags,j;cell="";for(i=0;i<this.token.header.length;i++){flags={header:true,align:this.token.align[i]};cell+=this.renderer.tablecell(this.inline.output(this.token.header[i]),{header:true,align:this.token.align[i]})}header+=this.renderer.tablerow(cell);for(i=0;i<this.token.cells.length;i++){row=this.token.cells[i];cell="";for(j=0;j<row.length;j++){cell+=this.renderer.tablecell(this.inline.output(row[j]),{header:false,align:this.token.align[j]})}body+=this.renderer.tablerow(cell)}return this.renderer.table(header,body)}case"blockquote_start":{var body="";while(this.next().type!=="blockquote_end"){body+=this.tok()}return this.renderer.blockquote(body)}case"list_start":{var body="",ordered=this.token.ordered;while(this.next().type!=="list_end"){body+=this.tok()}return this.renderer.list(body,ordered)}case"list_item_start":{var body="";while(this.next().type!=="list_item_end"){body+=this.token.type==="text"?this.parseText():this.tok()}return this.renderer.listitem(body)}case"loose_item_start":{var body="";while(this.next().type!=="list_item_end"){body+=this.tok()}return this.renderer.listitem(body)}case"html":{var html=!this.token.pre&&!this.options.pedantic?this.inline.output(this.token.text):this.token.text;return this.renderer.html(html)}case"paragraph":{return this.renderer.paragraph(this.inline.output(this.token.text))}case"text":{return this.renderer.paragraph(this.parseText())}}};function escape(html,encode){return html.replace(!encode?/&(?!#?\w+;)/g:/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;")}function unescape(html){return html.replace(/&(#(?:\d+)|(?:#x[0-9A-Fa-f]+)|(?:\w+));?/g,function(_,n){n=n.toLowerCase();if(n==="colon")return":";if(n.charAt(0)==="#"){return n.charAt(1)==="x"?String.fromCharCode(parseInt(n.substring(2),16)):String.fromCharCode(+n.substring(1))}return""})}function replace(regex,opt){regex=regex.source;opt=opt||"";return function self(name,val){if(!name)return new RegExp(regex,opt);val=val.source||val;val=val.replace(/(^|[^\[])\^/g,"$1");regex=regex.replace(name,val);return self}}function noop(){}noop.exec=noop;function merge(obj){var i=1,target,key;for(;i<arguments.length;i++){target=arguments[i];for(key in target){if(Object.prototype.hasOwnProperty.call(target,key)){obj[key]=target[key]}}}return obj}function marked(src,opt,callback){if(callback||typeof opt==="function"){if(!callback){callback=opt;opt=null}opt=merge({},marked.defaults,opt||{});var highlight=opt.highlight,tokens,pending,i=0;try{tokens=Lexer.lex(src,opt)}catch(e){return callback(e)}pending=tokens.length;var done=function(err){if(err){opt.highlight=highlight;return callback(err)}var out;try{out=Parser.parse(tokens,opt)}catch(e){err=e}opt.highlight=highlight;return err?callback(err):callback(null,out)};if(!highlight||highlight.length<3){return done()}delete opt.highlight;if(!pending)return done();for(;i<tokens.length;i++){(function(token){if(token.type!=="code"){return--pending||done()}return highlight(token.text,token.lang,function(err,code){if(err)return done(err);if(code==null||code===token.text){return--pending||done()}token.text=code;token.escaped=true;--pending||done()})})(tokens[i])}return}try{if(opt)opt=merge({},marked.defaults,opt);return Parser.parse(Lexer.lex(src,opt),opt)}catch(e){e.message+="\nPlease report this to https://github.com/chjj/marked.";if((opt||marked.defaults).silent){return"<p>An error occured:</p><pre>"+escape(e.message+"",true)+"</pre>"}throw e}}marked.options=marked.setOptions=function(opt){merge(marked.defaults,opt);return marked};marked.defaults={gfm:true,tables:true,breaks:false,pedantic:false,sanitize:false,sanitizer:null,mangle:true,smartLists:false,silent:false,highlight:null,langPrefix:"lang-",smartypants:false,headerPrefix:"",renderer:new Renderer,xhtml:false};marked.Parser=Parser;marked.parser=Parser.parse;marked.Renderer=Renderer;marked.Lexer=Lexer;marked.lexer=Lexer.lex;marked.InlineLexer=InlineLexer;marked.inlineLexer=InlineLexer.output;marked.parse=marked;if(typeof module!=="undefined"&&typeof exports==="object"){module.exports=marked}else if(true){!(__WEBPACK_AMD_DEFINE_RESULT__ = (function(){return marked}).call(exports, __webpack_require__, exports, module),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__))}else{this.marked=marked}}).call(function(){return this||(typeof window!=="undefined"?window:global)}());
+
+	return module.exports;
+}();
+
+
+// FORMAT OPTIONS FOR MARKED IMPLEMENTATION
+
+function formatOptions(options)
+{
+	function toHighlight(code, lang)
+	{
+		if (!lang && options.defaultHighlighting.ctor === 'Just')
+		{
+			lang = options.defaultHighlighting._0;
+		}
+
+		if (typeof hljs !== 'undefined' && lang && hljs.listLanguages().indexOf(lang) >= 0)
+		{
+			return hljs.highlight(lang, code, true).value;
+		}
+
+		return code;
+	}
+
+	var gfm = options.githubFlavored;
+	if (gfm.ctor === 'Just')
+	{
+		return {
+			highlight: toHighlight,
+			gfm: true,
+			tables: gfm._0.tables,
+			breaks: gfm._0.breaks,
+			sanitize: options.sanitize,
+			smartypants: options.smartypants
+		};
+	}
+
+	return {
+		highlight: toHighlight,
+		gfm: false,
+		tables: false,
+		breaks: false,
+		sanitize: options.sanitize,
+		smartypants: options.smartypants
+	};
+}
+
+
+// EXPORTS
+
+return {
+	toHtml: F3(toHtml)
+};
+
+}();
+
+var _evancz$elm_markdown$Markdown$toHtmlWith = _evancz$elm_markdown$Native_Markdown.toHtml;
+var _evancz$elm_markdown$Markdown$defaultOptions = {
+	githubFlavored: _elm_lang$core$Maybe$Just(
+		{tables: false, breaks: false}),
+	defaultHighlighting: _elm_lang$core$Maybe$Nothing,
+	sanitize: false,
+	smartypants: false
+};
+var _evancz$elm_markdown$Markdown$toHtml = F2(
+	function (attrs, string) {
+		return A3(_evancz$elm_markdown$Native_Markdown.toHtml, _evancz$elm_markdown$Markdown$defaultOptions, attrs, string);
+	});
+var _evancz$elm_markdown$Markdown$Options = F4(
+	function (a, b, c, d) {
+		return {githubFlavored: a, defaultHighlighting: b, sanitize: c, smartypants: d};
+	});
+
 var _evancz$focus$Focus$update = F3(
 	function (_p0, f, big) {
 		var _p1 = _p0;
@@ -30617,14 +30786,24 @@ var _user$project$MyCss$pointerEvents = function (setting) {
 			}
 		}());
 };
+var _user$project$MyCss$userSelect = function (selectable) {
+	return A2(
+		_rtfeldman$elm_css$Css$property,
+		'user-select',
+		selectable ? 'text' : 'none');
+};
 var _user$project$MyCss_ops = _user$project$MyCss_ops || {};
 _user$project$MyCss_ops['.'] = _rtfeldman$elm_css$Css$class;
+var _user$project$MyCss$style = function (_p1) {
+	return _elm_lang$html$Html_Attributes$style(
+		_rtfeldman$elm_css$Css$asPairs(_p1));
+};
 var _user$project$MyCss$namespaceName = 'MyCss';
-var _user$project$MyCss$_p1 = _rtfeldman$elm_css_helpers$Html_CssHelpers$withNamespace(_user$project$MyCss$namespaceName);
-var _user$project$MyCss$id = _user$project$MyCss$_p1.id;
-var _user$project$MyCss$class = _user$project$MyCss$_p1.$class;
-var _user$project$MyCss$classList = _user$project$MyCss$_p1.classList;
-var _user$project$MyCss$mdlClass = function (_p2) {
+var _user$project$MyCss$_p2 = _rtfeldman$elm_css_helpers$Html_CssHelpers$withNamespace(_user$project$MyCss$namespaceName);
+var _user$project$MyCss$id = _user$project$MyCss$_p2.id;
+var _user$project$MyCss$class = _user$project$MyCss$_p2.$class;
+var _user$project$MyCss$classList = _user$project$MyCss$_p2.classList;
+var _user$project$MyCss$mdlClass = function (_p3) {
 	return _debois$elm_mdl$Material_Options$cs(
 		A2(
 			F2(
@@ -30632,20 +30811,40 @@ var _user$project$MyCss$mdlClass = function (_p2) {
 					return A2(_elm_lang$core$Basics_ops['++'], x, y);
 				}),
 			_user$project$MyCss$namespaceName,
-			_elm_lang$core$Basics$toString(_p2)));
+			_elm_lang$core$Basics$toString(_p3)));
 };
+var _user$project$MyCss$svgClass = function (_p4) {
+	return _elm_community$typed_svg$TypedSvg_Attributes$class(
+		A2(
+			_elm_lang$core$List$map,
+			function (_p5) {
+				return A2(
+					F2(
+						function (x, y) {
+							return A2(_elm_lang$core$Basics_ops['++'], x, y);
+						}),
+					_user$project$MyCss$namespaceName,
+					_elm_lang$core$Basics$toString(_p5));
+			},
+			_p4));
+};
+var _user$project$MyCss$Help = {ctor: 'Help'};
+var _user$project$MyCss$MentalMapSvg = {ctor: 'MentalMapSvg'};
 var _user$project$MyCss$MentalMap = {ctor: 'MentalMap'};
 var _user$project$MyCss$File = {ctor: 'File'};
 var _user$project$MyCss$MenuButtons = {ctor: 'MenuButtons'};
-var _user$project$MyCss$Menu = {ctor: 'Menu'};
 var _user$project$MyCss$Edge = {ctor: 'Edge'};
 var _user$project$MyCss$DescriptionEmpty = {ctor: 'DescriptionEmpty'};
+var _user$project$MyCss$DescriptionEdit = {ctor: 'DescriptionEdit'};
 var _user$project$MyCss$DescriptionText = {ctor: 'DescriptionText'};
 var _user$project$MyCss$DescriptionToolbar = {ctor: 'DescriptionToolbar'};
+var _user$project$MyCss$DescriptionContent = {ctor: 'DescriptionContent'};
+var _user$project$MyCss$DescriptionSmall = {ctor: 'DescriptionSmall'};
+var _user$project$MyCss$DescriptionMaximized = {ctor: 'DescriptionMaximized'};
+var _user$project$MyCss$Description = {ctor: 'Description'};
 var _user$project$MyCss$AbsolutePos = {ctor: 'AbsolutePos'};
 var _user$project$MyCss$MenuIcon = {ctor: 'MenuIcon'};
 var _user$project$MyCss$ContextMenu = {ctor: 'ContextMenu'};
-var _user$project$MyCss$Description = {ctor: 'Description'};
 var _user$project$MyCss$HeadingText = {ctor: 'HeadingText'};
 var _user$project$MyCss$MaxSize = {ctor: 'MaxSize'};
 var _user$project$MyCss$NodeCont = {ctor: 'NodeCont'};
@@ -30653,9 +30852,9 @@ var _user$project$MyCss$Node = {ctor: 'Node'};
 var _user$project$MyCss$NothingAtAllToBeSeenHere = {ctor: 'NothingAtAllToBeSeenHere'};
 var _user$project$MyCss$None = {ctor: 'None'};
 var _user$project$MyCss$Auto = {ctor: 'Auto'};
-var _user$project$MyCss$css = function (_p3) {
+var _user$project$MyCss$css = function (_p6) {
 	return _rtfeldman$elm_css$Css$stylesheet(
-		A2(_rtfeldman$elm_css$Css_Namespace$namespace, _user$project$MyCss$namespaceName, _p3));
+		A2(_rtfeldman$elm_css$Css_Namespace$namespace, _user$project$MyCss$namespaceName, _p6));
 }(
 	{
 		ctor: '::',
@@ -30713,51 +30912,29 @@ var _user$project$MyCss$css = function (_p3) {
 					_user$project$MyCss$Description,
 					{
 						ctor: '::',
-						_0: _rtfeldman$elm_css$Css$minHeight(
-							_rtfeldman$elm_css$Css$px(100)),
+						_0: _rtfeldman$elm_css$Css$backgroundColor(
+							A4(_rtfeldman$elm_css$Css$rgba, 140, 168, 218, 0.8)),
 						_1: {
 							ctor: '::',
 							_0: _rtfeldman$elm_css$Css$padding(
 								_rtfeldman$elm_css$Css$px(10)),
 							_1: {
 								ctor: '::',
-								_0: _rtfeldman$elm_css$Css$backgroundColor(
-									A4(_rtfeldman$elm_css$Css$rgba, 140, 168, 218, 0.8)),
+								_0: _rtfeldman$elm_css$Css$position(_rtfeldman$elm_css$Css$absolute),
 								_1: {
 									ctor: '::',
-									_0: _rtfeldman$elm_css$Css$position(_rtfeldman$elm_css$Css$absolute),
+									_0: _rtfeldman$elm_css$Css$zIndex(
+										_rtfeldman$elm_css$Css$int(100)),
 									_1: {
 										ctor: '::',
-										_0: _rtfeldman$elm_css$Css$top(
-											_rtfeldman$elm_css$Css$pct(50)),
+										_0: _rtfeldman$elm_css$Css$displayFlex,
 										_1: {
 											ctor: '::',
-											_0: _rtfeldman$elm_css$Css$left(
-												_rtfeldman$elm_css$Css$pct(100)),
+											_0: _rtfeldman$elm_css$Css$flexDirection(_rtfeldman$elm_css$Css$row),
 											_1: {
 												ctor: '::',
-												_0: _rtfeldman$elm_css$Css$marginLeft(
-													_rtfeldman$elm_css$Css$px(20)),
-												_1: {
-													ctor: '::',
-													_0: _rtfeldman$elm_css$Css$transform(
-														_rtfeldman$elm_css$Css$translateY(
-															_rtfeldman$elm_css$Css$pct(-50))),
-													_1: {
-														ctor: '::',
-														_0: _rtfeldman$elm_css$Css$zIndex(
-															_rtfeldman$elm_css$Css$int(100)),
-														_1: {
-															ctor: '::',
-															_0: _rtfeldman$elm_css$Css$displayFlex,
-															_1: {
-																ctor: '::',
-																_0: _rtfeldman$elm_css$Css$flexDirection(_rtfeldman$elm_css$Css$row),
-																_1: {ctor: '[]'}
-															}
-														}
-													}
-												}
+												_0: _user$project$MyCss$userSelect(true),
+												_1: {ctor: '[]'}
 											}
 										}
 									}
@@ -30772,15 +30949,52 @@ var _user$project$MyCss$css = function (_p3) {
 							function (x, y) {
 								return A2(_user$project$MyCss_ops['.'], x, y);
 							}),
-						_user$project$MyCss$DescriptionToolbar,
+						_user$project$MyCss$DescriptionSmall,
 						{
 							ctor: '::',
-							_0: _rtfeldman$elm_css$Css$paddingLeft(
-								_rtfeldman$elm_css$Css$px(20)),
+							_0: _rtfeldman$elm_css$Css$height(
+								_rtfeldman$elm_css$Css$px(200)),
 							_1: {
 								ctor: '::',
-								_0: _rtfeldman$elm_css$Css$float(_rtfeldman$elm_css$Css$right),
-								_1: {ctor: '[]'}
+								_0: _rtfeldman$elm_css$Css$top(
+									_rtfeldman$elm_css$Css$pct(50)),
+								_1: {
+									ctor: '::',
+									_0: _rtfeldman$elm_css$Css$left(
+										_rtfeldman$elm_css$Css$pct(100)),
+									_1: {
+										ctor: '::',
+										_0: _rtfeldman$elm_css$Css$marginLeft(
+											_rtfeldman$elm_css$Css$px(20)),
+										_1: {
+											ctor: '::',
+											_0: _rtfeldman$elm_css$Css$transform(
+												_rtfeldman$elm_css$Css$translateY(
+													_rtfeldman$elm_css$Css$pct(-50))),
+											_1: {
+												ctor: '::',
+												_0: _rtfeldman$elm_css$Css$children(
+													{
+														ctor: '::',
+														_0: A2(
+															F2(
+																function (x, y) {
+																	return A2(_user$project$MyCss_ops['.'], x, y);
+																}),
+															_user$project$MyCss$DescriptionContent,
+															{
+																ctor: '::',
+																_0: _rtfeldman$elm_css$Css$width(
+																	_rtfeldman$elm_css$Css$px(300)),
+																_1: {ctor: '[]'}
+															}),
+														_1: {ctor: '[]'}
+													}),
+												_1: {ctor: '[]'}
+											}
+										}
+									}
+								}
 							}
 						}),
 					_1: {
@@ -30790,12 +31004,56 @@ var _user$project$MyCss$css = function (_p3) {
 								function (x, y) {
 									return A2(_user$project$MyCss_ops['.'], x, y);
 								}),
-							_user$project$MyCss$DescriptionText,
+							_user$project$MyCss$DescriptionMaximized,
 							{
 								ctor: '::',
-								_0: _rtfeldman$elm_css$Css$width(
-									_rtfeldman$elm_css$Css$px(200)),
-								_1: {ctor: '[]'}
+								_0: _rtfeldman$elm_css$Css$position(_rtfeldman$elm_css$Css$fixed),
+								_1: {
+									ctor: '::',
+									_0: _rtfeldman$elm_css$Css$width(
+										_rtfeldman$elm_css$Css$vw(60)),
+									_1: {
+										ctor: '::',
+										_0: _rtfeldman$elm_css$Css$height(
+											_rtfeldman$elm_css$Css$vh(80)),
+										_1: {
+											ctor: '::',
+											_0: _rtfeldman$elm_css$Css$top(
+												_rtfeldman$elm_css$Css$vh(10)),
+											_1: {
+												ctor: '::',
+												_0: _rtfeldman$elm_css$Css$left(
+													_rtfeldman$elm_css$Css$vw(20)),
+												_1: {
+													ctor: '::',
+													_0: _rtfeldman$elm_css$Css$children(
+														{
+															ctor: '::',
+															_0: A2(
+																F2(
+																	function (x, y) {
+																		return A2(_user$project$MyCss_ops['.'], x, y);
+																	}),
+																_user$project$MyCss$DescriptionContent,
+																{
+																	ctor: '::',
+																	_0: _rtfeldman$elm_css$Css$flexGrow(
+																		_rtfeldman$elm_css$Css$int(1)),
+																	_1: {
+																		ctor: '::',
+																		_0: _rtfeldman$elm_css$Css$paddingLeft(
+																			_rtfeldman$elm_css$Css$px(20)),
+																		_1: {ctor: '[]'}
+																	}
+																}),
+															_1: {ctor: '[]'}
+														}),
+													_1: {ctor: '[]'}
+												}
+											}
+										}
+									}
+								}
 							}),
 						_1: {
 							ctor: '::',
@@ -30804,21 +31062,22 @@ var _user$project$MyCss$css = function (_p3) {
 									function (x, y) {
 										return A2(_user$project$MyCss_ops['.'], x, y);
 									}),
-								_user$project$MyCss$DescriptionEmpty,
+								_user$project$MyCss$DescriptionEdit,
 								{
 									ctor: '::',
-									_0: _rtfeldman$elm_css$Css$width(
-										_rtfeldman$elm_css$Css$px(200)),
+									_0: _rtfeldman$elm_css$Css$resize(_rtfeldman$elm_css$Css$none),
 									_1: {
 										ctor: '::',
-										_0: _rtfeldman$elm_css$Css$height(
-											_rtfeldman$elm_css$Css$pct(100)),
+										_0: _rtfeldman$elm_css$Css$backgroundColor(
+											A4(_rtfeldman$elm_css$Css$rgba, 0, 0, 0, 0.1)),
 										_1: {
 											ctor: '::',
-											_0: _rtfeldman$elm_css$Css$verticalAlign(_rtfeldman$elm_css$Css$middle),
+											_0: _rtfeldman$elm_css$Css$width(
+												_rtfeldman$elm_css$Css$pct(100)),
 											_1: {
 												ctor: '::',
-												_0: _rtfeldman$elm_css$Css$textAlign(_rtfeldman$elm_css$Css$center),
+												_0: _rtfeldman$elm_css$Css$height(
+													_rtfeldman$elm_css$Css$pct(100)),
 												_1: {ctor: '[]'}
 											}
 										}
@@ -30827,13 +31086,24 @@ var _user$project$MyCss$css = function (_p3) {
 							_1: {
 								ctor: '::',
 								_0: A2(
-									_rtfeldman$elm_css$Css$selector,
-									'::selection',
+									F2(
+										function (x, y) {
+											return A2(_user$project$MyCss_ops['.'], x, y);
+										}),
+									_user$project$MyCss$DescriptionToolbar,
 									{
 										ctor: '::',
-										_0: _rtfeldman$elm_css$Css$important(
-											A2(_rtfeldman$elm_css$Css$property, 'background', '#ee7883')),
-										_1: {ctor: '[]'}
+										_0: _rtfeldman$elm_css$Css$paddingLeft(
+											_rtfeldman$elm_css$Css$px(20)),
+										_1: {
+											ctor: '::',
+											_0: _rtfeldman$elm_css$Css$displayFlex,
+											_1: {
+												ctor: '::',
+												_0: _rtfeldman$elm_css$Css$flexDirection(_rtfeldman$elm_css$Css$column),
+												_1: {ctor: '[]'}
+											}
+										}
 									}),
 								_1: {
 									ctor: '::',
@@ -30842,11 +31112,20 @@ var _user$project$MyCss$css = function (_p3) {
 											function (x, y) {
 												return A2(_user$project$MyCss_ops['.'], x, y);
 											}),
-										_user$project$MyCss$AbsolutePos,
+										_user$project$MyCss$DescriptionText,
 										{
 											ctor: '::',
-											_0: _rtfeldman$elm_css$Css$position(_rtfeldman$elm_css$Css$absolute),
-											_1: {ctor: '[]'}
+											_0: _rtfeldman$elm_css$Css$overflowY(_rtfeldman$elm_css$Css$auto),
+											_1: {
+												ctor: '::',
+												_0: _rtfeldman$elm_css$Css$overflowX(_rtfeldman$elm_css$Css$hidden),
+												_1: {
+													ctor: '::',
+													_0: _rtfeldman$elm_css$Css$height(
+														_rtfeldman$elm_css$Css$pct(100)),
+													_1: {ctor: '[]'}
+												}
+											}
 										}),
 									_1: {
 										ctor: '::',
@@ -30855,76 +31134,40 @@ var _user$project$MyCss$css = function (_p3) {
 												function (x, y) {
 													return A2(_user$project$MyCss_ops['.'], x, y);
 												}),
-											_user$project$MyCss$NodeCont,
+											_user$project$MyCss$DescriptionEmpty,
 											{
 												ctor: '::',
-												_0: _rtfeldman$elm_css$Css$position(_rtfeldman$elm_css$Css$absolute),
+												_0: _rtfeldman$elm_css$Css$width(
+													_rtfeldman$elm_css$Css$pct(100)),
 												_1: {
 													ctor: '::',
-													_0: _user$project$MyCss$pointerEvents(_user$project$MyCss$None),
-													_1: {ctor: '[]'}
+													_0: _rtfeldman$elm_css$Css$height(
+														_rtfeldman$elm_css$Css$pct(100)),
+													_1: {
+														ctor: '::',
+														_0: _rtfeldman$elm_css$Css$displayFlex,
+														_1: {
+															ctor: '::',
+															_0: _rtfeldman$elm_css$Css$justifyContent(_rtfeldman$elm_css$Css$center),
+															_1: {
+																ctor: '::',
+																_0: _rtfeldman$elm_css$Css$alignItems(_rtfeldman$elm_css$Css$center),
+																_1: {ctor: '[]'}
+															}
+														}
+													}
 												}
 											}),
 										_1: {
 											ctor: '::',
 											_0: A2(
-												F2(
-													function (x, y) {
-														return A2(_user$project$MyCss_ops['.'], x, y);
-													}),
-												_user$project$MyCss$Node,
+												_rtfeldman$elm_css$Css$selector,
+												'::selection',
 												{
 													ctor: '::',
-													_0: _rtfeldman$elm_css$Css$width(
-														_rtfeldman$elm_css$Css$pct(100)),
-													_1: {
-														ctor: '::',
-														_0: _rtfeldman$elm_css$Css$height(
-															_rtfeldman$elm_css$Css$pct(100)),
-														_1: {
-															ctor: '::',
-															_0: _rtfeldman$elm_css$Css$left(
-																_rtfeldman$elm_css$Css$pct(-50)),
-															_1: {
-																ctor: '::',
-																_0: _rtfeldman$elm_css$Css$top(
-																	_rtfeldman$elm_css$Css$pct(-50)),
-																_1: {
-																	ctor: '::',
-																	_0: _rtfeldman$elm_css$Css$position(_rtfeldman$elm_css$Css$absolute),
-																	_1: {
-																		ctor: '::',
-																		_0: _user$project$MyCss$pointerEvents(_user$project$MyCss$Auto),
-																		_1: {
-																			ctor: '::',
-																			_0: _rtfeldman$elm_css$Css$children(
-																				{
-																					ctor: '::',
-																					_0: _rtfeldman$elm_css$Css_Elements$div(
-																						{
-																							ctor: '::',
-																							_0: _rtfeldman$elm_css$Css$width(
-																								_rtfeldman$elm_css$Css$pct(100)),
-																							_1: {
-																								ctor: '::',
-																								_0: _rtfeldman$elm_css$Css$height(
-																									_rtfeldman$elm_css$Css$pct(100)),
-																								_1: {
-																									ctor: '::',
-																									_0: _rtfeldman$elm_css$Css$position(_rtfeldman$elm_css$Css$absolute),
-																									_1: {ctor: '[]'}
-																								}
-																							}
-																						}),
-																					_1: {ctor: '[]'}
-																				}),
-																			_1: {ctor: '[]'}
-																		}
-																	}
-																}
-															}
-														}
-													}
+													_0: _rtfeldman$elm_css$Css$important(
+														A2(_rtfeldman$elm_css$Css$property, 'background', '#ee7883')),
+													_1: {ctor: '[]'}
 												}),
 											_1: {
 												ctor: '::',
@@ -30933,37 +31176,11 @@ var _user$project$MyCss$css = function (_p3) {
 														function (x, y) {
 															return A2(_user$project$MyCss_ops['.'], x, y);
 														}),
-													_user$project$MyCss$ContextMenu,
+													_user$project$MyCss$AbsolutePos,
 													{
 														ctor: '::',
-														_0: _rtfeldman$elm_css$Css$displayFlex,
-														_1: {
-															ctor: '::',
-															_0: _rtfeldman$elm_css$Css$flexDirection(_rtfeldman$elm_css$Css$column),
-															_1: {
-																ctor: '::',
-																_0: _rtfeldman$elm_css$Css$transform(
-																	A2(
-																		_rtfeldman$elm_css$Css$translate2,
-																		_rtfeldman$elm_css$Css$pct(-80),
-																		_rtfeldman$elm_css$Css$pct(-50))),
-																_1: {
-																	ctor: '::',
-																	_0: _rtfeldman$elm_css$Css$position(_rtfeldman$elm_css$Css$absolute),
-																	_1: {
-																		ctor: '::',
-																		_0: _rtfeldman$elm_css$Css$top(
-																			_rtfeldman$elm_css$Css$pct(50)),
-																		_1: {
-																			ctor: '::',
-																			_0: _rtfeldman$elm_css$Css$padding(
-																				_rtfeldman$elm_css$Css$px(20)),
-																			_1: {ctor: '[]'}
-																		}
-																	}
-																}
-															}
-														}
+														_0: _rtfeldman$elm_css$Css$position(_rtfeldman$elm_css$Css$absolute),
+														_1: {ctor: '[]'}
 													}),
 												_1: {
 													ctor: '::',
@@ -30972,23 +31189,14 @@ var _user$project$MyCss$css = function (_p3) {
 															function (x, y) {
 																return A2(_user$project$MyCss_ops['.'], x, y);
 															}),
-														_user$project$MyCss$Edge,
+														_user$project$MyCss$NodeCont,
 														{
 															ctor: '::',
 															_0: _rtfeldman$elm_css$Css$position(_rtfeldman$elm_css$Css$absolute),
 															_1: {
 																ctor: '::',
-																_0: _rtfeldman$elm_css$Css$displayFlex,
-																_1: {
-																	ctor: '::',
-																	_0: _rtfeldman$elm_css$Css$flexDirection(_rtfeldman$elm_css$Css$row),
-																	_1: {
-																		ctor: '::',
-																		_0: _rtfeldman$elm_css$Css$paddingBottom(
-																			_rtfeldman$elm_css$Css$px(20)),
-																		_1: {ctor: '[]'}
-																	}
-																}
+																_0: _user$project$MyCss$pointerEvents(_user$project$MyCss$None),
+																_1: {ctor: '[]'}
 															}
 														}),
 													_1: {
@@ -30998,12 +31206,59 @@ var _user$project$MyCss$css = function (_p3) {
 																function (x, y) {
 																	return A2(_user$project$MyCss_ops['.'], x, y);
 																}),
-															_user$project$MyCss$Menu,
+															_user$project$MyCss$Node,
 															{
 																ctor: '::',
-																_0: _rtfeldman$elm_css$Css$height(
+																_0: _rtfeldman$elm_css$Css$width(
 																	_rtfeldman$elm_css$Css$pct(100)),
-																_1: {ctor: '[]'}
+																_1: {
+																	ctor: '::',
+																	_0: _rtfeldman$elm_css$Css$height(
+																		_rtfeldman$elm_css$Css$pct(100)),
+																	_1: {
+																		ctor: '::',
+																		_0: _rtfeldman$elm_css$Css$left(
+																			_rtfeldman$elm_css$Css$pct(-50)),
+																		_1: {
+																			ctor: '::',
+																			_0: _rtfeldman$elm_css$Css$top(
+																				_rtfeldman$elm_css$Css$pct(-50)),
+																			_1: {
+																				ctor: '::',
+																				_0: _rtfeldman$elm_css$Css$position(_rtfeldman$elm_css$Css$absolute),
+																				_1: {
+																					ctor: '::',
+																					_0: _user$project$MyCss$pointerEvents(_user$project$MyCss$Auto),
+																					_1: {
+																						ctor: '::',
+																						_0: _rtfeldman$elm_css$Css$children(
+																							{
+																								ctor: '::',
+																								_0: _rtfeldman$elm_css$Css_Elements$div(
+																									{
+																										ctor: '::',
+																										_0: _rtfeldman$elm_css$Css$width(
+																											_rtfeldman$elm_css$Css$pct(100)),
+																										_1: {
+																											ctor: '::',
+																											_0: _rtfeldman$elm_css$Css$height(
+																												_rtfeldman$elm_css$Css$pct(100)),
+																											_1: {
+																												ctor: '::',
+																												_0: _rtfeldman$elm_css$Css$position(_rtfeldman$elm_css$Css$absolute),
+																												_1: {ctor: '[]'}
+																											}
+																										}
+																									}),
+																								_1: {ctor: '[]'}
+																							}),
+																						_1: {ctor: '[]'}
+																					}
+																				}
+																			}
+																		}
+																	}
+																}
 															}),
 														_1: {
 															ctor: '::',
@@ -31012,19 +31267,35 @@ var _user$project$MyCss$css = function (_p3) {
 																	function (x, y) {
 																		return A2(_user$project$MyCss_ops['.'], x, y);
 																	}),
-																_user$project$MyCss$MenuButtons,
+																_user$project$MyCss$ContextMenu,
 																{
 																	ctor: '::',
-																	_0: _rtfeldman$elm_css$Css$position(_rtfeldman$elm_css$Css$absolute),
+																	_0: _rtfeldman$elm_css$Css$displayFlex,
 																	_1: {
 																		ctor: '::',
-																		_0: _rtfeldman$elm_css$Css$bottom(
-																			_rtfeldman$elm_css$Css$px(20)),
+																		_0: _rtfeldman$elm_css$Css$flexDirection(_rtfeldman$elm_css$Css$column),
 																		_1: {
 																			ctor: '::',
-																			_0: _rtfeldman$elm_css$Css$right(
-																				_rtfeldman$elm_css$Css$px(20)),
-																			_1: {ctor: '[]'}
+																			_0: _rtfeldman$elm_css$Css$transform(
+																				A2(
+																					_rtfeldman$elm_css$Css$translate2,
+																					_rtfeldman$elm_css$Css$pct(-80),
+																					_rtfeldman$elm_css$Css$pct(-50))),
+																			_1: {
+																				ctor: '::',
+																				_0: _rtfeldman$elm_css$Css$position(_rtfeldman$elm_css$Css$absolute),
+																				_1: {
+																					ctor: '::',
+																					_0: _rtfeldman$elm_css$Css$top(
+																						_rtfeldman$elm_css$Css$pct(50)),
+																					_1: {
+																						ctor: '::',
+																						_0: _rtfeldman$elm_css$Css$padding(
+																							_rtfeldman$elm_css$Css$px(20)),
+																						_1: {ctor: '[]'}
+																					}
+																				}
+																			}
 																		}
 																	}
 																}),
@@ -31035,12 +31306,24 @@ var _user$project$MyCss$css = function (_p3) {
 																		function (x, y) {
 																			return A2(_user$project$MyCss_ops['.'], x, y);
 																		}),
-																	_user$project$MyCss$File,
+																	_user$project$MyCss$Edge,
 																	{
 																		ctor: '::',
-																		_0: _rtfeldman$elm_css$Css$height(
-																			_rtfeldman$elm_css$Css$px(50)),
-																		_1: {ctor: '[]'}
+																		_0: _rtfeldman$elm_css$Css$position(_rtfeldman$elm_css$Css$absolute),
+																		_1: {
+																			ctor: '::',
+																			_0: _rtfeldman$elm_css$Css$displayFlex,
+																			_1: {
+																				ctor: '::',
+																				_0: _rtfeldman$elm_css$Css$flexDirection(_rtfeldman$elm_css$Css$row),
+																				_1: {
+																					ctor: '::',
+																					_0: _rtfeldman$elm_css$Css$paddingBottom(
+																						_rtfeldman$elm_css$Css$px(20)),
+																					_1: {ctor: '[]'}
+																				}
+																			}
+																		}
 																	}),
 																_1: {
 																	ctor: '::',
@@ -31049,36 +31332,137 @@ var _user$project$MyCss$css = function (_p3) {
 																			function (x, y) {
 																				return A2(_user$project$MyCss_ops['.'], x, y);
 																			}),
-																		_user$project$MyCss$MentalMap,
+																		_user$project$MyCss$MenuButtons,
 																		{
 																			ctor: '::',
-																			_0: _rtfeldman$elm_css$Css$overflow(_rtfeldman$elm_css$Css$hidden),
-																			_1: {ctor: '[]'}
+																			_0: _rtfeldman$elm_css$Css$position(_rtfeldman$elm_css$Css$absolute),
+																			_1: {
+																				ctor: '::',
+																				_0: _rtfeldman$elm_css$Css$bottom(
+																					_rtfeldman$elm_css$Css$px(20)),
+																				_1: {
+																					ctor: '::',
+																					_0: _rtfeldman$elm_css$Css$right(
+																						_rtfeldman$elm_css$Css$px(20)),
+																					_1: {ctor: '[]'}
+																				}
+																			}
 																		}),
 																	_1: {
 																		ctor: '::',
-																		_0: _rtfeldman$elm_css$Css_Elements$html(
+																		_0: A2(
+																			F2(
+																				function (x, y) {
+																					return A2(_user$project$MyCss_ops['.'], x, y);
+																				}),
+																			_user$project$MyCss$File,
 																			{
 																				ctor: '::',
-																				_0: _rtfeldman$elm_css$Css$position(_rtfeldman$elm_css$Css$absolute),
+																				_0: _rtfeldman$elm_css$Css$height(
+																					_rtfeldman$elm_css$Css$px(50)),
 																				_1: {ctor: '[]'}
 																			}),
 																		_1: {
 																			ctor: '::',
 																			_0: A2(
-																				_rtfeldman$elm_css$Css$selector,
-																				'.mdl-layout__drawer-button',
+																				F2(
+																					function (x, y) {
+																						return A2(_user$project$MyCss_ops['.'], x, y);
+																					}),
+																				_user$project$MyCss$MentalMap,
 																				{
 																					ctor: '::',
-																					_0: _rtfeldman$elm_css$Css$color(
-																						A4(_rtfeldman$elm_css$Css$rgba, 140, 168, 218, 0.8)),
+																					_0: _rtfeldman$elm_css$Css$overflow(_rtfeldman$elm_css$Css$hidden),
 																					_1: {
 																						ctor: '::',
-																						_0: A2(_rtfeldman$elm_css$Css$property, 'user-select', 'none'),
+																						_0: _user$project$MyCss$userSelect(false),
 																						_1: {ctor: '[]'}
 																					}
 																				}),
-																			_1: {ctor: '[]'}
+																			_1: {
+																				ctor: '::',
+																				_0: A2(
+																					F2(
+																						function (x, y) {
+																							return A2(_user$project$MyCss_ops['.'], x, y);
+																						}),
+																					_user$project$MyCss$MentalMapSvg,
+																					{
+																						ctor: '::',
+																						_0: _user$project$MyCss$userSelect(false),
+																						_1: {ctor: '[]'}
+																					}),
+																				_1: {
+																					ctor: '::',
+																					_0: A2(
+																						F2(
+																							function (x, y) {
+																								return A2(_user$project$MyCss_ops['.'], x, y);
+																							}),
+																						_user$project$MyCss$Help,
+																						{
+																							ctor: '::',
+																							_0: _rtfeldman$elm_css$Css$paddingLeft(
+																								_rtfeldman$elm_css$Css$pct(8)),
+																							_1: {
+																								ctor: '::',
+																								_0: _rtfeldman$elm_css$Css$paddingRight(
+																									_rtfeldman$elm_css$Css$pct(8)),
+																								_1: {
+																									ctor: '::',
+																									_0: _rtfeldman$elm_css$Css$margin(_rtfeldman$elm_css$Css$auto),
+																									_1: {
+																										ctor: '::',
+																										_0: _rtfeldman$elm_css$Css$overflow(_rtfeldman$elm_css$Css$auto),
+																										_1: {
+																											ctor: '::',
+																											_0: _rtfeldman$elm_css$Css$height(
+																												_rtfeldman$elm_css$Css$pct(100)),
+																											_1: {ctor: '[]'}
+																										}
+																									}
+																								}
+																							}
+																						}),
+																					_1: {
+																						ctor: '::',
+																						_0: _rtfeldman$elm_css$Css_Elements$html(
+																							{
+																								ctor: '::',
+																								_0: _rtfeldman$elm_css$Css$position(_rtfeldman$elm_css$Css$absolute),
+																								_1: {ctor: '[]'}
+																							}),
+																						_1: {
+																							ctor: '::',
+																							_0: A2(
+																								_rtfeldman$elm_css$Css$selector,
+																								'.mdl-layout__drawer-button',
+																								{
+																									ctor: '::',
+																									_0: _rtfeldman$elm_css$Css$color(
+																										A4(_rtfeldman$elm_css$Css$rgba, 140, 168, 218, 0.8)),
+																									_1: {
+																										ctor: '::',
+																										_0: _user$project$MyCss$userSelect(false),
+																										_1: {ctor: '[]'}
+																									}
+																								}),
+																							_1: {
+																								ctor: '::',
+																								_0: A2(
+																									_rtfeldman$elm_css$Css$selector,
+																									'.mdl-layout__drawer.is-visible',
+																									{
+																										ctor: '::',
+																										_0: _rtfeldman$elm_css$Css$overflow(_rtfeldman$elm_css$Css$hidden),
+																										_1: {ctor: '[]'}
+																									}),
+																								_1: {ctor: '[]'}
+																							}
+																						}
+																					}
+																				}
+																			}
 																		}
 																	}
 																}
@@ -31185,6 +31569,15 @@ var _user$project$Util$nodeFocus = A2(
 					node: update(record.node)
 				});
 		}));
+var _user$project$Util$updateCmd = F3(
+	function (updateOutModel, tagMsg, _p1) {
+		var _p2 = _p1;
+		return {
+			ctor: '_Tuple2',
+			_0: updateOutModel(_p2._0),
+			_1: A2(_elm_lang$core$Platform_Cmd$map, tagMsg, _p2._1)
+		};
+	});
 var _user$project$Util$crashLog = F2(
 	function (message, value) {
 		return _elm_lang$core$Native_Utils.crash(
@@ -31326,44 +31719,6 @@ var _user$project$ContextMenu$view = function (model) {
 			_user$project$ContextMenu$options));
 };
 
-var _user$project$Util_Cmd$update = F3(
-	function (updateOutModel, tagMsg, _p0) {
-		var _p1 = _p0;
-		return {
-			ctor: '_Tuple2',
-			_0: updateOutModel(_p1._0),
-			_1: A2(_elm_lang$core$Platform_Cmd$map, tagMsg, _p1._1)
-		};
-	});
-
-var _user$project$Util_Css$userSelect = function (selectable) {
-	var value = selectable ? 'text' : 'none';
-	return _elm_lang$html$Html_Attributes$style(
-		{
-			ctor: '::',
-			_0: {ctor: '_Tuple2', _0: '-moz-user-select', _1: value},
-			_1: {
-				ctor: '::',
-				_0: {ctor: '_Tuple2', _0: '-webkit-user-select', _1: value},
-				_1: {
-					ctor: '::',
-					_0: {ctor: '_Tuple2', _0: '-ms-user-select', _1: value},
-					_1: {ctor: '[]'}
-				}
-			}
-		});
-};
-var _user$project$Util_Css$style = function (_p0) {
-	return _elm_lang$html$Html_Attributes$style(
-		_rtfeldman$elm_css$Css$asPairs(_p0));
-};
-var _user$project$Util_Css$zIndex = function (z) {
-	return A2(
-		_rtfeldman$elm_css$Css$property,
-		'z-index',
-		_elm_lang$core$Basics$toString(z));
-};
-
 var _user$project$Description$subscriptions = function (model) {
 	return _elm_lang$core$Platform_Sub$none;
 };
@@ -31380,17 +31735,40 @@ var _user$project$Description$encode = function (model) {
 			_1: {ctor: '[]'}
 		});
 };
-var _user$project$Description$Model = F4(
-	function (a, b, c, d) {
-		return {mdl: a, text: b, mouseIn: c, editing: d};
+var _user$project$Description$changeText = F2(
+	function (text, model) {
+		return _elm_lang$core$Native_Utils.update(
+			model,
+			{
+				text: text,
+				markdown: A2(
+					_evancz$elm_markdown$Markdown$toHtml,
+					{ctor: '[]'},
+					text)
+			});
 	});
 var _user$project$Description$init = function (text) {
-	return A4(_user$project$Description$Model, _debois$elm_mdl$Material$model, text, false, false);
+	return {
+		mdl: _debois$elm_mdl$Material$model,
+		text: text,
+		mouseIn: false,
+		editing: false,
+		maximized: false,
+		markdown: A2(
+			_evancz$elm_markdown$Markdown$toHtml,
+			{ctor: '[]'},
+			text)
+	};
 };
 var _user$project$Description$decode = A2(
 	_elm_community$json_extra$Json_Decode_Extra_ops['|:'],
 	_elm_lang$core$Json_Decode$succeed(_user$project$Description$init),
 	A2(_elm_lang$core$Json_Decode$field, 'text', _elm_lang$core$Json_Decode$string));
+var _user$project$Description$Model = F6(
+	function (a, b, c, d, e, f) {
+		return {mdl: a, text: b, mouseIn: c, editing: d, maximized: e, markdown: f};
+	});
+var _user$project$Description$ToggleMaximize = {ctor: 'ToggleMaximize'};
 var _user$project$Description$TextChange = function (a) {
 	return {ctor: 'TextChange', _0: a};
 };
@@ -31427,12 +31805,17 @@ var _user$project$Description$update = F2(
 						model,
 						{editing: !model.editing}),
 					{ctor: '[]'});
+			case 'TextChange':
+				return A2(
+					_elm_lang$core$Platform_Cmd_ops['!'],
+					A2(_user$project$Description$changeText, _p0._0, model),
+					{ctor: '[]'});
 			default:
 				return A2(
 					_elm_lang$core$Platform_Cmd_ops['!'],
 					_elm_lang$core$Native_Utils.update(
 						model,
-						{text: _p0._0}),
+						{maximized: !model.maximized}),
 					{ctor: '[]'});
 		}
 	});
@@ -31450,14 +31833,14 @@ var _user$project$Description$view = function (model) {
 					_0: _user$project$MyCss$mdlClass(_user$project$MyCss$Description),
 					_1: {
 						ctor: '::',
-						_0: _debois$elm_mdl$Material_Options$onMouseOver(_user$project$Description$MouseEnter),
+						_0: _user$project$MyCss$mdlClass(
+							model.maximized ? _user$project$MyCss$DescriptionMaximized : _user$project$MyCss$DescriptionSmall),
 						_1: {
 							ctor: '::',
-							_0: _debois$elm_mdl$Material_Options$onMouseOut(_user$project$Description$MouseLeave),
+							_0: _debois$elm_mdl$Material_Options$onMouseOver(_user$project$Description$MouseEnter),
 							_1: {
 								ctor: '::',
-								_0: _debois$elm_mdl$Material_Options$attribute(
-									_user$project$Util_Css$userSelect(true)),
+								_0: _debois$elm_mdl$Material_Options$onMouseOut(_user$project$Description$MouseLeave),
 								_1: {ctor: '[]'}
 							}
 						}
@@ -31471,42 +31854,34 @@ var _user$project$Description$view = function (model) {
 				_debois$elm_mdl$Material_Options$div,
 				{
 					ctor: '::',
-					_0: _user$project$MyCss$mdlClass(_user$project$MyCss$DescriptionText),
+					_0: _user$project$MyCss$mdlClass(_user$project$MyCss$DescriptionContent),
 					_1: {ctor: '[]'}
 				},
 				{
 					ctor: '::',
-					_0: model.editing ? A5(
-						_debois$elm_mdl$Material_Textfield$render,
-						_user$project$Description$MdlMsg,
-						{
-							ctor: '::',
-							_0: 1,
-							_1: {ctor: '[]'}
-						},
-						model.mdl,
+					_0: model.editing ? A4(
+						_debois$elm_mdl$Material_Options$styled_,
+						_elm_lang$html$Html$textarea,
 						{
 							ctor: '::',
 							_0: _debois$elm_mdl$Material_Typography$body1,
+							_1: {ctor: '[]'}
+						},
+						{
+							ctor: '::',
+							_0: _user$project$MyCss$class(
+								{
+									ctor: '::',
+									_0: _user$project$MyCss$DescriptionEdit,
+									_1: {ctor: '[]'}
+								}),
 							_1: {
 								ctor: '::',
-								_0: _debois$elm_mdl$Material_Textfield$label(_user$project$Description$emptyText),
+								_0: _elm_lang$html$Html_Attributes$defaultValue(model.text),
 								_1: {
 									ctor: '::',
-									_0: _debois$elm_mdl$Material_Textfield$textarea,
-									_1: {
-										ctor: '::',
-										_0: _debois$elm_mdl$Material_Textfield$value(model.text),
-										_1: {
-											ctor: '::',
-											_0: _debois$elm_mdl$Material_Options$onInput(_user$project$Description$TextChange),
-											_1: {
-												ctor: '::',
-												_0: _debois$elm_mdl$Material_Textfield$rows(10),
-												_1: {ctor: '[]'}
-											}
-										}
-									}
+									_0: _elm_lang$html$Html_Events$onInput(_user$project$Description$TextChange),
+									_1: {ctor: '[]'}
 								}
 							}
 						},
@@ -31536,19 +31911,23 @@ var _user$project$Description$view = function (model) {
 						_debois$elm_mdl$Material_Options$div,
 						{
 							ctor: '::',
-							_0: _debois$elm_mdl$Material_Typography$body1,
-							_1: {ctor: '[]'}
+							_0: _user$project$MyCss$mdlClass(_user$project$MyCss$DescriptionText),
+							_1: {
+								ctor: '::',
+								_0: _debois$elm_mdl$Material_Typography$body1,
+								_1: {ctor: '[]'}
+							}
 						},
 						{
 							ctor: '::',
-							_0: _elm_lang$html$Html$text(model.text),
+							_0: model.markdown,
 							_1: {ctor: '[]'}
 						})),
 					_1: {ctor: '[]'}
 				}),
 			_1: {
 				ctor: '::',
-				_0: (model.mouseIn || model.editing) ? A2(
+				_0: (model.mouseIn || (model.editing || model.maximized)) ? A2(
 					_debois$elm_mdl$Material_Options$div,
 					{
 						ctor: '::',
@@ -31563,7 +31942,11 @@ var _user$project$Description$view = function (model) {
 							{
 								ctor: '::',
 								_0: 0,
-								_1: {ctor: '[]'}
+								_1: {
+									ctor: '::',
+									_0: 0,
+									_1: {ctor: '[]'}
+								}
 							},
 							model.mdl,
 							{
@@ -31584,7 +31967,37 @@ var _user$project$Description$view = function (model) {
 								_0: model.editing ? _debois$elm_mdl$Material_Icon$i('done') : _debois$elm_mdl$Material_Icon$i('edit'),
 								_1: {ctor: '[]'}
 							}),
-						_1: {ctor: '[]'}
+						_1: {
+							ctor: '::',
+							_0: A5(
+								_debois$elm_mdl$Material_Button$render,
+								_user$project$Description$MdlMsg,
+								{
+									ctor: '::',
+									_0: 0,
+									_1: {
+										ctor: '::',
+										_0: 1,
+										_1: {ctor: '[]'}
+									}
+								},
+								model.mdl,
+								{
+									ctor: '::',
+									_0: _debois$elm_mdl$Material_Button$minifab,
+									_1: {
+										ctor: '::',
+										_0: _debois$elm_mdl$Material_Options$onClick(_user$project$Description$ToggleMaximize),
+										_1: {ctor: '[]'}
+									}
+								},
+								{
+									ctor: '::',
+									_0: model.maximized ? _debois$elm_mdl$Material_Icon$i('fullscreen_exit') : _debois$elm_mdl$Material_Icon$i('fullscreen'),
+									_1: {ctor: '[]'}
+								}),
+							_1: {ctor: '[]'}
+						}
 					}) : A2(
 					_elm_lang$html$Html$div,
 					{ctor: '[]'},
@@ -31611,7 +32024,7 @@ var _user$project$Edge$svgDefs = A2(
 					_0: A2(_elm_lang$html$Html_Attributes$attribute, 'markerHeight', '4'),
 					_1: {
 						ctor: '::',
-						_0: A2(_elm_lang$html$Html_Attributes$attribute, 'preserveAspectRatio', 'none'),
+						_0: A2(_elm_community$typed_svg$TypedSvg_Attributes$preserveAspectRatio, _elm_community$typed_svg$TypedSvg_Types$AlignNone, _elm_community$typed_svg$TypedSvg_Types$Meet),
 						_1: {
 							ctor: '::',
 							_0: A4(_elm_community$typed_svg$TypedSvg_Attributes$viewBox, 0, 0, 2, 2),
@@ -31964,7 +32377,7 @@ var _user$project$Edge$view = F3(
 								A2(_user$project$Edge$MouseOver, 1, false)),
 							_1: {
 								ctor: '::',
-								_0: _user$project$Util_Css$style(
+								_0: _user$project$MyCss$style(
 									{
 										ctor: '::',
 										_0: _rtfeldman$elm_css$Css$transforms(
@@ -32537,7 +32950,7 @@ var _user$project$Node$view = F2(
 			_elm_lang$html$Html$div,
 			{
 				ctor: '::',
-				_0: _user$project$Util_Css$style(
+				_0: _user$project$MyCss$style(
 					{
 						ctor: '::',
 						_0: _rtfeldman$elm_css$Css$left(
@@ -33610,28 +34023,24 @@ var _user$project$MentalMap$view = F2(
 			_elm_lang$html$Html$div,
 			{
 				ctor: '::',
-				_0: _user$project$Util_Css$userSelect(false),
+				_0: _elm_lang$html$Html_Events$onMouseLeave(_user$project$MentalMap$LeaveWindow),
 				_1: {
 					ctor: '::',
-					_0: _elm_lang$html$Html_Events$onMouseLeave(_user$project$MentalMap$LeaveWindow),
-					_1: {
-						ctor: '::',
-						_0: _user$project$MyCss$class(
-							{
+					_0: _user$project$MyCss$class(
+						{
+							ctor: '::',
+							_0: _user$project$MyCss$AbsolutePos,
+							_1: {
 								ctor: '::',
-								_0: _user$project$MyCss$AbsolutePos,
+								_0: _user$project$MyCss$MaxSize,
 								_1: {
 									ctor: '::',
-									_0: _user$project$MyCss$MaxSize,
-									_1: {
-										ctor: '::',
-										_0: _user$project$MyCss$MentalMap,
-										_1: {ctor: '[]'}
-									}
+									_0: _user$project$MyCss$MentalMap,
+									_1: {ctor: '[]'}
 								}
-							}),
-						_1: {ctor: '[]'}
-					}
+							}
+						}),
+					_1: {ctor: '[]'}
 				}
 			},
 			{
@@ -33656,7 +34065,12 @@ var _user$project$MentalMap$view = F2(
 								_0: _user$project$MentalMap$onDoubleClick(_user$project$MentalMap$Doubleclick),
 								_1: {
 									ctor: '::',
-									_0: _user$project$Util_Css$userSelect(true),
+									_0: _user$project$MyCss$svgClass(
+										{
+											ctor: '::',
+											_0: _user$project$MyCss$MentalMapSvg,
+											_1: {ctor: '[]'}
+										}),
 									_1: {
 										ctor: '::',
 										_0: _elm_community$typed_svg$TypedSvg_Attributes_InPx$width(
@@ -33749,7 +34163,7 @@ var _user$project$MentalMap$view = F2(
 								}),
 							_1: {
 								ctor: '::',
-								_0: _user$project$Util_Css$style(
+								_0: _user$project$MyCss$style(
 									{
 										ctor: '::',
 										_0: _rtfeldman$elm_css$Css$left(
@@ -33834,6 +34248,35 @@ var _user$project$Ports_LocalStorage$storageRemoveFromSet = _elm_lang$core$Nativ
 		return [v._0, v._1];
 	});
 
+var _user$project$Main$helpTab = A3(
+	_debois$elm_mdl$Material_Options$styled,
+	_evancz$elm_markdown$Markdown$toHtml,
+	{
+		ctor: '::',
+		_0: _user$project$MyCss$mdlClass(_user$project$MyCss$Help),
+		_1: {
+			ctor: '::',
+			_0: _debois$elm_mdl$Material_Typography$body1,
+			_1: {ctor: '[]'}
+		}
+	},
+	'\n##### Instructions:\n* Double click to make a new node\n* Click a on node\'s text to edit it\n* Drag from one node to another to connect them\n* Hold `shift` while connecting for a directed edge\n* Drag the background to pan the view\n\n##### Welcome to Konigs!\n\nUse it to map your thoughts. A node is a *thing*: a person, event, image, diagram, formula, object, idea... whatever. By connecting related things, you begin to understand the big picture. Konigs will automatically organize your nodes.\n');
+var _user$project$Main$spacer = function (width) {
+	return A2(
+		_elm_lang$html$Html$span,
+		{
+			ctor: '::',
+			_0: _user$project$MyCss$style(
+				{
+					ctor: '::',
+					_0: _rtfeldman$elm_css$Css$width(
+						_rtfeldman$elm_css$Css$px(width)),
+					_1: {ctor: '[]'}
+				}),
+			_1: {ctor: '[]'}
+		},
+		{ctor: '[]'});
+};
 var _user$project$Main$localStorageKey = 'data';
 var _user$project$Main$loadCmd = _user$project$Ports_LocalStorage$storageGetItem(_user$project$Main$localStorageKey);
 var _user$project$Main$changeSelection = F2(
@@ -33941,9 +34384,9 @@ var _user$project$Main$save = function (menu) {
 					}
 				})));
 };
-var _user$project$Main$Model = F5(
-	function (a, b, c, d, e) {
-		return {mdl: a, size: b, loading: c, files: d, selection: e};
+var _user$project$Main$Model = F6(
+	function (a, b, c, d, e, f) {
+		return {mdl: a, size: b, loading: c, files: d, selection: e, selectedTab: f};
 	});
 var _user$project$Main$File = F4(
 	function (a, b, c, d) {
@@ -34021,6 +34464,9 @@ var _user$project$Main$addFile = F3(
 					menu.files)
 			});
 	});
+var _user$project$Main$SelectTab = function (a) {
+	return {ctor: 'SelectTab', _0: a};
+};
 var _user$project$Main$Loaded = function (a) {
 	return {ctor: 'Loaded', _0: a};
 };
@@ -34090,14 +34536,18 @@ var _user$project$Main$viewFile = F3(
 					_user$project$Main$MdlMsg,
 					{
 						ctor: '::',
-						_0: 0,
+						_0: 1,
 						_1: {
 							ctor: '::',
 							_0: 0,
 							_1: {
 								ctor: '::',
-								_0: id,
-								_1: {ctor: '[]'}
+								_0: 0,
+								_1: {
+									ctor: '::',
+									_0: id,
+									_1: {ctor: '[]'}
+								}
 							}
 						}
 					},
@@ -34162,14 +34612,18 @@ var _user$project$Main$viewFile = F3(
 										_user$project$Main$MdlMsg,
 										{
 											ctor: '::',
-											_0: 0,
+											_0: 1,
 											_1: {
 												ctor: '::',
-												_0: 1,
+												_0: 0,
 												_1: {
 													ctor: '::',
-													_0: i,
-													_1: {ctor: '[]'}
+													_0: 1,
+													_1: {
+														ctor: '::',
+														_0: i,
+														_1: {ctor: '[]'}
+													}
 												}
 											}
 										},
@@ -34223,11 +34677,7 @@ var _user$project$Main$viewFile = F3(
 var _user$project$Main$viewMenu = function (menu) {
 	return A2(
 		_debois$elm_mdl$Material_Options$div,
-		{
-			ctor: '::',
-			_0: _user$project$MyCss$mdlClass(_user$project$MyCss$Menu),
-			_1: {ctor: '[]'}
-		},
+		{ctor: '[]'},
 		{
 			ctor: '::',
 			_0: menu.loading ? _debois$elm_mdl$Material_Progress$indeterminate : A2(
@@ -34266,11 +34716,15 @@ var _user$project$Main$viewMenu = function (menu) {
 											_0: 1,
 											_1: {
 												ctor: '::',
-												_0: 0,
+												_0: 1,
 												_1: {
 													ctor: '::',
-													_0: i,
-													_1: {ctor: '[]'}
+													_0: 0,
+													_1: {
+														ctor: '::',
+														_0: i,
+														_1: {ctor: '[]'}
+													}
 												}
 											}
 										},
@@ -34317,6 +34771,99 @@ var _user$project$Main$viewMenu = function (menu) {
 			}
 		});
 };
+var _user$project$Main$viewDrawer = function (model) {
+	return A2(
+		_debois$elm_mdl$Material_Options$div,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: A6(
+				_debois$elm_mdl$Material_Tabs$render,
+				_user$project$Main$MdlMsg,
+				{
+					ctor: '::',
+					_0: 0,
+					_1: {ctor: '[]'}
+				},
+				model.mdl,
+				{
+					ctor: '::',
+					_0: _debois$elm_mdl$Material_Tabs$ripple,
+					_1: {
+						ctor: '::',
+						_0: _debois$elm_mdl$Material_Tabs$onSelectTab(_user$project$Main$SelectTab),
+						_1: {
+							ctor: '::',
+							_0: _debois$elm_mdl$Material_Tabs$activeTab(model.selectedTab),
+							_1: {ctor: '[]'}
+						}
+					}
+				},
+				{
+					ctor: '::',
+					_0: A2(
+						_debois$elm_mdl$Material_Tabs$label,
+						{
+							ctor: '::',
+							_0: _debois$elm_mdl$Material_Options$center,
+							_1: {ctor: '[]'}
+						},
+						{
+							ctor: '::',
+							_0: _debois$elm_mdl$Material_Icon$i('info_outline'),
+							_1: {
+								ctor: '::',
+								_0: _user$project$Main$spacer(4),
+								_1: {
+									ctor: '::',
+									_0: _elm_lang$html$Html$text('Help'),
+									_1: {ctor: '[]'}
+								}
+							}
+						}),
+					_1: {
+						ctor: '::',
+						_0: A2(
+							_debois$elm_mdl$Material_Tabs$label,
+							{
+								ctor: '::',
+								_0: _debois$elm_mdl$Material_Options$center,
+								_1: {ctor: '[]'}
+							},
+							{
+								ctor: '::',
+								_0: _debois$elm_mdl$Material_Icon$i('folder_open'),
+								_1: {
+									ctor: '::',
+									_0: _user$project$Main$spacer(4),
+									_1: {
+										ctor: '::',
+										_0: _elm_lang$html$Html$text('Files'),
+										_1: {ctor: '[]'}
+									}
+								}
+							}),
+						_1: {ctor: '[]'}
+					}
+				},
+				{
+					ctor: '::',
+					_0: function () {
+						var _p8 = model.selectedTab;
+						switch (_p8) {
+							case 0:
+								return _user$project$Main$helpTab;
+							case 1:
+								return _user$project$Main$viewMenu(model);
+							default:
+								return A2(_user$project$Util$crashLog, 'unknown model.selectedTab value', _user$project$Main$helpTab);
+						}
+					}(),
+					_1: {ctor: '[]'}
+				}),
+			_1: {ctor: '[]'}
+		});
+};
 var _user$project$Main$SelectedMapMsg = function (a) {
 	return {ctor: 'SelectedMapMsg', _0: a};
 };
@@ -34330,12 +34877,12 @@ var _user$project$Main$view = function (model) {
 			main: {
 				ctor: '::',
 				_0: function () {
-					var _p8 = _user$project$Main$getSelected(model);
-					if (_p8.ctor === 'Just') {
+					var _p9 = _user$project$Main$getSelected(model);
+					if (_p9.ctor === 'Just') {
 						return A2(
 							_elm_lang$html$Html$map,
 							_user$project$Main$SelectedMapMsg,
-							A2(_user$project$MentalMap$view, model.size, _p8._0));
+							A2(_user$project$MentalMap$view, model.size, _p9._0));
 					} else {
 						return A2(
 							_debois$elm_mdl$Material_Options$div,
@@ -34364,7 +34911,7 @@ var _user$project$Main$view = function (model) {
 			},
 			drawer: {
 				ctor: '::',
-				_0: _user$project$Main$viewMenu(model),
+				_0: _user$project$Main$viewDrawer(model),
 				_1: {ctor: '[]'}
 			},
 			header: {ctor: '[]'},
@@ -34380,12 +34927,13 @@ var _user$project$Main$Resize = function (a) {
 };
 var _user$project$Main$init = A2(
 	_elm_lang$core$Platform_Cmd_ops['!'],
-	A5(
+	A6(
 		_user$project$Main$Model,
 		_debois$elm_mdl$Material$model,
 		A2(_user$project$Util$Size, 0, 0),
 		true,
 		_elm_lang$core$Array$empty,
+		0,
 		0),
 	{
 		ctor: '::',
@@ -34407,12 +34955,12 @@ var _user$project$Main$subscriptions = function (model) {
 				_1: {
 					ctor: '::',
 					_0: function () {
-						var _p9 = _user$project$Main$getSelected(model);
-						if (_p9.ctor === 'Just') {
+						var _p10 = _user$project$Main$getSelected(model);
+						if (_p10.ctor === 'Just') {
 							return A2(
 								_elm_lang$core$Platform_Sub$map,
 								_user$project$Main$SelectedMapMsg,
-								_user$project$MentalMap$subscriptions(_p9._0));
+								_user$project$MentalMap$subscriptions(_p10._0));
 						} else {
 							return _elm_lang$core$Platform_Sub$none;
 						}
@@ -34432,8 +34980,8 @@ var _user$project$Main$subscriptions = function (model) {
 var _user$project$Main$NoOp = {ctor: 'NoOp'};
 var _user$project$Main$update = F2(
 	function (msg, model) {
-		var _p10 = msg;
-		switch (_p10.ctor) {
+		var _p11 = msg;
+		switch (_p11.ctor) {
 			case 'NoOp':
 				return A2(
 					_elm_lang$core$Platform_Cmd_ops['!'],
@@ -34444,16 +34992,16 @@ var _user$project$Main$update = F2(
 					_elm_lang$core$Platform_Cmd_ops['!'],
 					_elm_lang$core$Native_Utils.update(
 						model,
-						{size: _p10._0}),
+						{size: _p11._0}),
 					{ctor: '[]'});
 			case 'SelectedMapMsg':
-				var _p11 = _user$project$Main$getSelected(model);
-				if (_p11.ctor === 'Just') {
+				var _p12 = _user$project$Main$getSelected(model);
+				if (_p12.ctor === 'Just') {
 					return A3(
-						_user$project$Util_Cmd$update,
+						_user$project$Util$updateCmd,
 						A2(_elm_lang$core$Basics$flip, _user$project$Main$setSelected, model),
 						_user$project$Main$SelectedMapMsg,
-						A2(_user$project$MentalMap$update, _p10._0, _p11._0));
+						A2(_user$project$MentalMap$update, _p11._0, _p12._0));
 				} else {
 					return A2(
 						_user$project$Util$crashLog,
@@ -34464,18 +35012,18 @@ var _user$project$Main$update = F2(
 							{ctor: '[]'}));
 				}
 			case 'MdlMsg':
-				return A3(_debois$elm_mdl$Material$update, _user$project$Main$MdlMsg, _p10._0, model);
+				return A3(_debois$elm_mdl$Material$update, _user$project$Main$MdlMsg, _p11._0, model);
 			case 'ChangeSelection':
 				return A2(
 					_elm_lang$core$Platform_Cmd_ops['!'],
-					A2(_user$project$Main$changeSelection, _p10._0, model),
+					A2(_user$project$Main$changeSelection, _p11._0, model),
 					{ctor: '[]'});
 			case 'EnterRenaming':
 				return A2(
 					_elm_lang$core$Platform_Cmd_ops['!'],
 					A3(
 						_user$project$Main$mapFile,
-						_p10._0,
+						_p11._0,
 						function (file) {
 							return _elm_lang$core$Native_Utils.update(
 								file,
@@ -34486,10 +35034,10 @@ var _user$project$Main$update = F2(
 						ctor: '::',
 						_0: A2(
 							_elm_lang$core$Task$attempt,
-							function (_p12) {
+							function (_p13) {
 								return _user$project$Main$NoOp;
 							},
-							_elm_lang$dom$Dom$focus(_p10._1)),
+							_elm_lang$dom$Dom$focus(_p11._1)),
 						_1: {ctor: '[]'}
 					});
 			case 'ExitRenaming':
@@ -34497,7 +35045,7 @@ var _user$project$Main$update = F2(
 					_elm_lang$core$Platform_Cmd_ops['!'],
 					A3(
 						_user$project$Main$mapFile,
-						_p10._0,
+						_p11._0,
 						function (file) {
 							return _elm_lang$core$Native_Utils.update(
 								file,
@@ -34510,11 +35058,11 @@ var _user$project$Main$update = F2(
 					_elm_lang$core$Platform_Cmd_ops['!'],
 					A3(
 						_user$project$Main$mapFile,
-						_p10._0,
+						_p11._0,
 						function (file) {
 							return _elm_lang$core$Native_Utils.update(
 								file,
-								{filename: _p10._1});
+								{filename: _p11._1});
 						},
 						model),
 					{ctor: '[]'});
@@ -34526,14 +35074,14 @@ var _user$project$Main$update = F2(
 			case 'DeleteFile':
 				return A2(
 					_elm_lang$core$Platform_Cmd_ops['!'],
-					A2(_user$project$Main$deleteFile, _p10._0, model),
+					A2(_user$project$Main$deleteFile, _p11._0, model),
 					{ctor: '[]'});
 			case 'MouseOverFile':
 				return A2(
 					_elm_lang$core$Platform_Cmd_ops['!'],
 					A3(
 						_user$project$Main$mapFile,
-						_p10._0,
+						_p11._0,
 						function (file) {
 							return _elm_lang$core$Native_Utils.update(
 								file,
@@ -34546,7 +35094,7 @@ var _user$project$Main$update = F2(
 					_elm_lang$core$Platform_Cmd_ops['!'],
 					A3(
 						_user$project$Main$mapFile,
-						_p10._0,
+						_p11._0,
 						function (file) {
 							return _elm_lang$core$Native_Utils.update(
 								file,
@@ -34563,13 +35111,20 @@ var _user$project$Main$update = F2(
 						_0: _user$project$Main$save(model),
 						_1: {ctor: '[]'}
 					});
-			default:
-				return _elm_lang$core$Native_Utils.eq(_p10._0._0, _user$project$Main$localStorageKey) ? A2(
+			case 'Loaded':
+				return _elm_lang$core$Native_Utils.eq(_p11._0._0, _user$project$Main$localStorageKey) ? A2(
 					_elm_lang$core$Platform_Cmd_ops['!'],
-					A2(_user$project$Main$load, _p10._0._1, model),
+					A2(_user$project$Main$load, _p11._0._1, model),
 					{ctor: '[]'}) : A2(
 					_elm_lang$core$Platform_Cmd_ops['!'],
 					A2(_user$project$Util$crashLog, 'Recieved item from an unknown key', model),
+					{ctor: '[]'});
+			default:
+				return A2(
+					_elm_lang$core$Platform_Cmd_ops['!'],
+					_elm_lang$core$Native_Utils.update(
+						model,
+						{selectedTab: _p11._0}),
 					{ctor: '[]'});
 		}
 	});
@@ -34993,6 +35548,7 @@ for (var publicModule in Elm)
 }).call(this);
 
 
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__("./node_modules/webpack/buildin/global.js")))
 
 /***/ }),
 
